@@ -11,3 +11,12 @@ we can forge a service ticket if we have:
 
 > [!NOTE] Title
 > this whole tickets forging thing will be useless IF the service did a PAC validation which is rare. Any service that runs inside services.msc will not use PAC validation. 
+
+Getting Domain SID:
+```powershell
+ldapsearch:
+ldapsearch -x -H ldap://<DC_IP> -b "" -s base objectSid
+
+impacket-GetADUsers:
+impacket-GetADUsers domain/user:password@<DC_IP> -all
+```
