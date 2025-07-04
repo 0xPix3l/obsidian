@@ -19,4 +19,7 @@ ldapsearch -x -H ldap://<DC_IP> -b "" -s base objectSid
 
 impacket-GetADUsers:
 impacket-GetADUsers domain/user:password@<DC_IP> -all
+
+rpcclient:
+rpcclient $> lookupdomain north.sevenkingdoms.local
 ```
