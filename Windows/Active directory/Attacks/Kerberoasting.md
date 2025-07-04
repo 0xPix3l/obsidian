@@ -4,6 +4,4 @@ Requirements:
 - any valid domain joined user creds
 ```shell
 impacket-GetUserSPNs <domain>/<user>:<password> -dc-ip <DC_IP> -request
-
-
 ```

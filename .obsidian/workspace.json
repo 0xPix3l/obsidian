@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/Kerberoasting.md",
+                "file": "Windows/Active directory/Attacks/Silver ticket.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kerberoasting"
+              "title": "Silver ticket"
             }
           }
         ]
@@ -172,11 +172,12 @@
   },
   "active": "9b73b9c6ea54a066",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/Kerberoasting.md",
+    "Windows/Active directory/Enumeration/PowerView/ACL.md",
     "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Enumeration/ADmodule/Users & Computers.md",
     "Windows/Active directory/Enumeration/PowerView/Groups.md",
     "Windows/Active directory/Enumeration/PowerView/Users.md",
-    "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
     "Windows/Active directory/Enumeration/LDAP.md",
     "Windows/Active directory/Enumeration/MSSQL.md",
@@ -186,7 +187,6 @@
     "Windows/Active directory/Attacks/overview.canvas",
     "Pasted image 20250704154234.png",
     "Windows/Active directory/Attacks",
-    "Windows/Active directory/Enumeration/PowerView/ACL.md",
     "Linux/test.md"
   ]
 }
