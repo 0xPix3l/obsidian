@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rpc",
+                "query": "secretdump",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,7 +171,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9b73b9c6ea54a066",
+  "active": "be628401b626d1e6",
   "lastOpenFiles": [
     "Windows/Active directory/Enumeration/RPC.md",
     "Windows/Active directory/Attacks/Silver ticket.md",
