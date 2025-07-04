@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/LDAP.md",
+                "file": "Windows/Active directory/AS-REP Roasting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LDAP"
+              "title": "AS-REP Roasting"
             }
           }
         ]
@@ -172,6 +172,9 @@
   },
   "active": "c23ff78cab1fc029",
   "lastOpenFiles": [
+    "Windows/Active directory/SMB.md",
+    "Windows/Active directory/RPC.md",
+    "Windows/Active directory/AS-REP Roasting.md",
     "Windows/Active directory/LDAP.md",
     "Windows/Active directory/PowerView/ACL.md",
     "Linux/test.md"
