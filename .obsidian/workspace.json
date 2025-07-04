@@ -11,14 +11,17 @@
             "id": "c23ff78cab1fc029",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Windows/Active directory/AS-REP Roasting.md",
-                "mode": "source",
-                "source": false
+                "file": "Windows/Active directory/Attacks/overview.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": -101.8763918748627,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "AS-REP Roasting"
+              "icon": "lucide-layout-dashboard",
+              "title": "overview"
             }
           }
         ]
@@ -172,9 +175,12 @@
   },
   "active": "c23ff78cab1fc029",
   "lastOpenFiles": [
+    "Pasted image 20250704154234.png",
+    "Windows/Active directory/Attacks/overview.canvas",
+    "Windows/Active directory/Attacks/AS-REP Roasting.md",
     "Windows/Active directory/SMB.md",
+    "Windows/Active directory/Attacks",
     "Windows/Active directory/RPC.md",
-    "Windows/Active directory/AS-REP Roasting.md",
     "Windows/Active directory/LDAP.md",
     "Windows/Active directory/PowerView/ACL.md",
     "Linux/test.md"
