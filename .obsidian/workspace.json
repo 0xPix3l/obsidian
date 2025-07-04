@@ -160,6 +160,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "hide-folders:Show hidden folders": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -168,8 +170,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54635fcc82945e98",
+  "active": "c23ff78cab1fc029",
   "lastOpenFiles": [
+    "Windows/Active directory/LDAP.md",
+    "Windows/Active directory/PowerView/ACL.md",
     "Linux/test.md"
   ]
 }
