@@ -1,3 +1,6 @@
+---
+sticker: emoji//1f39f-fe0f
+---
 we can forge a service ticket if we have:
 - plain-text password or NTLM hash of a service account (secretdump -mimkatz LSASS dump - DCSync)
 - Service Principal Name (SPN) of that service
@@ -64,3 +67,4 @@ impacket-GetADUsers domain/user:password@<DC_IP> -all
 rpcclient:
 rpcclient $> lookupdomain north.sevenkingdoms.local
 ```
+

@@ -1,3 +1,6 @@
+---
+sticker: emoji//1f3ab
+---
 ### Requirements
 - Knowledge of the domain name
 - Knowledge of the domain SID

@@ -1,4 +1,6 @@
 {
   "strictLineBreaks": false,
-  "livePreview": true
+  "livePreview": true,
+  "showUnsupportedFiles": false,
+  "useMarkdownLinks": false
 }
