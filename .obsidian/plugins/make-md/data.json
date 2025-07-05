@@ -42,7 +42,8 @@
     "//Windows",
     "//Windows/Windows/Active directory",
     "//Windows/Windows/Active directory/Windows/Active directory/Attacks",
-    "//Windows/Windows/Active directory/Windows/Active directory/Enumeration"
+    "//Windows/Windows/Active directory/Windows/Active directory/Enumeration",
+    "//Windows/Windows/Active directory/Windows/Active directory/Attacks/Windows/Active directory/Attacks/attachments"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -72,7 +73,7 @@
   "fmKeyBannerOffset": "banner_y",
   "fmKeySticker": "sticker",
   "openSpacesOnLaunch": true,
-  "indexSVG": false,
+  "indexSVG": true,
   "readableLineWidth": true,
   "autoAddContextsToSubtags": true,
   "releaseNotesPrompt": 0.999,

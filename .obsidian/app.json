@@ -2,5 +2,6 @@
   "strictLineBreaks": false,
   "livePreview": true,
   "showUnsupportedFiles": false,
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "./attachments"
 }

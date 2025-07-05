@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e9466df6f7ecb6bb",
+        "id": "9dec3ce49428e827",
         "type": "tabs",
         "children": [
           {
-            "id": "57879e4dd37ada7d",
+            "id": "cda80daa35b9519f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Windows/Active directory/Attacks/Silver ticket.md",
-                "mode": "source",
-                "source": false
+                "path": "Windows/Active directory/Attacks/attachments"
               },
               "icon": "lucide-file",
-              "title": "Silver ticket"
+              "title": "attachments"
             }
           }
         ]
@@ -75,7 +73,7 @@
             }
           },
           {
-            "id": "e7f7df009a6a7d2f",
+            "id": "bc8ed94c9568f581",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -181,19 +179,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "57879e4dd37ada7d",
+  "active": "bc8ed94c9568f581",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/attachments/Pasted image 20250706015746.png",
+    "Windows/Active directory/Attacks/Silver ticket.md",
+    "Windows/Active directory/Attacks/attachments/Pasted image 20250706015535.png",
+    "Windows/Active directory/Attacks/Kerberoasting.md",
+    "Windows/Active directory/Attacks/attachments/Pasted image 20250706015523.png",
+    "Windows/Active directory/Attacks/attachments",
+    "Pasted image 20250706015424.png",
+    "Pasted image 20250706015355.png",
     "Pasted image 20250706015211.png",
     "Windows/Active directory/Enumeration/ADmodule/Powershell.md",
     "Windows/Active directory/Attacks/Golden ticket.md",
-    "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Attacks/DCSync.md",
     "Tags",
     "Windows/Windows.md",
     "Windows/Active directory/Attacks/overview.canvas",
     "Untitled",
     "Windows/Active directory/Enumeration/RPC.md",
-    "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Enumeration/PowerView/ACL.md",
     "Windows/Active directory/Enumeration/ADmodule/Users & Computers.md",
     "Windows/Active directory/Enumeration/PowerView/Groups.md",

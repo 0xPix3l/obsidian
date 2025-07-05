@@ -5,3 +5,4 @@ Requirements:
 ```shell
 impacket-GetUserSPNs <domain>/<user>:<password> -dc-ip <DC_IP> -request
 ```
+
