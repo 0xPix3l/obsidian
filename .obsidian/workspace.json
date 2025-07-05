@@ -11,6 +11,16 @@
             "id": "9b73b9c6ea54a066",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e1e079edc0c309ba",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Windows/Active directory/Attacks/Silver ticket.md",
@@ -72,6 +82,16 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "5eb666e66b6e95e6",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ]
@@ -170,12 +190,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9b73b9c6ea54a066",
+  "active": "54635fcc82945e98",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/Silver ticket.md",
+    "Windows/Windows.md",
     "Windows/Active directory/Attacks/Golden ticket.md",
+    "Tags",
     "Windows/Active directory/Attacks/overview.canvas",
     "Untitled",
-    "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Enumeration/RPC.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Enumeration/PowerView/ACL.md",

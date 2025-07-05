@@ -1,5 +1,8 @@
 [
   "obsidian-hider",
   "hide-folders",
-  "obsidian-git"
+  "obsidian-git",
+  "code-styler",
+  "obsidian-image-toolkit",
+  "make-md"
 ]
