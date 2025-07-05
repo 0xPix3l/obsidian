@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/Golden ticket.md",
+                "file": "Windows/Active directory/Attacks/Silver ticket.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Golden ticket"
+              "title": "Silver ticket"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -172,8 +172,10 @@
   },
   "active": "9b73b9c6ea54a066",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Attacks/Golden ticket.md",
+    "Windows/Active directory/Attacks/overview.canvas",
+    "Untitled",
+    "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Enumeration/RPC.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Enumeration/PowerView/ACL.md",
@@ -185,7 +187,6 @@
     "Windows/Active directory/Enumeration/MSSQL.md",
     "Windows/Active directory/Enumeration/SMB.md",
     "Windows/Active directory/Enumeration",
-    "Windows/Active directory/Attacks/overview.canvas",
     "Pasted image 20250704154234.png",
     "Windows/Active directory/Attacks",
     "Linux/test.md"
