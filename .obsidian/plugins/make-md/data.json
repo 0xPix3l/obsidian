@@ -40,10 +40,10 @@
   "expandedSpaces": [
     "/",
     "//Windows",
-    "//Windows/Windows/Active directory",
     "//Windows/Windows/Active directory/Windows/Active directory/Attacks",
     "//Windows/Windows/Active directory/Windows/Active directory/Enumeration",
-    "//Windows/Windows/Active directory/Windows/Active directory/Attacks/Windows/Active directory/Attacks/attachments"
+    "//Windows/Windows/Active directory/Windows/Active directory/Attacks/Windows/Active directory/Attacks/attachments",
+    "//Windows/Windows/Active directory"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -72,7 +72,7 @@
   "fmKeyColor": "color",
   "fmKeyBannerOffset": "banner_y",
   "fmKeySticker": "sticker",
-  "openSpacesOnLaunch": true,
+  "openSpacesOnLaunch": false,
   "indexSVG": true,
   "readableLineWidth": true,
   "autoAddContextsToSubtags": true,
@@ -93,5 +93,5 @@
   "firstLaunch": true,
   "notesPreview": false,
   "editStickerInSidebar": true,
-  "overrideNativeMenu": false
+  "overrideNativeMenu": true
 }
