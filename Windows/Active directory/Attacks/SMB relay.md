@@ -5,7 +5,7 @@ How does it work?
 2-The victim's device attempts to connect to this server (for example, requesting a file or share that doesn't exist).
 3-The victim sends the login credentials (NTLM authentication).
 4-Instead of storing the hash, the hacker immediately sends it to another device (target) using the same credentials and dump there SAM.
-5-If this user has privileges on the other device, login is successful.
+5-If this user has privileges on the other device, login is successful. 
 
 -------------
 
