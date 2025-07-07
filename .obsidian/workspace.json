@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "getting",
+                "query": "smbcl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,8 +193,9 @@
   },
   "active": "85c19f0a72cb1926",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/Golden ticket.md",
+    "Windows/Active directory/Attacks/Skeleton key.md",
     "Windows/Active directory/Tools/mimikatz.md",
+    "Windows/Active directory/Attacks/Golden ticket.md",
     "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Tools",
     "Windows/Active directory/Attacks/DCSync.md",
