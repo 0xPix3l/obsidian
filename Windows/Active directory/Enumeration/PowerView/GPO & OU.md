@@ -9,8 +9,8 @@ Get-DomainOU
 Get-DomainGPO -identity "{6AC1786C-016F-11D2-945F-00C04fB984F9}" 
 ```
 
-GPO abuse tools
-SharpGPOabuse and pyGPOabuse
+GPO abuse tools:
+- SharpGPOabuse and pyGPOabuse
 - pyGPOabuse
 - GPOwned
 - New-GPOImmediateTask
