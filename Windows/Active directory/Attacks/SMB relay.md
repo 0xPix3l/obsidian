@@ -9,6 +9,12 @@ How does it work?
 
 -------------
 
+
+> [!NOTE] Note
+> The user has to be domain or local admin on the relayed machine or else we will get `DCERPC Runtime Error: code: 0x5 - rpc_s_access_denied`
+
+
+
 ```bash
 # in this scenario we are relaying form DC01$ to WS01$ that has smb sigining disable.
 
