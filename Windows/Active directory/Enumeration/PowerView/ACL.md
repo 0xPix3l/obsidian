@@ -9,3 +9,16 @@ Get-DomainObjectAcl -Identity "ITguy" -ResolveGUIDs | ForEach-Object { $name = t
 
 ![[ACL_Mindmap .png]]
 ![[DACL.png]]
+
+
+### 🔐 Common Permission Abbreviations in `icacls`:
+
+|Code|Meaning|
+|---|---|
+|`F`|Full Control _(includes everything below)_|
+|`M`|Modify _(Read, Write, Delete, and Execute)_|
+|`RX`|Read and Execute|
+|`R`|Read|
+|`W`|Write|
+|`D`|Delete|
+|`L`|List folder contents|

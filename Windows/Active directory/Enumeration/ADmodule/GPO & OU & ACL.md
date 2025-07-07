@@ -20,3 +20,15 @@ Get-GPO -Id "{5DD3AD61-5EEA-4990-ADF7-14952DB140FB}"
 get-acl C:\ | Select -ExpandProperty Access
 icacls <file_name>
 ```
+
+### 🔐 Common Permission Abbreviations in `icacls`:
+
+| Code | Meaning                                     |
+| ---- | ------------------------------------------- |
+| `F`  | Full Control _(includes everything below)_  |
+| `M`  | Modify _(Read, Write, Delete, and Execute)_ |
+| `RX` | Read and Execute                            |
+| `R`  | Read                                        |
+| `W`  | Write                                       |
+| `D`  | Delete                                      |
+| `L`  | List folder contents                        |
