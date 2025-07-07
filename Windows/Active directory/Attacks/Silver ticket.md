@@ -57,6 +57,9 @@ impacket-mssqlclient -windows-auth -k north.sevenkingdoms.local/jon.snow@castelb
 ### Getting Domain SID:
 its basically the first part of any SID object.
 ```powershell
+
+Get-ADDomain | Select-Object -ExpandProperty DomainSID
+
 nxc:
 nxc ldap lol.local -u sqlsvc -p test -k --get-sid
 
