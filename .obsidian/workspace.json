@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "getting",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,9 +194,11 @@
   },
   "active": "85c19f0a72cb1926",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/Golden ticket.md",
+    "Windows/Active directory/Tools/mimikatz.md",
+    "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Tools",
     "Windows/Active directory/Attacks/DCSync.md",
-    "Windows/Active directory/Tools/mimikatz.md",
     "Windows/Active directory/Attacks/DLL Hijacking.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250707233638.png",
     "Windows/Active directory/Enumeration/ADmodule/GPO & OU & ACL.md",
@@ -202,8 +206,6 @@
     "Windows/Active directory/Attacks/SMB relay.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Attacks/Unquoted Service Path.md",
-    "Windows/Active directory/Attacks/Golden ticket.md",
-    "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
     "Credential_Theft/Credential_Theft.md",
     "Credential_Theft",

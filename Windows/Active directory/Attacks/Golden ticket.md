@@ -51,6 +51,11 @@ impacket-GetADUsers domain/user:password@<DC_IP> -all
 
 rpcclient:
 rpcclient $> lookupdomain north.sevenkingdoms.local
+
+Get-ADDomain | Select-Object -ExpandProperty DomainSID
+
 ```
+
+using [[mimikatz]]
 
 
