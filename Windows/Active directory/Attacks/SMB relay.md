@@ -12,3 +12,7 @@ sudo ntlmrelayx.py -t 10.10.111.12  -smb2support 2>/dev/null
 
 sudo responder -I vmnet2 -dwv
 ```
+
+
+> [!NOTE] NOTE!
+> *the output hashes are NTLM challenge-response hashes that are not suitable for relaying, it only meant to be cracked.*
