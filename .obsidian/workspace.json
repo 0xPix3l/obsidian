@@ -84,8 +84,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,7 +191,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cda80daa35b9519f",
+  "active": "54635fcc82945e98",
   "lastOpenFiles": [
     "Windows/Active directory/Attacks/DCSync.md",
     "Windows/Active directory/Attacks/Unquoted Service Path.md",

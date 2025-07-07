@@ -18,6 +18,10 @@ Get-UnquotedService -verbose
 ```
 
 
+## exploitation
+we can use a reverse shell so it gets executed when the service starts
+
+---
 ## Idea:
 When a **service** is created whose **executable path** contains **_spaces_** and isn’t enclosed within **_quotes_**, leads to a vulnerability known as Unquoted Service Path which allows a user to gain **SYSTEM** privileges (only if the vulnerable service is running with SYSTEM privilege level which most of the time it is).
 
