@@ -22,7 +22,7 @@ Using Invisi-Shell  # Bypass the logging
 ```
 
 ---
-
+# Naming Convention
 ### ✅ `Get-DomainGroup`
 
 - **Belongs to**: **PowerView**
