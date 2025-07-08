@@ -18,7 +18,7 @@ sekurlsa::pth /user:administrator /domain: dollarcorp.moneycorp.local /aes256:<a
 ```
 
 > [!NOTE] Note
-> The above commands starts a process with a logon type 9 (same as runas/netonly)
+> The above commands starts a process with a logon type 9 (same as runas/netonly -> doesn't validate the data)
 
 ---
 ### Pull password data for the KRBTGT user account in domain:  
