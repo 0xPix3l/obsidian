@@ -35,4 +35,4 @@ then we need to wait for someone to access a share that is not valid or trigger 
 - `START \\asda` in cmd
 
 > [!NOTE] NOTE!
-> *the output hashes are **NTLM challenge-response** hashes that are not suitable for relaying, it only meant to be cracked.*
+> *the output hashes from `ntmlrelayx` are **NTLM challenge-response** hashes that are not suitable for relaying, it only meant to be cracked.*
