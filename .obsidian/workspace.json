@@ -193,11 +193,12 @@
   },
   "active": "85c19f0a72cb1926",
   "lastOpenFiles": [
+    "Windows/Active directory/Delegation/Unconstrained Delegation.md",
+    "Windows/Active directory/Delegation/What is delegation.md",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250709000354.png",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250709000318.png",
     "Windows/Active directory/Delegation/attachments",
     "Windows/Active directory/Tools/mimikatz.md",
-    "Windows/Active directory/Delegation/What is delegation.md",
     "Windows/Active directory/Attacks/Golden ticket.md",
     "Windows/Notes.md",
     "Windows/Active directory/Attacks/DCSync.md",
@@ -237,7 +238,6 @@
     "Windows/Active directory/Attacks/attachments",
     "Pasted image 20250706015424.png",
     "Pasted image 20250706015355.png",
-    "Pasted image 20250706015211.png",
     "Windows/Active directory/Attacks/overview.canvas",
     "Untitled"
   ]

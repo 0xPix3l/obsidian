@@ -1,5 +1,4 @@
-Kerberos Delegation allows to **reuse the end-user credentials to access
-resources hosted on a different server**.
+Kerberos Delegation allows a service (like a web server) to act on behalf of a user and request access to other services (like a file share or SQL server) **as if it were the user** — using Kerberos tickets.
 User impersonation is the goal of delegation.
 
 This is typically useful in multi-tier service or applications where
@@ -9,7 +8,7 @@ server (second hop).
 ![[Pasted image 20250709000354.png]]
 
 There are two types of Kerberos Delegation:
-- General/Basic or Unconstrained Delegation - Allows the first hop
+- General/Basic or [[Windows/Active directory/Delegation/Unconstrained Delegation.md|Unconstrained Delegation]] - Allows the first hop
 (web server in our example) to request access to any service on any
 computer in the domain.
 - Constrained Delegation - Allows the first hop to request access only
