@@ -84,7 +84,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,14 +194,14 @@
   },
   "active": "85c19f0a72cb1926",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/SMB relay.md",
+    "Windows/Notes.md",
     "Windows/Active directory/Attacks/DCSync.md",
     "Windows/Active directory/Tools/mimikatz.md",
-    "Windows/Active directory/Attacks/SMB relay.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Enumeration/RDP.md",
     "Windows/Active directory/Enumeration/LDAP.md",
-    "Windows/Notes.md",
     "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250708200829.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250708200755.png",
