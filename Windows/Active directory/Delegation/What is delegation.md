@@ -8,9 +8,12 @@ server (second hop).
 ![[Pasted image 20250709000354.png]]
 
 There are two types of Kerberos Delegation:
-- General/Basic or [[Windows/Active directory/Delegation/Unconstrained Delegation.md|Unconstrained Delegation]] - Allows the first hop
+1. General/Basic or [[Windows/Active directory/Delegation/Unconstrained Delegation.md|Unconstrained Delegation]] - Allows the first hop
 (web server in our example) to request access to any service on any
 computer in the domain.
+![[Pasted image 20250709022957.png]]
+
+
 - Constrained Delegation - Allows the first hop to request access only
 to specified services on specified computers. If Kerberos
 authentication is not used to authenticate to the first hop, Protocol
