@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "neton",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,8 +191,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "85c19f0a72cb1926",
+  "active": "54635fcc82945e98",
   "lastOpenFiles": [
+    "Windows/Active directory/Delegation",
     "Windows/Notes.md",
     "Windows/Active directory/Attacks/SMB relay.md",
     "Windows/Active directory/Attacks/DCSync.md",
@@ -228,7 +228,6 @@
     "Windows/Active directory/Enumeration/PowerView/GPO & OU.md",
     "Windows/Active directory/Enumeration/ADmodule/Users & Computers.md",
     "Windows/Active directory/Enumeration/SMB.md",
-    "Vault.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015746.png",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015535.png",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015523.png",
