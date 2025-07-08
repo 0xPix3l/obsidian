@@ -61,7 +61,7 @@ Get-ADDomain | Select-Object -ExpandProperty DomainSID
 ```bash
 impacket-lookupsid north.sevenkingdoms.local/jeor.mormont:'_L0ngCl@w_'@winterfell.north.sevenkingdoms.local
 
-or using nxc smb with -rid switch
+or using nxc smb with --rid-brute switch
 
 ```
 
