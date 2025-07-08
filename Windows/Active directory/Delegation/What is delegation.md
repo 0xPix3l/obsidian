@@ -14,7 +14,7 @@ computer in the domain.
 ![[Pasted image 20250709022957.png]]
 
 
-- Constrained Delegation - Allows the first hop to request access only
+2. Constrained Delegation - Allows the first hop to request access only
 to specified services on specified computers. If Kerberos
 authentication is not used to authenticate to the first hop, Protocol
 Transition is used to transition the request to Kerberos.
