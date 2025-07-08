@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Tools/mimikatz.md",
+                "file": "Windows/Active directory/Delegation/What is delegation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mimikatz"
+              "title": "What is delegation"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tick",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,13 +191,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54635fcc82945e98",
+  "active": "85c19f0a72cb1926",
   "lastOpenFiles": [
-    "Windows/Active directory/Delegation",
-    "Windows/Notes.md",
-    "Windows/Active directory/Attacks/SMB relay.md",
-    "Windows/Active directory/Attacks/DCSync.md",
+    "Windows/Active directory/Delegation/attachments/Pasted image 20250709000354.png",
+    "Windows/Active directory/Delegation/attachments/Pasted image 20250709000318.png",
+    "Windows/Active directory/Delegation/attachments",
     "Windows/Active directory/Tools/mimikatz.md",
+    "Windows/Active directory/Delegation/What is delegation.md",
+    "Windows/Active directory/Attacks/Golden ticket.md",
+    "Windows/Notes.md",
+    "Windows/Active directory/Attacks/DCSync.md",
+    "Windows/Active directory/Delegation",
+    "Windows/Active directory/Attacks/SMB relay.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Enumeration/RDP.md",
@@ -206,7 +211,6 @@
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250708200829.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250708200755.png",
     "Windows/Active directory/Enumeration/attachments",
-    "Windows/Active directory/Attacks/Golden ticket.md",
     "Windows/Active directory/Attacks/Unquoted Service Path.md",
     "Tags",
     "Windows/Active directory/Attacks/Skeleton key.md",
@@ -227,7 +231,6 @@
     "Windows/Active directory/Enumeration/PowerView/Groups.md",
     "Windows/Active directory/Enumeration/PowerView/GPO & OU.md",
     "Windows/Active directory/Enumeration/ADmodule/Users & Computers.md",
-    "Windows/Active directory/Enumeration/SMB.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015746.png",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015535.png",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015523.png",
@@ -236,9 +239,6 @@
     "Pasted image 20250706015355.png",
     "Pasted image 20250706015211.png",
     "Windows/Active directory/Attacks/overview.canvas",
-    "Untitled",
-    "Windows/Active directory/Enumeration",
-    "Pasted image 20250704154234.png",
-    "Windows/Active directory/Attacks"
+    "Untitled"
   ]
 }
