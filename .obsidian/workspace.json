@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tick",
+                "query": "force",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,8 +192,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "85c19f0a72cb1926",
+  "active": "be628401b626d1e6",
   "lastOpenFiles": [
+    "Windows/Active directory/Tools/bloodyAD.md",
+    "Windows/Active directory/Enumeration/RPC.md",
     "Windows/Active directory/Attacks/ACL/GenericWrite.md",
     "Windows/Active directory/Attacks/getting ticket with ntpdate.md",
     "Windows/Active directory/Attacks/ACL",
@@ -232,8 +235,6 @@
     "Windows/Active directory/Privilege Escalation.md",
     "Windows/Active directory/Attacks/Attacks.md",
     "Windows/Active directory/Enumeration/ADmodule/Powershell.md",
-    "Windows/Active directory/Enumeration/PowerView/Users.md",
-    "Windows/Active directory/Enumeration/PowerView/Groups.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015746.png",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015535.png",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015523.png",
