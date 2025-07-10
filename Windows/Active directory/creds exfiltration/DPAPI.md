@@ -17,3 +17,17 @@ dpapi.py masterkey -file "/path/to/masterkey_file" -pvk "/path/to/backup_key.pvk
 # (not tested) Decrypt DPAPI-protected data using a master key
 dpapi.py credential -file "/path/to/protected_file" -key $MASTERKEY
 ```
+
+
+Roaming Credentials File:
+```powershell
+C:\Users\steph.cooper\AppData\Roaming\Microsoft\Credentials\C8D69EBE9A43E9DEBF6B5FBD48B521B9
+
+```
+
+Master key:
+```powershell
+C:\Users\$USER\AppData\Roaming\Microsoft\Protect\S-1-5-21-...-1107
+```
+
+we need to get both in order to decrypt them.
