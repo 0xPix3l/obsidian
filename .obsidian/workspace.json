@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/getting ticket with ntpdate.md",
+                "file": "Windows/Active directory/Attacks/ACL/GenericWrite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "getting ticket with ntpdate"
+              "title": "GenericWrite"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "85c19f0a72cb1926",
   "lastOpenFiles": [
-    "Windows/Active directory/Delegation/What is delegation.md",
     "Windows/Active directory/Attacks/getting ticket with ntpdate.md",
+    "Windows/Active directory/Attacks/ACL/GenericWrite.md",
+    "Windows/Active directory/Attacks/ACL",
+    "Windows/Active directory/Delegation/What is delegation.md",
     "Windows/Active directory/Delegation/Unconstrained Delegation.md",
     "Windows/Notes.md",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250709022957.png",
@@ -232,13 +234,11 @@
     "Windows/Active directory/Enumeration/ADmodule/Powershell.md",
     "Windows/Active directory/Enumeration/PowerView/Users.md",
     "Windows/Active directory/Enumeration/PowerView/Groups.md",
-    "Windows/Active directory/Enumeration/PowerView/GPO & OU.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015746.png",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015535.png",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015523.png",
     "Windows/Active directory/Attacks/attachments",
     "Pasted image 20250706015424.png",
-    "Windows/Active directory/Attacks/overview.canvas",
-    "Untitled"
+    "Windows/Active directory/Attacks/overview.canvas"
   ]
 }
