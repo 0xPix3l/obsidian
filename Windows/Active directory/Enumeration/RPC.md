@@ -6,3 +6,11 @@ rpcclient -U "" 10.211.11.10 -N
 
 -N: Tells RPC not to prompt us for a password.
 ```
+
+
+Enable user:
+```bash
+setuserinfo2 adam.silver 23 'NewPassword123!'
+
+# 23 is the SetPassword info level
+```
