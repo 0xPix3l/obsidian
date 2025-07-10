@@ -147,21 +147,6 @@
             }
           },
           {
-            "id": "11a7676c31ea7b67",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Windows/Active directory/Tools/mimikatz.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of mimikatz"
-            }
-          },
-          {
             "id": "d96cfbb0081d75dd",
             "type": "leaf",
             "state": {
@@ -170,13 +155,29 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "11a7676c31ea7b67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Windows/Active directory/Delegation/What is delegation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of What is delegation"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
