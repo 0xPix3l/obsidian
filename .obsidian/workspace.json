@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/creds exfiltration/DPAPI.md",
+                "file": "Windows/Active directory/Attacks/ACL/GenericWrite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DPAPI"
+              "title": "GenericWrite"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "getting user SID",
+                "query": "add user ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -209,8 +209,9 @@
   },
   "active": "85c19f0a72cb1926",
   "lastOpenFiles": [
-    "Windows/Active directory/Enumeration/RPC.md",
     "Windows/Active directory/creds exfiltration/DPAPI.md",
+    "Windows/Active directory/Attacks/getting ticket with ntpdate.md",
+    "Windows/Active directory/Enumeration/RPC.md",
     "Windows/Active directory/creds exfiltration/attachments/Pasted image 20250711002813.png",
     "Windows/Active directory/creds exfiltration/attachments/Pasted image 20250711002422.png",
     "Windows/Active directory/creds exfiltration/attachments",
@@ -218,7 +219,6 @@
     "Windows/Active directory/creds exfiltration",
     "Windows/Active directory/Tools/bloodyAD.md",
     "Windows/Active directory/Attacks/ACL/GenericWrite.md",
-    "Windows/Active directory/Attacks/getting ticket with ntpdate.md",
     "Windows/Active directory/Attacks/ACL",
     "Windows/Active directory/Delegation/What is delegation.md",
     "Windows/Active directory/Delegation/Unconstrained Delegation.md",
