@@ -19,3 +19,9 @@ restore it:
 ```
 Restore-ADObject -Identity 'f80369c8-96a2-4a7f-a56c-9c15edd7d1e3'
 ```
+
+---
+connecting to evil-winrm with ticket:
+```
+ evil-winrm -i dc.voleur.htb -u svc_winrm -r VOLEUR.HTB
+```
