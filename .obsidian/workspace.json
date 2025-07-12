@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/Kerberoasting.md",
+                "file": "Windows/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kerberoasting"
+              "title": "Notes"
             }
           }
         ]
@@ -194,6 +194,8 @@
   },
   "active": "04cd77ad6dc64f38",
   "lastOpenFiles": [
+    "Windows/Active directory/creds exfiltration/DPAPI.md",
+    "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Attacks/Skeleton key.md",
     "Windows/Active directory/Attacks/getting TGT with ntpdate.md",
     "Windows/Notes.md",
@@ -203,7 +205,6 @@
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250711070751.png",
     "Windows/Active directory/Attacks/ACL/attachments",
     "Windows/Active directory/Attacks/Golden ticket.md",
-    "Windows/Active directory/creds exfiltration/DPAPI.md",
     "Windows/Active directory/Enumeration/RPC.md",
     "Windows/Active directory/creds exfiltration/attachments/Pasted image 20250711002813.png",
     "Windows/Active directory/creds exfiltration/attachments/Pasted image 20250711002422.png",
@@ -221,7 +222,6 @@
     "Windows/Active directory/Delegation",
     "Windows/Active directory/Attacks/SMB relay.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
-    "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Enumeration/RDP.md",
     "Windows/Active directory/Enumeration/LDAP.md",
     "Windows/Active directory/Attacks/Silver ticket.md",
