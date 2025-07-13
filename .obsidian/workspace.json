@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Notes.md",
+                "file": "Windows/Active directory/creds exfiltration/DPAPI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "DPAPI"
             }
           }
         ]
@@ -194,6 +194,7 @@
   },
   "active": "04cd77ad6dc64f38",
   "lastOpenFiles": [
+    "Windows/Copy from windows.md",
     "Windows/Active directory/creds exfiltration/DPAPI.md",
     "Windows/Notes.md",
     "Windows/Active directory/Tools/RunAsCs.md",
@@ -238,7 +239,6 @@
     "Windows/Active directory/Enumeration/PowerView/ACL.md",
     "Credential_Theft/Credential_Theft.md",
     "Credential_Theft",
-    "Windows/Active directory/Enumeration/MSSQL.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250706015746.png",
     "Windows/Active directory/Attacks/overview.canvas"
   ]
