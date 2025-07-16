@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/PrivEsc/Race Condition.md",
+                "file": "Windows/Active directory/Attacks/getting TGT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Race Condition"
+              "title": "getting TGT"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "add ",
+                "query": "getting tgt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -194,8 +195,8 @@
   },
   "active": "04cd77ad6dc64f38",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/Shadow Credentials.md",
     "Linux/PrivEsc/Race Condition.md",
+    "Windows/Active directory/Attacks/Shadow Credentials.md",
     "Linux/PrivEsc",
     "Windows/Active directory/Attacks/ACL/GenericWrite.md",
     "Windows/Active directory/Attacks/ACL/Untitled.md",
