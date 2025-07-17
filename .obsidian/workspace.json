@@ -84,8 +84,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -193,10 +192,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "be628401b626d1e6",
+  "active": "04cd77ad6dc64f38",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
+    "Windows/Notes.md",
+    "Windows/Active directory/Enumeration/LDAP.md",
+    "Windows/Active directory/Enumeration/RPC.md",
+    "Windows/Active directory/Enumeration/RDP.md",
     "Windows/Active directory/Attacks/ADCS/ESC1.md",
+    "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
     "Windows/Active directory/Attacks/ADCS",
     "Windows/Active directory/Enumeration/ADmodule/GPO & OU & ACL.md",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250717031230.png",
@@ -210,11 +213,9 @@
     "Linux/PrivEsc/Race Condition.md",
     "Windows/Active directory/Attacks/Shadow Credentials.md",
     "Linux/PrivEsc",
-    "Windows/Active directory/Enumeration/RPC.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
     "Windows/Copy from windows.md",
     "Windows/Active directory/creds exfiltration/DPAPI.md",
-    "Windows/Notes.md",
     "Windows/Active directory/Tools/RunAsCs.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Attacks/Skeleton key.md",
@@ -229,12 +230,10 @@
     "Windows/Active directory/creds exfiltration",
     "Windows/Active directory/Attacks/ACL",
     "Windows/Active directory/Delegation/What is delegation.md",
-    "Windows/Active directory/Delegation/Unconstrained Delegation.md",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250709022957.png",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250709000354.png",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250709000318.png",
     "Windows/Active directory/Delegation/attachments",
-    "Windows/Active directory/Tools/mimikatz.md",
     "Windows/Active directory/Delegation",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250708200829.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250708200755.png",
