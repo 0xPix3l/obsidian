@@ -1,8 +1,3 @@
----
-tags:
-  - Credential_Theft
-  - Persistence
----
 all the attacks are listed [here](https://adsecurity.org/?page_id=1821)
 
 ### Dump credentials from LSASS

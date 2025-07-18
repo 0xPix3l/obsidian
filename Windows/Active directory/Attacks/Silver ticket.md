@@ -1,8 +1,4 @@
----
-sticker: lucide//ticket
-tags:
-  - Persistence
----
+#Persistence 
 we can forge a service ticket if we have:
 - plain-text password or NTLM hash of a service account (secretdump -mimkatz LSASS dump - DCSync)
 - Service Principal Name (SPN) of that service

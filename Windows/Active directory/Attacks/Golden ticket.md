@@ -1,8 +1,3 @@
----
-sticker: emoji//1f3ab
-tags:
-  - Persistence
----
 ### Requirements
 - Knowledge of the domain name
 - Knowledge of the domain SID

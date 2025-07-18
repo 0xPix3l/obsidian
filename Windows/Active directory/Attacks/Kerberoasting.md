@@ -1,7 +1,3 @@
----
-tags:
-  - PrivEsc
----
 Any domain user can request (TGS) for services registered with an SPN.
 
 Requirements:

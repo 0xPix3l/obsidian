@@ -1,7 +1,3 @@
----
-tags:
-  - Persistence
----
 Skeleton key is a persistence technique where it is possible to patch a
 Domain Controller (lsass process) so that it allows access as any user
 with a single password.
