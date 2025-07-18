@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/ADCS/ESC1.md",
+                "file": "Windows/Active directory/Attacks/ADCS/ESC2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESC1"
+              "title": "ESC2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,11 +207,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "04cd77ad6dc64f38",
+  "active": "67b46104ced2a530",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/ADCS/ESC3.md",
     "Windows/Active directory/Attacks/ADCS/ESC2.md",
     "Windows/Active directory/Attacks/ADCS/ESC1.md",
-    "Windows/Active directory/Attacks/ADCS/ESC3.md",
     "Mermid looks cool.md",
     "Windows/Notes.md",
     "Windows/Active directory/Enumeration/LDAP.md",
