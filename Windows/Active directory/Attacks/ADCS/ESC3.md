@@ -43,6 +43,7 @@ certipy req \
 # -on-behalf-of 'LOL\Administrator': Specifies the target user for whom the new certificate is being requested. This parameter requires the <DOMAIN_NETBIOS_NAME>\<SAM_ACCOUNT_NAME> format for the user.
 
 ```
+
 This creates `administrator.pfx`, a certificate valid for the `Administrator` account, but now possessed by the attacker.
 
 **Step 3: Authenticate using the "on-behalf-of" certificate:**
