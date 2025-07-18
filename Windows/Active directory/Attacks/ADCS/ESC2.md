@@ -11,30 +11,19 @@ basically same as ESC1 but with `Any Purpose EKU` which is more dangerous/
 
 ---
 
-Exploitation of ESC2 typically involves two key components:
+The exploitation of ESC2 for privilege escalation typically follows these steps:
 
-1. **Obtaining an Any Purpose Certificate:** The attacker first enrolls for and obtains a certificate from the misconfigured template that grants "Any Purpose" (or has no EKU).
-2. **A Target Certificate Template Allowing Agent Enrollment:** A second certificate template (the "target template") must exist with the following characteristics:
-    - It issues certificates suitable for client authentication (e.g., it contains the "Client Authentication" EKU).
-    - It is configured to allow an Enrollment Agent to request certificates on behalf of other users. Many default templates, particularly Schema Version 1 templates like the built-in "User" or "Machine" template, inherently permit this without specific enrollment agent restrictions in their issuance policy.
-    - The intended victim (e.g., a Domain Administrator) must have enrollment rights on this target template.
+1. The attacker enrolls for a certificate using the "Any Purpose" template (e.g., `AnyPurposeCert`). This certificate can now act as an Enrollment Agent certificate.
+2. The attacker uses this newly acquired "Any Purpose" certificate to request a _new_ certificate on behalf of a privileged user (e.g., Administrator). This second request targets a standard template like "User" or "Machine" that allows enrollment by enrollment agents and for which the target user has enrollment rights.
+3. The attacker uses the "on-behalf-of" certificate to authenticate as the privileged user.
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+**Step 1: Request the "Any Purpose" certificate for the attacker.** The attacker (`normal@lol.local`) requests a certificate from the `AnyPurposeCert` template.
+```bash
+    certipy req \
+    -u 'normal@lol.local' -p 'normal' \
+    -dc-ip '10.10.111.10' -target 'DC01.LOL.LOCAL' \
+    -ca 'LOL-CA' -template 'ESC2'
 ```
 
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+This command requests a certificate for the `normal` user from the specified template. The resulting `.pfx` file (`normal.pfx` in this case) contains the certificate that has the "Any Purpose" EKU.
 
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
