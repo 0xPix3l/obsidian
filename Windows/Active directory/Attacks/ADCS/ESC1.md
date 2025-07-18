@@ -51,8 +51,8 @@ This means that Any user can **request a certificate that says they're the domai
 ---
 
 Exploiting an ESC1 vulnerability typically involves two main steps:
-1. Requesting a certificate using the vulnerable template, injecting the identity of a privileged target.
-2. Using the obtained certificate to authenticate as the target.
+1. Requesting a certificate using the vulnerable template, injecting the identity of a privileged target(administrator).
+2. Using the obtained certificate to authenticate as that target.
 
 
 
