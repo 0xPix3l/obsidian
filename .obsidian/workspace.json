@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,10 +182,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "be628401b626d1e6",
+  "active": "ad1e64e40e54b8e9",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/ADCS/ESC1.md",
+    "Windows/Active directory/Delegation/Unconstrained Delegation.md",
+    "Windows/Active directory/Delegation/What is delegation.md",
     "Windows/Active directory/Attacks/ADCS/ESC2.md",
+    "Windows/Active directory/Attacks/ADCS/ESC3.md",
+    "testa.md",
+    "Windows/Active directory/Attacks/ADCS/ESC1.md",
     "Windows/Active directory/Tools/mimikatz.md",
     "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
@@ -199,7 +202,6 @@
     "Windows/Active directory/Attacks/DLL Hijacking.md",
     "Windows/Active directory/Attacks/Skeleton key.md",
     "Windows/Active directory/Attacks/getting TGT.md",
-    "Windows/Active directory/Attacks/ADCS/ESC3.md",
     "Windows/Active directory/Enumeration/PowerView/Users.md",
     "Windows/Active directory/Enumeration/RDP.md",
     "Windows/Active directory/Enumeration/MSSQL.md",
@@ -213,10 +215,7 @@
     "logseq",
     "Mermid looks cool.md",
     "Windows/Notes.md",
-    "Windows/Active directory/Enumeration/LDAP.md",
-    "Windows/Active directory/Enumeration/RPC.md",
     "Windows/Active directory/Attacks/ADCS",
-    "Windows/Active directory/Enumeration/ADmodule/GPO & OU & ACL.md",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250717031230.png",
     "Linux/PrivEsc",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250711070751.png",
