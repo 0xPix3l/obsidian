@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/ADCS/ESC1.md",
+                "file": "Windows/Active directory/Attacks/ADCS/ESC4.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": true,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ESC4"
+            }
+          },
+          {
+            "id": "26c44db6cc7889e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Active directory/Enumeration/LDAP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ESC1"
+              "title": "LDAP"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "`",
+                "query": "ldapsearch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +109,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,12 +218,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ad1e64e40e54b8e9",
+  "active": "26c44db6cc7889e8",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/Golden ticket.md",
+    "Windows/Active directory/Attacks/ACL/GenericWrite.md",
+    "Windows/Active directory/Attacks/ADCS/ESC4.md",
+    "Windows/Active directory/Attacks/ADCS/ESC1.md",
     "Windows/Active directory/Attacks/ADCS/ESC2.md",
     "Windows/Active directory/Attacks/ADCS/ESC3.md",
-    "Windows/Active directory/Attacks/ADCS/ESC1.md",
-    "Windows/Active directory/Attacks/ACL/GenericWrite.md",
     "Templates",
     "Windows/Active directory/Attacks/ACL/WriteOwner.md",
     "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
@@ -208,7 +236,6 @@
     "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
-    "Windows/Active directory/Attacks/Golden ticket.md",
     "Windows/Active directory/Attacks/SMB relay.md",
     "Windows/Active directory/Attacks/DLL Hijacking.md",
     "Windows/Active directory/Attacks/Skeleton key.md",
