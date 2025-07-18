@@ -5,6 +5,7 @@ The vulnerability happens when a certificate template has:
 3. **Any user** (like `Domain Users`) has **Enroll** rights.
 4. No **manager approval** required
 
+This means that Any user can **request a certificate that says they're the domain administrator** (or anyone) — and the CA will **sign it** without asking questions.
 
 ```bash
  5
@@ -48,6 +49,21 @@ The vulnerability happens when a certificate template has:
 ```
 
 ---
+
+Exploiting an ESC1 vulnerability typically involves two main steps:
+1. Requesting a certificate using the vulnerable template, injecting the identity of a privileged target.
+2. Using the obtained certificate to authenticate as the target.
+
+
+
+
+
+
+
+
+
+
+
 
 We can request a certificate for the domain administrator.
 ```bash
