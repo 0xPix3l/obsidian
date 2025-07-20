@@ -11,10 +11,24 @@
             "id": "55e98e1f208464a9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Active directory/Enumeration/NFS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "NFS"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nfs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,6 +193,8 @@
   },
   "active": "55e98e1f208464a9",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/ADCS/ESC1.md",
+    "Windows/Active directory/Enumeration/NFS.md",
     "Windows/Active directory/Attacks/ADCS/ESC4.md",
     "Windows/Active directory/Attacks/DCSync.md",
     "Windows/Active directory/Attacks/Unquoted Service Path.md",
@@ -188,7 +203,6 @@
     "Windows/Active directory/Attacks/Skeleton key.md",
     "Windows/Active directory/Attacks/getting TGT.md",
     "Windows/Active directory/Attacks/Shadow Credentials.md",
-    "Windows/Active directory/Attacks/ADCS/ESC1.md",
     "Mermid looks cool.md",
     "Windows/Notes.md",
     "Windows/Copy from windows.md",
@@ -205,7 +219,6 @@
     "Windows/Active directory/Enumeration/ADmodule/Powershell.md",
     "Windows/Active directory/Enumeration/ADmodule/GPO & OU & ACL.md",
     "Windows/Active directory/Delegation/What is delegation.md",
-    "Windows/Active directory/Delegation/Unconstrained Delegation.md",
     "Templates",
     "logseq/custom.css",
     "pages",
