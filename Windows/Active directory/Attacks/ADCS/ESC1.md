@@ -139,3 +139,5 @@ then Use Rubeus to either request NTLM hash directly or get a Kerberos TGT
     Note over Attacker: Step 8: Now holds TGT + service ticket<br/>Full impersonation of Administrator
 
 ```
+
+
