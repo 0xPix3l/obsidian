@@ -1,7 +1,3 @@
----
-tags:
-  - Credential_Theft
----
 If a computer, user, group has the DS-Replication-Get-Changes and the DS-Replication-Get-Changes-All permission on the domain, it can perform DCSync attack.
 These two permissions allow a principal to perform a DCSync attack.
 

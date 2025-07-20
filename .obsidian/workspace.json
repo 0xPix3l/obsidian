@@ -8,27 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "337e0635de42b162",
+            "id": "55e98e1f208464a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Copy from windows.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Copy from windows"
+              "title": "New tab"
             }
           }
         ]
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ldapsearch",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,35 +178,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "337e0635de42b162",
+  "active": "55e98e1f208464a9",
   "lastOpenFiles": [
-    "Windows/Active directory/Tools/mimikatz.md",
-    "Windows/Active directory/Tools/bloodyAD.md",
-    "Windows/Active directory/Tools/RunAsCs.md",
-    "Windows/Active directory/Tools/scp.md",
-    "Windows/Active directory/Enumeration/SMB.md",
-    "Windows/Active directory/Enumeration/RPC.md",
-    "Windows/Active directory/Enumeration/LDAP.md",
-    "Windows/Active directory/Enumeration/MSSQL.md",
-    "Windows/Active directory/Enumeration/RDP.md",
+    "Windows/Active directory/Attacks/ADCS/ESC4.md",
+    "Windows/Active directory/Attacks/DCSync.md",
+    "Windows/Active directory/Attacks/Unquoted Service Path.md",
     "Windows/Active directory/Attacks/SMB relay.md",
     "Windows/Active directory/Attacks/DLL Hijacking.md",
     "Windows/Active directory/Attacks/Skeleton key.md",
     "Windows/Active directory/Attacks/getting TGT.md",
     "Windows/Active directory/Attacks/Shadow Credentials.md",
-    "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
-    "Windows/Notes.md",
-    "Windows/Active directory/Attacks/ADCS/all.md",
-    "Windows/Active directory/Attacks/ADCS/ESC4.md",
-    "Windows/Active directory/Attacks/ADCS/ESC2.md",
     "Windows/Active directory/Attacks/ADCS/ESC1.md",
-    "Windows/Active directory/Attacks/Golden ticket.md",
-    "Windows/Active directory/Attacks/ACL/GenericWrite.md",
-    "Windows/Active directory/Attacks/ADCS/ESC3.md",
-    "Templates",
-    "Windows/Active directory/Attacks/ACL/WriteOwner.md",
-    "Windows/Active directory/Delegation/Unconstrained Delegation.md",
+    "Mermid looks cool.md",
+    "Windows/Notes.md",
+    "Windows/Copy from windows.md",
+    "Windows/Active directory/Enumeration/RPC.md",
+    "Windows/Active directory/Enumeration/LDAP.md",
+    "Windows/Active directory/Enumeration/MSSQL.md",
+    "Windows/Active directory/Enumeration/RDP.md",
+    "Windows/Active directory/Enumeration/PowerView/Users.md",
+    "Windows/Active directory/Enumeration/PowerView/Groups.md",
+    "Windows/Active directory/Enumeration/PowerView/GPO & OU.md",
+    "Windows/Active directory/Enumeration/PowerView/ACL.md",
+    "Windows/Active directory/Enumeration/ADmodule/groups.md",
+    "Windows/Active directory/Enumeration/ADmodule/Users & Computers.md",
+    "Windows/Active directory/Enumeration/ADmodule/Powershell.md",
+    "Windows/Active directory/Enumeration/ADmodule/GPO & OU & ACL.md",
     "Windows/Active directory/Delegation/What is delegation.md",
+    "Windows/Active directory/Delegation/Unconstrained Delegation.md",
+    "Templates",
     "logseq/custom.css",
     "pages",
     "logseq/config.edn",
