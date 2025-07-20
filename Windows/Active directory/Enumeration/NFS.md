@@ -22,4 +22,6 @@ sudo mount -t nfs -o vers=3 $IP:/$SHARE /mnt/nfs
 Unmount:
 ```bash
 sudo umount /mnt/nfs
+
+# -l for force
 ```
