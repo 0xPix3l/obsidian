@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Enumeration/NFS.md",
+                "file": "Windows/Active directory/Tools/bloodyAD.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": false,
+                  "collapseAll": true,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "NFS"
+              "title": "bloodyAD"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nfs",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,11 +191,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "55e98e1f208464a9",
+  "active": "54635fcc82945e98",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/ADCS/ESC1.md",
-    "Windows/Active directory/Enumeration/NFS.md",
-    "Windows/Active directory/Attacks/ADCS/ESC4.md",
+    "Windows/Index.md",
+    "Windows/Active directory/Tools/mimikatz.md",
+    "Windows/Active directory/Attacks/Golden ticket.md",
+    "Windows/Active directory/Tools/bloodyAD.md",
+    "Windows/Active directory/Tools/RunAsCs.md",
+    "Windows/Active directory/Tools/Copy from windows.md",
+    "Windows/Active directory/Tools/scp.md",
+    "Windows/Active directory/Delegation/Unconstrained Delegation.md",
+    "Windows/Active directory/Delegation/What is delegation.md",
+    "Windows/Active directory/Enumeration/ADmodule/GPO & OU & ACL.md",
+    "Windows/Active directory/creds exfiltration/DPAPI.md",
+    "Windows/Active directory/Attacks/AS-REP Roasting.md",
+    "Windows/Active directory/Attacks/Kerberoasting.md",
+    "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Attacks/DCSync.md",
     "Windows/Active directory/Attacks/Unquoted Service Path.md",
     "Windows/Active directory/Attacks/SMB relay.md",
@@ -203,22 +214,11 @@
     "Windows/Active directory/Attacks/Skeleton key.md",
     "Windows/Active directory/Attacks/getting TGT.md",
     "Windows/Active directory/Attacks/Shadow Credentials.md",
-    "Mermid looks cool.md",
-    "Windows/Notes.md",
-    "Windows/Copy from windows.md",
-    "Windows/Active directory/Enumeration/RPC.md",
-    "Windows/Active directory/Enumeration/LDAP.md",
-    "Windows/Active directory/Enumeration/MSSQL.md",
-    "Windows/Active directory/Enumeration/RDP.md",
-    "Windows/Active directory/Enumeration/PowerView/Users.md",
-    "Windows/Active directory/Enumeration/PowerView/Groups.md",
-    "Windows/Active directory/Enumeration/PowerView/GPO & OU.md",
-    "Windows/Active directory/Enumeration/PowerView/ACL.md",
-    "Windows/Active directory/Enumeration/ADmodule/groups.md",
-    "Windows/Active directory/Enumeration/ADmodule/Users & Computers.md",
-    "Windows/Active directory/Enumeration/ADmodule/Powershell.md",
-    "Windows/Active directory/Enumeration/ADmodule/GPO & OU & ACL.md",
-    "Windows/Active directory/Delegation/What is delegation.md",
+    "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
+    "Windows/Active directory/Attacks/ADCS/ESC1.md",
+    "Windows/Active directory/Attacks/ACL/GenericWrite.md",
+    "Windows/Active directory/Attacks/ACL/WriteOwner.md",
+    "Windows/Active directory/Enumeration/NFS.md",
     "Templates",
     "logseq/custom.css",
     "pages",

