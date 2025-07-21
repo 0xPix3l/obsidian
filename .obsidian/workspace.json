@@ -50,7 +50,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "groups",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,7 +192,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d803e150944fd819",
+  "active": "be628401b626d1e6",
   "lastOpenFiles": [
     "Windows/Active directory/Attacks/ADCS/ESC4.md",
     "Windows/Active directory/Attacks/ADCS/ESC5.md",
