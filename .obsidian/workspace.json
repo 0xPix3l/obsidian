@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d803e150944fd819",
+            "id": "c886bf6bd1fb5803",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/ADCS/ESC5.md",
+                "file": "Windows/Active directory/Attacks/ADCS/ESC6.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -24,11 +24,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
+                  "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "ESC5"
+              "title": "ESC6"
             }
           }
         ]
@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,12 +191,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d803e150944fd819",
+  "active": "c886bf6bd1fb5803",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/ADCS/ESC7.md",
+    "Windows/Active directory/Attacks/ADCS/ESC6.md",
+    "Windows/Active directory/Attacks/ADCS/ESC5.md",
     "Windows/Active directory/Enumeration/LDAP.md",
     "Windows/Active directory/Enumeration/PowerView/Groups.md",
     "Windows/Active directory/Enumeration/ADmodule/groups.md",
-    "Windows/Active directory/Attacks/ADCS/ESC5.md",
     "Windows/Active directory/Attacks/ADCS/ESC4.md",
     "Windows/Active directory/Attacks/ADCS/AD CS overview.md",
     "Windows/Active directory/Attacks/ADCS/ESC3.md",
@@ -222,8 +223,6 @@
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Attacks/Silver ticket.md",
-    "Windows/Active directory/Attacks/DCSync.md",
-    "Windows/Active directory/Attacks/Unquoted Service Path.md",
     "Templates",
     "logseq/custom.css",
     "pages",
