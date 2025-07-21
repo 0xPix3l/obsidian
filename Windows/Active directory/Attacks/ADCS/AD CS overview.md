@@ -12,30 +12,68 @@ these when present in the certificate, permit authentication to AD.
 How it can be abused??
 
 
-```mermaid |
-  sequenceDiagram
-    participant Attacker as Attacker (Certipy)
+this is the normal flow:
+
+
+```mermaid
+sequenceDiagram
+    participant User as Low-priv User
+    participant CA as Certificate Authority
     participant KDC as Domain Controller (KDC)
 
-    Note over Attacker: Load administrator.pfx<br/>(contains cert + private key)
+    User->>CA: Step 1: Discover vulnerable cert template
+    User->>CA: Step 2: Request certificate with DA UPN
+    CA-->>User: Step 3: Receive .pfx certificate
 
-    Attacker->>Attacker: Step 1: Sign AuthPack with private key
-    Attacker->>KDC: Step 2: AS-REQ (PKINIT)<br/>includes certificate + signed AuthPack
+    User->>User: Step 4: Extract cert and private key
+    User->>KDC: Step 5: Send AS-REQ with cert (PKINIT)
 
-    KDC->>KDC: Step 3: Extract public key from certificate
-    KDC->>KDC: Step 4: Verify signature on AuthPack
+    KDC->>KDC: Step 6: Extract public key from cert
+    KDC->>KDC: Step 7: Verify signature (AuthPack)
 
-    alt Signature valid
-        KDC->>Attacker: Step 5: AS-REP with TGT
-        Attacker->>KDC: Step 6: TGS-REQ (Request service ticket)
-        KDC->>Attacker: Step 7: TGS-REP (Returns service ticket)
-    else Invalid signature
-        KDC->>Attacker: Step 5: KRB-ERROR (Pre-auth failed)
+    alt Signature is valid
+        KDC-->>User: Step 8: AS-REP (returns TGT)
+        Note over User: Now impersonating DA with TGT
+    else Signature invalid
+        KDC-->>User: Step 8: KRB-ERROR (pre-auth failed)
     end
-
-    Note over Attacker: Step 8: Now holds TGT + service ticket<br/>Full impersonation of Administrator
 
 ```
 
 
-<pre><code>```mermaid flowchart TD A[User (Low-priv)] -->|1. Discover vulnerable template| B[Cert Template: ClientAuth + ENROLLEE_SUPPLIES_SUBJECT] B -->|2. Request cert with DA UPN| C[Cert Issued] C -->|3. Export .pfx cert+key| D[PFX File] D -->|4. Use cert to get TGT via PKINIT| E[TGT for Domain Admin] ```</code></pre>
+---
+This is what a tool like `certipy` would do:
+```mermaid |
+sequenceDiagram
+    participant Attacker as Attacker (Certipy)
+    participant CA as Certificate Authority
+    participant KDC as Domain Controller (KDC)
+
+    %% Certificate request phase
+    Attacker->>CA: Step 1: Request certificate with Administrator UPN (ESC1)
+    CA-->>Attacker: Step 2: Receive .pfx (cert + private key)
+
+    %% Authentication using cert
+    Note over Attacker: Step 3: Load .pfx in Certipy
+
+    Attacker->>KDC: Step 4: Send AS-REQ with certificate (PKINIT)
+
+    KDC->>KDC: Step 5: Extract public key and verify signature
+
+    alt Signature valid
+        KDC-->>Attacker: Step 6: AS-REP (TGT issued)
+        Attacker->>KDC: Step 7: TGS-REQ (Request service ticket)
+        KDC-->>Attacker: Step 8: TGS-REP (Service ticket issued)
+        Note over Attacker: Step 9: Full impersonation of Administrator achieved
+    else Signature invalid
+        KDC-->>Attacker: Step 6: KRB-ERROR (Pre-auth failed)
+    end
+
+```
+
+
+
+certipy will finaly give you:
+1-  A `.ccache` file that contains a TGT for the impersonated user (e.g., Administrator).
+2- The NTLM hash of that user (extracted from the TGT response).
+***
