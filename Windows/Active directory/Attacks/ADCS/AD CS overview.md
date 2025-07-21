@@ -42,7 +42,8 @@ sequenceDiagram
 
 
 ---
-This is what a tool like `certipy` would do:
+This is what a tool like `certipy` would do: all are addressed [here](https://github.com/ly4k/Certipy/wiki/06-%E2%80%90-Privilege-Escalation)
+
 ```mermaid |
 sequenceDiagram
     participant Attacker as Attacker (Certipy)
