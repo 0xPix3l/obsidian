@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/ADCS/ESC4.md",
+                "file": "Windows/Active directory/Attacks/ADCS/ESC5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ESC4"
+              "title": "ESC5"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "d803e150944fd819",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/ADCS/AD CS overview.md",
     "Windows/Active directory/Attacks/ADCS/ESC4.md",
+    "Windows/Active directory/Attacks/ADCS/ESC5.md",
+    "Windows/Active directory/Attacks/ADCS/AD CS overview.md",
     "Windows/Active directory/Attacks/ADCS/ESC3.md",
     "Windows/Active directory/Attacks/ADCS/ESC2.md",
     "Windows/Active directory/Attacks/ADCS/ESC1.md",
@@ -222,7 +223,6 @@
     "Windows/Active directory/Attacks/SMB relay.md",
     "Windows/Active directory/Attacks/DLL Hijacking.md",
     "Windows/Active directory/Attacks/Skeleton key.md",
-    "Windows/Active directory/Attacks/getting TGT.md",
     "Templates",
     "logseq/custom.css",
     "pages",
