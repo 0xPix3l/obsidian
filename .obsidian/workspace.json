@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Windows/Active directory/Attacks/ADCS/ESC4.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -24,7 +24,7 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                  "unlinkedCollapsed": false
                 }
               },
               "icon": "lucide-file",
@@ -193,11 +193,11 @@
   },
   "active": "d803e150944fd819",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/ADCS/AD CS overview.md",
+    "Windows/Active directory/Attacks/ADCS/ESC4.md",
     "Windows/Active directory/Attacks/ADCS/ESC3.md",
     "Windows/Active directory/Attacks/ADCS/ESC2.md",
     "Windows/Active directory/Attacks/ADCS/ESC1.md",
-    "Windows/Active directory/Attacks/ADCS/ESC4.md",
-    "Windows/Active directory/Attacks/ADCS/AD CS overview.md",
     "Windows/Active directory/Delegation/What is delegation.md",
     "Windows/Active directory/Delegation/Unconstrained Delegation.md",
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061858.png",

@@ -8,6 +8,11 @@ some important EKUs with their OU:
 ![[Pasted image 20250721061858.png]]
 these when present in the certificate, permit authentication to AD.
 
+we can find them using `certipy`:
+```bash
+certipy find -u 'Administrator' -p 'P@ssw0rd' -dc-ip 10.10.111.10 -vulnerable
+
+```
 ***
 How it can be abused??
 
