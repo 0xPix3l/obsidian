@@ -192,10 +192,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be628401b626d1e6",
+  "active": "d803e150944fd819",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/ADCS/ESC4.md",
+    "Windows/Active directory/Enumeration/LDAP.md",
+    "Windows/Active directory/Enumeration/PowerView/Groups.md",
+    "Windows/Active directory/Enumeration/ADmodule/groups.md",
     "Windows/Active directory/Attacks/ADCS/ESC5.md",
+    "Windows/Active directory/Attacks/ADCS/ESC4.md",
     "Windows/Active directory/Attacks/ADCS/AD CS overview.md",
     "Windows/Active directory/Attacks/ADCS/ESC3.md",
     "Windows/Active directory/Attacks/ADCS/ESC2.md",
@@ -221,9 +224,6 @@
     "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Attacks/DCSync.md",
     "Windows/Active directory/Attacks/Unquoted Service Path.md",
-    "Windows/Active directory/Attacks/SMB relay.md",
-    "Windows/Active directory/Attacks/DLL Hijacking.md",
-    "Windows/Active directory/Attacks/Skeleton key.md",
     "Templates",
     "logseq/custom.css",
     "pages",
