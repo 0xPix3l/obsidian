@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ea2d61da2e5cf264",
+        "id": "0635b35c5a1ff296",
         "type": "tabs",
         "children": [
           {
-            "id": "55e98e1f208464a9",
+            "id": "d803e150944fd819",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Tools/bloodyAD.md",
+                "file": "Windows/Active directory/Attacks/ADCS/AD CS overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": true,
+                  "collapseAll": false,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "bloodyAD"
+              "title": "AD CS overview"
             }
           }
         ]
@@ -191,12 +191,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54635fcc82945e98",
+  "active": "d803e150944fd819",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061858.png",
+    "Windows/Active directory/Attacks/ADCS/ESC1.md",
+    "Windows/Active directory/Attacks/ADCS/AD CS overview.md",
+    "Windows/Active directory/Attacks/ADCS/ESC4.md",
+    "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061318.png",
+    "Windows/Active directory/Attacks/ADCS/attachments",
+    "Windows/Active directory/Tools/bloodyAD.md",
+    "Windows/Active directory/Attacks/Lateral Movment",
     "Windows/Index.md",
+    "Windows/Active directory/LDAP.md",
     "Windows/Active directory/Tools/mimikatz.md",
     "Windows/Active directory/Attacks/Golden ticket.md",
-    "Windows/Active directory/Tools/bloodyAD.md",
     "Windows/Active directory/Tools/RunAsCs.md",
     "Windows/Active directory/Tools/Copy from windows.md",
     "Windows/Active directory/Tools/scp.md",
@@ -214,11 +222,6 @@
     "Windows/Active directory/Attacks/Skeleton key.md",
     "Windows/Active directory/Attacks/getting TGT.md",
     "Windows/Active directory/Attacks/Shadow Credentials.md",
-    "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
-    "Windows/Active directory/Attacks/ADCS/ESC1.md",
-    "Windows/Active directory/Attacks/ACL/GenericWrite.md",
-    "Windows/Active directory/Attacks/ACL/WriteOwner.md",
-    "Windows/Active directory/Enumeration/NFS.md",
     "Templates",
     "logseq/custom.css",
     "pages",
@@ -229,16 +232,13 @@
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250717031230.png",
     "Linux/PrivEsc",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250711070751.png",
-    "Windows/Active directory/Attacks/ACL/attachments",
     "Windows/Active directory/creds exfiltration/attachments/Pasted image 20250711002813.png",
     "Windows/Active directory/creds exfiltration/attachments/Pasted image 20250711002422.png",
-    "Windows/Active directory/creds exfiltration/attachments",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250709022957.png",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250709000354.png",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250709000318.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250708200829.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250708200755.png",
-    "Windows/Active directory/Attacks/attachments/Pasted image 20250707233638.png",
     "Windows/Active directory/Attacks/overview.canvas"
   ]
 }

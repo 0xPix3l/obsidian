@@ -11,7 +11,7 @@ The vulnerability happens when a certificate template has:
 This means that Any user can **request a certificate that says they're the domain administrator** (or anyone) — and the CA will **sign it** without asking questions.
 
 ```bash
- 5
+ 
     Template Name                       : ESC1
     Display Name                        : ESC1
     Certificate Authorities             : LOL-CA
@@ -115,29 +115,5 @@ then convert to PFX
 then Use Rubeus to either request NTLM hash directly or get a Kerberos TGT
 
 
-```mermaid |
-  sequenceDiagram
-    participant Attacker as Attacker (Certipy)
-    participant KDC as Domain Controller (KDC)
-
-    Note over Attacker: Load administrator.pfx<br/>(contains cert + private key)
-
-    Attacker->>Attacker: Step 1: Sign AuthPack with private key
-    Attacker->>KDC: Step 2: AS-REQ (PKINIT)<br/>includes certificate + signed AuthPack
-
-    KDC->>KDC: Step 3: Extract public key from certificate
-    KDC->>KDC: Step 4: Verify signature on AuthPack
-
-    alt Signature valid
-        KDC->>Attacker: Step 5: AS-REP with TGT
-        Attacker->>KDC: Step 6: TGS-REQ (Request service ticket)
-        KDC->>Attacker: Step 7: TGS-REP (Returns service ticket)
-    else Invalid signature
-        KDC->>Attacker: Step 5: KRB-ERROR (Pre-auth failed)
-    end
-
-    Note over Attacker: Step 8: Now holds TGT + service ticket<br/>Full impersonation of Administrator
-
-```
 
 
