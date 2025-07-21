@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/ADCS/ESC6.md",
+                "file": "Windows/Active directory/Attacks/ADCS/ESC3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ESC6"
+              "title": "ESC3"
             }
           }
         ]
@@ -193,9 +193,11 @@
   },
   "active": "c886bf6bd1fb5803",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/ADCS/ESC7.md",
+    "Windows/Notes.md",
+    "Windows/Active directory/Attacks/Unquoted Service Path.md",
     "Windows/Active directory/Attacks/ADCS/ESC6.md",
     "Windows/Active directory/Attacks/ADCS/ESC5.md",
+    "Windows/Active directory/Attacks/ADCS/ESC7.md",
     "Windows/Active directory/Enumeration/LDAP.md",
     "Windows/Active directory/Enumeration/PowerView/Groups.md",
     "Windows/Active directory/Enumeration/ADmodule/groups.md",
@@ -221,8 +223,6 @@
     "Windows/Active directory/Enumeration/ADmodule/GPO & OU & ACL.md",
     "Windows/Active directory/creds exfiltration/DPAPI.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
-    "Windows/Active directory/Attacks/Kerberoasting.md",
-    "Windows/Active directory/Attacks/Silver ticket.md",
     "Templates",
     "logseq/custom.css",
     "pages",
