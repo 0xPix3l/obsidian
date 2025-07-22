@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/ADCS/ESC5.md",
+                "file": "Windows/Active directory/Attacks/ACL/Overview.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ESC5"
+              "title": "Overview"
             }
           }
         ]
@@ -193,6 +193,12 @@
   },
   "active": "c886bf6bd1fb5803",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
+    "Windows/Active directory/Attacks/ACL/Overview.md",
+    "Windows/Active directory/Attacks/ACL/Untitled.canvas",
+    "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
+    "Windows/Active directory/Attacks/ACL/GenericWrite.md",
+    "Windows/Active directory/Attacks/ADCS/ESC5.md",
     "Windows/Active directory/Attacks/ADCS/ESC3.md",
     "Windows/Active directory/Tools/Copy from windows.md",
     "Windows/Active directory/Tools/mimikatz.md",
@@ -202,7 +208,6 @@
     "Windows/Notes.md",
     "Windows/Active directory/Attacks/Unquoted Service Path.md",
     "Windows/Active directory/Attacks/ADCS/ESC6.md",
-    "Windows/Active directory/Attacks/ADCS/ESC5.md",
     "Windows/Active directory/Attacks/ADCS/ESC7.md",
     "Windows/Active directory/Enumeration/LDAP.md",
     "Windows/Active directory/Enumeration/PowerView/Groups.md",
@@ -219,10 +224,6 @@
     "Windows/Active directory/Tools/bloodyAD.md",
     "Windows/Active directory/Attacks/Lateral Movment",
     "Windows/Index.md",
-    "Windows/Active directory/LDAP.md",
-    "Windows/Active directory/Attacks/Golden ticket.md",
-    "Windows/Active directory/Enumeration/ADmodule/GPO & OU & ACL.md",
-    "Windows/Active directory/creds exfiltration/DPAPI.md",
     "Templates",
     "logseq/custom.css",
     "pages",
@@ -238,7 +239,6 @@
     "Windows/Active directory/Delegation/attachments/Pasted image 20250709022957.png",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250709000354.png",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250709000318.png",
-    "Windows/Active directory/Enumeration/attachments/Pasted image 20250708200829.png",
     "Windows/Active directory/Attacks/overview.canvas"
   ]
 }
