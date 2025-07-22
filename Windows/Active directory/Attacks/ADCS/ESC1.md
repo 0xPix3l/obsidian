@@ -71,8 +71,6 @@ certipy req \
 - `-upn 'administrator@corp.local'`: The UPN of the target user to be embedded in the certificate's SAN (the impersonated user).
 - `-sid 'S-1-5-21-...-500'`: The SID of the target user (Administrator) to be embedded in the certificate's SID extension.
 
-> [!NOTE]
-  💡 : To find the SID and other attributes of a target user like 'administrator', you can use the command: `certipy account -u 'USERNAME' -p 'PASSWORD' -dc-ip 'DC_IP' -user 'administrator' read`
   
 2. Using the obtained certificate to authenticate as that target.
 

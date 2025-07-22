@@ -13,6 +13,10 @@ we can find them using `certipy`:
 certipy find -u 'Administrator' -p 'P@ssw0rd' -dc-ip 10.10.111.10 -vulnerable
 
 ```
+
+> [!NOTE]
+  💡 : To find the SID and other attributes of a target user like 'administrator', you can use the command: `certipy account -u 'USERNAME' -p 'PASSWORD' -dc-ip 'DC_IP' -user 'administrator' read`
+  
 ***
 How it can be abused??
 
