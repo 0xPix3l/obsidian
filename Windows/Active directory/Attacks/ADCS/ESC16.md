@@ -8,6 +8,21 @@ Without this extension, every certificate issued by this CA will lack this SID s
 
 - **ESC9**: Individual templates lack the security extension requirement
 - **ESC16**: The CA itself is configured to never include the security extension, affecting ALL certificates regardless of template.
+
+**ESC16** occurs when a **CA is globally misconfigured** to **disable all certificate request security checks**, including:
+
+- **SAN (Subject Alternative Name)** checks
+- **msPKI-Enrollment-Flag** enforcement
+- **Certificate name constraints**
+
+This is controlled by a **registry key** on the CA server:
+```
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CertSvc\Configuration\<CA_NAME>\EditFlags (REG_DWORD)
+```
+
+If the `EDITF_ATTRIBUTESUBJECTALTNAME2` or `EDITF_DISABLEEXTENSIONLIST` flags are set, the CA will not enforce constraints, allowing:
+- Arbitrary SAN injection
+- Certificate requests impersonating other users (e.g., Administrator)
 ***
 
 ### Exploitation
@@ -32,7 +47,6 @@ Certipy v5.0.3 - by Oliver Lyak (ly4k)
 [*] Successfully updated 'ca_svc'
 
 ```
-
 
 
 **step 3: request any cert with user authentication like the `user` template:**
