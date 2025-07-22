@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/ADCS/ESC6.md",
-                "mode": "source",
+                "file": "Windows/Active directory/Attacks/Shadow Credentials.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ESC6"
+              "title": "Shadow Credentials"
             }
           },
           {
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "force change",
+                "query": "force chang",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Active directory/Attacks/ADCS/ESC6.md",
+                "file": "Windows/Active directory/Attacks/Shadow Credentials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ESC6"
+              "title": "Backlinks for Shadow Credentials"
             }
           }
         ],
@@ -199,16 +199,18 @@
   },
   "active": "c886bf6bd1fb5803",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/ADCS/ESC7.md",
+    "Windows/Active directory/Attacks/ACL/GenericWrite.md",
+    "Windows/Active directory/Attacks/Shadow Credentials.md",
+    "Windows/Active directory/Attacks/ACL/Overview.md",
+    "Windows/Active directory/Tools/bloodyAD.md",
     "Windows/Active directory/Attacks/ADCS/ESC6.md",
+    "Windows/Active directory/Attacks/ADCS/ESC7.md",
     "Windows/Active directory/Attacks/ADCS/ESC5.md",
     "Windows/Active directory/Attacks/ADCS/ESC1.md",
     "Windows/Active directory/Attacks/ADCS/ESC4.md",
-    "Windows/Active directory/Attacks/ACL/Overview.md",
     "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
     "Windows/Active directory/Attacks/ACL/Untitled.canvas",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
-    "Windows/Active directory/Attacks/ACL/GenericWrite.md",
     "Windows/Active directory/Attacks/ADCS/ESC3.md",
     "Windows/Active directory/Tools/Copy from windows.md",
     "Windows/Active directory/Tools/mimikatz.md",
@@ -227,7 +229,6 @@
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061858.png",
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061318.png",
     "Windows/Active directory/Attacks/ADCS/attachments",
-    "Windows/Active directory/Tools/bloodyAD.md",
     "Windows/Active directory/Attacks/Lateral Movment",
     "Windows/Index.md",
     "Templates",
