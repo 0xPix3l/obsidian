@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/ADCS/ESC3.md",
-                "mode": "source",
+                "file": "Windows/Active directory/Attacks/ADCS/ESC5.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ESC3"
+              "title": "ESC5"
             }
           }
         ]
@@ -193,12 +193,12 @@
   },
   "active": "c886bf6bd1fb5803",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/ADCS/ESC3.md",
     "Windows/Active directory/Tools/Copy from windows.md",
     "Windows/Active directory/Tools/mimikatz.md",
     "Windows/Active directory/Tools/RunAsCs.md",
     "Windows/Active directory/Tools/scp.md",
     "Windows/Active directory/Enumeration/RPC.md",
-    "Windows/Active directory/Attacks/ADCS/ESC3.md",
     "Windows/Notes.md",
     "Windows/Active directory/Attacks/Unquoted Service Path.md",
     "Windows/Active directory/Attacks/ADCS/ESC6.md",
