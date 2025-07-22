@@ -13,22 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/ACL/Overview.md",
-                "mode": "preview",
+                "file": "Windows/Active directory/Attacks/ADCS/ESC5.md",
+                "mode": "source",
                 "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "ESC5"
             }
           }
         ]
@@ -99,25 +90,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3b7bd58746b1679c",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Windows/Active directory/LDAP.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for LDAP"
-            }
-          },
-          {
             "id": "8df8e253cc43595f",
             "type": "leaf",
             "state": {
@@ -170,9 +142,28 @@
               "icon": "lucide-list",
               "title": "Outline of What is delegation"
             }
+          },
+          {
+            "id": "892b6843ef9dc9db",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Windows/Active directory/Attacks/ADCS/ESC5.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ESC5"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -193,8 +184,8 @@
   },
   "active": "c886bf6bd1fb5803",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
     "Windows/Active directory/Attacks/ACL/Overview.md",
+    "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
     "Windows/Active directory/Attacks/ACL/Untitled.canvas",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
     "Windows/Active directory/Attacks/ACL/GenericWrite.md",
