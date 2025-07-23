@@ -23,10 +23,7 @@
         "Shift"
       ],
       "key": "T"
-    }
-  ],
-  "workspace:undo-close-pane": [],
-  "insert-template": [
+    },
     {
       "modifiers": [
         "Mod"
@@ -34,6 +31,7 @@
       "key": "T"
     }
   ],
+  "workspace:undo-close-pane": [],
   "markdown:toggle-preview": [
     {
       "modifiers": [
