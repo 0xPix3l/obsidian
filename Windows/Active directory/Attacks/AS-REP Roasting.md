@@ -3,8 +3,8 @@
 impacket-GetNPUsers lol.local/ -usersfile valid_users.txt -format hashcat -dc-ip 10.10.111.10
 ```
 
-> [!NOTE] NOTE
-> You have to have a valid account credentials on the domain
+
+> You have to have a valid account **USERNAMES** on the domain,  and The domain allows **unauthenticated (null session)** LDAP queries
 
 ---
 
@@ -23,3 +23,6 @@ get the users of which the `pre-auth` is enabled by:
 ```powershell
 Get-DomainUser -PreauthNotRequired -Verbose
 ```
+
+
+we can also [[Kerberoasting via AS-REP Roasting]]
