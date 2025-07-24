@@ -14,5 +14,5 @@ nxc has module for that 😀
 
 connect to RDP:
 ```bash
-xfreerdp /u:<username> /p:<password> /v:<host>
+xfreerdp /u:<username> /p:<password> /v:<host> +clipboard
 ```
