@@ -11,3 +11,8 @@ nxc has module for that 😀
 ![[Pasted image 20250708200829.png]]
 ![[Pasted image 20250708200755.png]]
 
+
+connect to RDP:
+```bash
+xfreerdp /u:<username> /p:<password> /v:<host>
+```
