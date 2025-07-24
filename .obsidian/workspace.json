@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Enumeration/RDP.md",
-                "mode": "preview",
+                "file": "Windows/Active directory/Tools/PrivEscCheck.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "RDP"
+              "title": "PrivEscCheck"
             }
           }
         ]
@@ -184,6 +184,8 @@
   },
   "active": "6fda8c8520d69405",
   "lastOpenFiles": [
+    "Windows/Active directory/Enumeration/RDP.md",
+    "Windows/Active directory/Tools/PrivEscCheck.md",
     "Linux/Notes.md",
     "Windows/Active directory/Attacks/Kerberoasting via AS-REP Roasting.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
@@ -192,7 +194,6 @@
     "observe.md",
     "Windows/Active directory/Attacks/SMB relay.md",
     "Windows/Active directory/Attacks/ADCS/ESC4.md",
-    "Windows/Active directory/Enumeration/RDP.md",
     "Windows/Active directory/Enumeration/RPC.md",
     "Windows/Active directory/Enumeration/SMB.md",
     "Windows/Notes.md",
@@ -212,7 +213,6 @@
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
     "Windows/Active directory/Tools/Copy from windows.md",
     "Windows/Active directory/Tools/mimikatz.md",
-    "Windows/Active directory/Tools/RunAsCs.md",
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061858.png",
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061318.png",
     "Windows/Active directory/Attacks/ADCS/attachments",
