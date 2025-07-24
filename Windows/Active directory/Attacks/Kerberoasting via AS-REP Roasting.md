@@ -6,3 +6,5 @@ nxc ldap 192.168.0.104 -u harry -p '' --no-preauth-targets kerberoastable.list -
 
 `-u`: AS-REP roastable user (no pre-auth required).
 `--no-preauth-targets`: Single user or file containing list of users to target with Kerberoasting.
+
+all explained [here](https://www.semperis.com/blog/new-attack-paths-as-requested-sts/)
