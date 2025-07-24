@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/Kerberoasting via AS-REP Roasting.md",
+                "file": "Linux/Notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Kerberoasting via AS-REP Roasting"
+              "title": "Notes"
             }
           }
         ]
@@ -184,8 +184,9 @@
   },
   "active": "6fda8c8520d69405",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Attacks/Kerberoasting via AS-REP Roasting.md",
+    "Linux/Notes.md",
+    "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250724094841.png",
     "observe.md",
@@ -212,7 +213,6 @@
     "Windows/Active directory/Tools/Copy from windows.md",
     "Windows/Active directory/Tools/mimikatz.md",
     "Windows/Active directory/Tools/RunAsCs.md",
-    "Windows/Active directory/Tools/scp.md",
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061858.png",
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061318.png",
     "Windows/Active directory/Attacks/ADCS/attachments",
