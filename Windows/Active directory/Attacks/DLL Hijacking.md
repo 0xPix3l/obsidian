@@ -45,3 +45,7 @@ compiling:
 x86_64-w64-mingw32-gcc adduser.c -o pix3l.dll -lnetapi32 -shared
 
 ```
+
+
+> You have to start the service after you hijacked the DLL, `net start <SERVICE_NAME>`
+
