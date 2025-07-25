@@ -7,3 +7,7 @@ There are 2 CVEs for this vulnerability:
 
 ---
 ### CVE-2021–34527 - PrivEsc
+
+script [here](https://github.com/JohnHammond/CVE-2021-34527) if you have RDP
+
+---
