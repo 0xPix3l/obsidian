@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Forensics/Steganography/File/Binwalk.md",
+                "file": "Forensics/Steganography/Photo/Tools.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Binwalk"
+              "title": "Tools"
             }
           }
         ]
@@ -184,8 +184,9 @@
   },
   "active": "6fda8c8520d69405",
   "lastOpenFiles": [
-    "Forensics/Steganography/File/Steghide.md",
     "Forensics/Steganography/File/Binwalk.md",
+    "Forensics/Steganography/Photo/Tools.md",
+    "Forensics/Steganography/File/Steghide.md",
     "Forensics/Steganography/Audio/Parity coding.md",
     "Forensics/Steganography/Audio/Least Significant Bit Coding.md",
     "Forensics/Steganography/Photo/Masking and filtering.md",
@@ -216,7 +217,6 @@
     "Windows/Active directory/Enumeration/SMB.md",
     "Windows/Notes.md",
     "Windows/Active directory/Attacks/ADCS/ESC16.md",
-    "Windows/Active directory/Attacks/ADCS/AD CS overview.md",
     "Windows/Active directory/Attacks/ACL/Untitled.canvas",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061858.png",
