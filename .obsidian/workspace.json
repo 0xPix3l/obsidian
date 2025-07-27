@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Forensics/Steganography/Photo/Tools.md",
+                "file": "Windows/Active directory/creds exfiltration/DPAPI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Tools"
+              "title": "DPAPI"
             }
           }
         ]
@@ -184,8 +184,8 @@
   },
   "active": "6fda8c8520d69405",
   "lastOpenFiles": [
-    "Forensics/Steganography/File/Binwalk.md",
     "Forensics/Steganography/Photo/Tools.md",
+    "Forensics/Steganography/File/Binwalk.md",
     "Forensics/Steganography/File/Steghide.md",
     "Forensics/Steganography/Audio/Parity coding.md",
     "Forensics/Steganography/Audio/Least Significant Bit Coding.md",
