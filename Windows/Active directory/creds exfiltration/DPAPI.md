@@ -1,4 +1,4 @@
-The DPAPI (Data Protection API) is an internal component in the Windows system. It allows various applications to store sensitive data (e.g. passwords). The data are stored in the users directory and are secured by user-specific master keys derived from the users password. They are usually located at:
+The [DPAPI](https://www.passcape.com/index.php?id=28&section=docsys&cmd=details) (Data Protection API) is an internal component in the Windows system. It allows various applications to store sensitive data (e.g. passwords). The data are stored in the users directory and are secured by user-specific master keys derived from the users password. They are usually located at:
 
 ```powershell
 C:\Users\$USER\AppData\Roaming\Microsoft\Protect\$SUID\$GUID
