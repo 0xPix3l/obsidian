@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/ADCS/ESC8.md",
+                "file": "Windows/Active directory/Attacks/LLMNR & NBT-NS Posioning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ESC8"
+              "title": "LLMNR & NBT-NS Posioning"
             }
           }
         ]
@@ -184,8 +184,9 @@
   },
   "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/ADCS/ESC5.md",
     "Windows/Active directory/Attacks/ADCS/ESC8.md",
+    "Windows/Active directory/Attacks/LLMNR & NBT-NS Posioning.md",
+    "Windows/Active directory/Attacks/ADCS/ESC5.md",
     "Windows/Active directory/Attacks/ADCS/ESC6.md",
     "Windows/Active directory/Attacks/ADCS/ESC7.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
@@ -215,7 +216,6 @@
     "Windows/Active directory/Tools/bloodyAD.md",
     "Windows/Active directory/creds exfiltration/LSA Secrets Dump.md",
     "Windows/Active directory/Attacks/DLL Hijacking.md",
-    "Windows/Active directory/Tools/Enumerating services.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250724094841.png",
     "Windows/Active directory/Attacks/ACL/Untitled.canvas",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
