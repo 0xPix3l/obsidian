@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Enumeration/RPC.md",
+                "file": "Windows/Evasion/AppLocker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "RPC"
+              "title": "AppLocker"
             }
           }
         ]
@@ -184,6 +184,13 @@
   },
   "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
+    "Windows/Evasion/Windows Defender.md",
+    "Windows/Evasion/AppLocker.md",
+    "Windows/Notes.md",
+    "Windows/Active directory/Enumeration/RPC.md",
+    "Windows/Evasion/Windows Defender/Untitled.md",
+    "Windows/Evasion/Windows Defender",
+    "Windows/Evasion",
     "Windows/Active directory/Attacks/LLMNR & NBT-NS Posioning.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250730055300.png",
     "Windows/Active directory/Attacks/SMB relay.md",
@@ -206,16 +213,12 @@
     "Forensics/Steganography/File/Steghide.md",
     "Forensics/Steganography/Audio/Parity coding.md",
     "Forensics/Steganography/Audio/Least Significant Bit Coding.md",
-    "Forensics/Steganography/Photo/Masking and filtering.md",
-    "Forensics/Steganography/Photo/Least Significant Bit Insertion.md",
-    "Windows/Active directory/Attacks/PrintNightmare.md",
     "Forensics/Steganography/Audio",
     "Forensics/Untitled",
     "Forensics/Steganography/File",
     "Forensics/Steganography/Photo",
     "Forensics/Steganography",
     "Forensics",
-    "Windows/Active directory/Tools/bloodyAD.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250724094841.png",
     "Windows/Active directory/Attacks/ACL/Untitled.canvas",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
@@ -223,8 +226,6 @@
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061318.png",
     "Windows/Active directory/Attacks/ADCS/attachments",
     "Windows/Active directory/Attacks/Lateral Movment",
-    "Templates",
-    "logseq/custom.css",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250717031230.png",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250711070751.png",
     "Windows/Active directory/creds exfiltration/attachments/Pasted image 20250711002813.png",
