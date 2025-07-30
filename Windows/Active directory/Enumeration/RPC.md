@@ -7,6 +7,7 @@ rpcclient -U "" 10.211.11.10 -N
 -N: Tells RPC not to prompt us for a password.
 ```
 
+
 force change password (rpcclient):
 ```bash
 rpcclient -U ant.edwards%'Antman2025!' 10.10.11.70
@@ -21,3 +22,12 @@ force change password (net rpc):
 net rpc password 'adam.silver' 'P@ssw4rd123' -U 'PUPPY.HTB'/'ant.edwards'%'Antman2025!' -S '10.10.11.70'
 
 ```
+
+---
+useful commands
+```bash
+rpcclient $> getdompwinfo # get domain password policy
+rpcclient $> enumdomusers # get domain users
+```
+
+
