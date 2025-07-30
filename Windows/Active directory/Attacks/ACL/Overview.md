@@ -29,13 +29,17 @@ name graphically)
 4. An access mask which is a 32-bit value that defines the rights granted to an object
 ![[Pasted image 20250731004101.png]]
 
+
+
+
+`GenericWrite` abused with `Set-DomainObject`
+`WriteOwner` abused with `Set-DomainObjectOwner`
+`WriteDACL` abused with `Add-DomainObjectACL`
+`AllExtendedRights` abused with `Set-DomainUserPassword` or `Add-DomainGroupMember`
+`Addself` abused with `Add-DomainGroupMember`
+
 ---
-
-
-
-
-
-
+![[Pasted image 20250731010059.png]]
 
 
 

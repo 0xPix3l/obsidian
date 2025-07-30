@@ -37,8 +37,7 @@
               "title": "AS-REP Roasting"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,12 +197,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4cf58a53ad487029",
+  "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250731010059.png",
+    "Windows/Active directory/Attacks/AS-REP Roasting.md",
     "Windows/Active directory/Attacks/ACL/Overview.md",
     "Windows/Active directory/LOTL.md",
     "Windows/Evasion/AppLocker.md",
-    "Windows/Active directory/Attacks/AS-REP Roasting.md",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250731004101.png",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250731003757.png",
     "Windows/Evasion/Windows Defender.md",
@@ -230,7 +230,6 @@
     "Windows/Active directory/Attacks/ADCS/AD CS overview.md",
     "Windows/Active directory/creds exfiltration/DPAPI.md",
     "Forensics/Steganography/Photo/Tools.md",
-    "Forensics/Steganography/File/Binwalk.md",
     "Forensics/Steganography/Audio",
     "Forensics/Untitled",
     "Forensics/Steganography/File",
