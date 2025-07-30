@@ -28,6 +28,7 @@ useful commands
 ```bash
 rpcclient $> getdompwinfo # get domain password policy
 rpcclient $> enumdomusers # get domain users
+rpcclient $> queryuser 0x457 # query a certain user
 ```
 
 
