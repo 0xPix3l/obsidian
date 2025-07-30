@@ -101,6 +101,21 @@ wmic /node:remotehost path Win32_TerminalServiceSetting where AllowTSConnections
 | `net view /all /domain[:domainname]`            | Shares on the domains                                            |
 | `net view \\computer /ALL`                      | List shares of a computer                                        |
 | `net view /domain`                              | List of PCs of the domain                                        |
+
 >NOTE: If you believe the network defenders are actively logging/looking for any commands out of
 the normal, you can try this workaround to using net commands. Typing `net1` instead of
 net will execute the same functions without the potential trigger from the net string.
+
+---
+
+### Dsquery
+
+```powershell
+dsquery user
+dsquery group
+dsquery computers
+dsquery * "CN=Users,DC=LOL,DC=LOCAL" # Wildcard
+
+# search domain controllers
+dsquery * -filter "(userAccountControl:1.2.840.113556.1.4.803:=8192)" -limit 5 -attr sAMAccountName
+```
