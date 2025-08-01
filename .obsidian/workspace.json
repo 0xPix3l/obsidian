@@ -13,21 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/ACL/Overview.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Overview"
-            }
-          },
-          {
-            "id": "4cf58a53ad487029",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Windows/Active directory/Enumeration/AD Trusts.md",
                 "mode": "source",
                 "source": false,
@@ -37,8 +22,7 @@
               "title": "AD Trusts"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,10 +182,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4cf58a53ad487029",
+  "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
-    "Questions??.md",
+    "Windows/Active directory/Attacks/ACL/Overview.md",
     "Windows/Active directory/Enumeration/AD Trusts.md",
+    "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
+    "Windows/Active directory/Attacks/ADCS/ESC2.md",
+    "Windows/Active directory/Attacks/ADCS/ESC1.md",
+    "Windows/Active directory/Attacks/ADCS/ESC3.md",
+    "Windows/Active directory/Attacks/ADCS/ESC4.md",
+    "Windows/Active directory/Attacks/ADCS/ESC5.md",
+    "Windows/Active directory/Attacks/ADCS/ESC16.md",
+    "Windows/Active directory/Attacks/AS-REP Roasting.md",
+    "Windows/Active directory/Attacks/DCSync.md",
+    "Windows/Active directory/Attacks/DLL Hijacking.md",
+    "Windows/Active directory/Enumeration/RPC.md",
+    "Questions??.md",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
     "Windows/Active directory/Attacks/NoPac.md",
     "Windows/Active directory/Tools/PetitPotam.md",
@@ -211,27 +207,16 @@
     "Windows/Active directory/Tools/mimikatz.md",
     "Windows/Active directory/Enumeration/gMSA.md",
     "Windows/Active directory/LOTL.md",
-    "Windows/Active directory/Attacks/AS-REP Roasting.md",
-    "Windows/Active directory/Attacks/ACL/Overview.md",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250731010059.png",
     "Windows/Evasion/AppLocker.md",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250731004101.png",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250731003757.png",
     "Windows/Evasion/Windows Defender.md",
-    "Windows/Active directory/Enumeration/RPC.md",
     "observe.md",
     "Windows/Notes.md",
-    "Windows/Evasion/Windows Defender/Untitled.md",
     "Windows/Evasion/Windows Defender",
     "Windows/Evasion",
-    "Windows/Active directory/Attacks/LLMNR & NBT-NS Posioning.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250730055300.png",
-    "Windows/Active directory/Attacks/SMB relay.md",
-    "Windows/Active directory/Attacks/ADCS/ESC8.md",
-    "Windows/Active directory/Attacks/ADCS/ESC5.md",
-    "Windows/Active directory/Attacks/ADCS/ESC6.md",
-    "Windows/Active directory/Attacks/ADCS/ESC7.md",
-    "Windows/Active directory/Attacks/Kerberoasting.md",
     "Forensics/Steganography/Audio",
     "Forensics/Untitled",
     "Forensics/Steganography/File",
@@ -245,7 +230,6 @@
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061318.png",
     "Windows/Active directory/Attacks/ADCS/attachments",
     "Windows/Active directory/Attacks/Lateral Movment",
-    "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250717031230.png",
     "Windows/Active directory/Attacks/overview.canvas"
   ]
 }

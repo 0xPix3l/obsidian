@@ -1,0 +1,15 @@
+{
+  "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-mocha",
+  "catppuccin-heading-settings@@ctp-page-title": "var(--ctp-text)",
+  "catppuccin-font-styles@@ctp-bold": "var(--ctp-red)",
+  "catppuccin-font-styles@@ctp-italic": "var(--ctp-red)",
+  "catppuccin-font-styles@@ctp-strikethrough": "var(--ctp-red)",
+  "catppuccin-interface-styles@@ctp-bold-folder-title": false,
+  "catppuccin-heading-settings@@ctp-h3": "var(--ctp-rosewater)",
+  "encore-settings@@theme-dark": "encore-theme-dark-materialocean",
+  "encore-settings@@theme-light": "encore-theme-light",
+  "encore-settings@@encore-mobile-translucency": false,
+  "encore-settings@@encore-disable-grain": true,
+  "encore-settings@@colors": "encore-colors-colorful",
+  "encore-settings@@encore-translucency-strength": 0.4
+}
