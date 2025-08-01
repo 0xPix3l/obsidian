@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/Attacking Domain Trusts.md",
-                "mode": "preview",
+                "file": "Windows/Active directory/Attacks/ExtraSids Attack.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Attacking Domain Trusts"
+              "title": "ExtraSids Attack"
             }
           }
         ]
@@ -198,9 +198,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f5de4d0ca01372c8",
+  "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/Attacking Domain Trusts.md",
+    "Windows/Active directory/Attacks/ExtraSids Attack.md",
     "Windows/Active directory/Enumeration/AD Trusts.md",
     "Windows/Evasion/AppLocker.md",
     "Windows/Evasion/Windows Defender.md",
