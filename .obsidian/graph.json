@@ -4,7 +4,7 @@
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 14374912
       }
+    },
+    {
+      "query": "tag: #PrivEsc  ",
+      "color": {
+        "a": 1,
+        "rgb": 16774912
+      }
     }
   ],
   "collapse-display": false,
@@ -35,10 +42,10 @@
   "nodeSizeMultiplier": 0.786545454545455,
   "lineSizeMultiplier": 0.949454545454545,
   "collapse-forces": false,
-  "centerStrength": 0.535807050092764,
+  "centerStrength": 0.0561038961038961,
   "repelStrength": 0,
   "linkStrength": 0.863525046382189,
   "linkDistance": 40,
-  "scale": 0.5995838000493209,
+  "scale": 0.19751684258599775,
   "close": true
 }

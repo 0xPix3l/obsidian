@@ -1,4 +1,4 @@
-#Persistence
+
 # ESC5: Vulnerable PKI Object Access Control. (Golden Certificate)
 
 ### Overview:

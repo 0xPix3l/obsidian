@@ -1,4 +1,4 @@
-#Persistence
+
 # ESC2 Any Purpose Certificate Template
 
 The vulnerability materializes when these conditions are met:

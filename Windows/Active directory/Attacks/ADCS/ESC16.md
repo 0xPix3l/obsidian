@@ -1,4 +1,4 @@
-#Persistence 
+
 # ESC16: CA-Wide Security Extension Removal
 
 ### overview:

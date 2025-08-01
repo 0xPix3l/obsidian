@@ -1,4 +1,4 @@
-#Persistence
+
 # ESC4: Template Hijacking
 
 

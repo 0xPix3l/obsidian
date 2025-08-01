@@ -1,4 +1,4 @@
-#Persistence
+
 # ESC1: Enrollee-Supplied Subject for Client Authentication
 
 
