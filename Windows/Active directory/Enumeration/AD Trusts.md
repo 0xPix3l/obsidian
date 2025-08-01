@@ -1,3 +1,4 @@
+#trusts
 A trust is used to establish forest-forest or domain-domain (intra-domain) authentication,
 which allows users to access resources in (or perform administrative tasks) another domain,
 outside of the main domain where their account resides.

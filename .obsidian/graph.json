@@ -32,7 +32,7 @@
       "query": "tag: #PrivEsc  ",
       "color": {
         "a": 1,
-        "rgb": 16774912
+        "rgb": 3604735
       }
     },
     {
@@ -53,6 +53,6 @@
   "repelStrength": 0,
   "linkStrength": 0.863525046382189,
   "linkDistance": 40,
-  "scale": 1.2570341048229416,
+  "scale": 0.4140962570821959,
   "close": true
 }

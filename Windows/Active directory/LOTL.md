@@ -1,4 +1,4 @@
-
+#lateral_movement 
 ## wmic :
 ```powershell
 Host Enumeration:

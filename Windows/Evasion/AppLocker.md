@@ -1,3 +1,4 @@
+#evasion 
 An application whitelist is a list of approved software applications or executables that are
 allowed to be present and run on a system.
 

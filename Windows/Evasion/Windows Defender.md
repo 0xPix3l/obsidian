@@ -1,3 +1,4 @@
+#evasion 
 ### Checking the Status of Defender with Get-MpComputerStatus
 ```powershell
 PS C:\> Get-MpComputerStatus

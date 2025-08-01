@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/Skeleton key.md",
+                "file": "Windows/Active directory/Attacks/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Skeleton key"
+              "title": "Untitled"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Persistence",
+                "query": "tag:#evation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.01103591918945
+    "width": 256.01103591918945
   },
   "right": {
     "id": "54896c55facaf8a4",
@@ -198,8 +198,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f5de4d0ca01372c8",
+  "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/Untitled.md",
+    "Windows/Active directory/Enumeration/AD Trusts.md",
+    "Windows/Evasion/AppLocker.md",
+    "Windows/Evasion/Windows Defender.md",
+    "Windows/Active directory/LOTL.md",
     "Linux/PrivEsc/Race Condition.md",
     "Windows/Active directory/Attacks/Skeleton key.md",
     "Windows/Active directory/Attacks/SMB relay.md",
@@ -221,11 +226,6 @@
     "Windows/Active directory/Attacks/getting TGT.md",
     "Windows/Active directory/Attacks/Douple Hop.md",
     "Windows/Active directory/Attacks/ADCS/AD CS.md",
-    "Windows/Active directory/Attacks/ACL/WriteOwner.md",
-    "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
-    "Windows/Active directory/Attacks/ADCS/ESC16.md",
-    "Windows/Active directory/Attacks/ADCS/ESC8.md",
-    "Windows/Active directory/Attacks/ADCS/ESC5.md",
     "Tags",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
