@@ -1,4 +1,4 @@
-
+#PrivEsc 
 ## getting service with Unquoted Service Path
 
 ### 1- using cmd:

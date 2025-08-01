@@ -1,3 +1,5 @@
+#lateral_movement 
+
 this is used to Dump SAM/LSA (LSASS) hashes , the relayed machine **should have SMB Signing disable**
 
 How does it work?

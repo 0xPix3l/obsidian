@@ -1,3 +1,5 @@
+#creds
+
 ![[Pasted image 20250724094841.png]]
 
 >This attack involves requesting a Kerberos service ticket(s) (TGS) for the Service Principal Name (SPN) of the target service account (Step #3 above). This request uses a valid domain user’s authentication ticket (TGT) to request one or several service tickets for a target service running on a server.

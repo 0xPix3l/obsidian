@@ -1,3 +1,4 @@
+#lateral_movement 
 ### Requirements
 - Knowledge of the domain name
 - Knowledge of the domain SID

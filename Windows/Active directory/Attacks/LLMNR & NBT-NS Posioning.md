@@ -1,3 +1,5 @@
+#lateral_movement 
+
 Link-Local Multicast Name Resolution (`LLMNR`) and `NetBIOS` Name Service (`NBT-NS`) are
 Microsoft Windows components ***that serve as alternate methods of host identification that
 can be used when DNS fails.*** 

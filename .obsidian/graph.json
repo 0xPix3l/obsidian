@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "tag: #Initial_access",
+      "query": "tag:#lateral_movement  ",
       "color": {
         "a": 1,
         "rgb": 14725458
@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 16774912
       }
+    },
+    {
+      "query": "tag:#creds  ",
+      "color": {
+        "a": 1,
+        "rgb": 8388863
+      }
     }
   ],
   "collapse-display": false,
@@ -42,10 +49,10 @@
   "nodeSizeMultiplier": 0.786545454545455,
   "lineSizeMultiplier": 0.949454545454545,
   "collapse-forces": false,
-  "centerStrength": 0.0561038961038961,
+  "centerStrength": 0.189387755102041,
   "repelStrength": 0,
   "linkStrength": 0.863525046382189,
   "linkDistance": 40,
-  "scale": 0.5995838000493221,
-  "close": false
+  "scale": 1.2570341048229416,
+  "close": true
 }

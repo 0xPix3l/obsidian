@@ -1,4 +1,4 @@
-
+#creds
 dumping Local Security Authority that are Stored in the **registry** 
 Registry path:  
 `HKLM\SYSTEM` and `HKLM\SECURITY`

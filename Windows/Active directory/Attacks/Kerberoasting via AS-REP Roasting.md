@@ -1,3 +1,5 @@
+#creds
+
 > Kerberoasting by leveraging an AS-REP roastable account that does not require pre-authentication. This is possible by combining `--no-preauth-targets` and `--kerberoasting`.
 
 ```bash

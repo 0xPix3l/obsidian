@@ -1,3 +1,4 @@
+#lateral_movement 
 all is here: https://www.thehacker.recipes/ad/movement/kerberos/samaccountname-spoofing
 
 and https://github.com/Ridter/noPac

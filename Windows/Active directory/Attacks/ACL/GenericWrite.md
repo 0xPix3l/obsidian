@@ -16,6 +16,3 @@ ldapsearch -x -H ldap://10.10.11.72 \
   member
 
 ```
-
-attacks:
-[[Shadow Credentials]]

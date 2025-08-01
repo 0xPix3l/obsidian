@@ -1,3 +1,4 @@
+#lateral_movement 
 If Point and Print is misconfigured, any domain user can abuse the `RpcAddPrinterDriver` API to install a malicious driver the system. Since the Print Spooler runs as `SYSTEM`, the payload executes with `SYSTEM` privileges, giving local privilege escalation. And value of `0` means non-admin users can install drivers. It’s the old classic **PrintNightmare** exploit
 
 There are 2 CVEs for this vulnerability:
