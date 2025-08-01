@@ -4,6 +4,19 @@
 The [sidHistory](https://docs.microsoft.com/en-us/windows/win32/adschema/a-sidhistory) attribute is used in migration scenarios. If a user in one domain is migrated to another domain, a new account is created in the second domain. The original user's SID will be added to the new user's SID history attribute, ensuring that the user can still access resources in the original domain.
 
 ---
+## the flow
+
+I am forging a TGT and injecting:
+1. primary SID for fake user
+2. Injecting SID history for 519 = Enterprise Admins
+3. The PAC is generated and signed using the **KRBTGT hash of the child domain**
+> The forged TGT is then used to request access to a service in the **parent domain**.
+
+##### why does the parent domain trusts a PAC that was signed by the child domain??
+- Because in a forest trust, the parent domain **implicitly trusts** the PACs issued by child domains and does not enforce PAC signature validation across the trust boundary. So it blindly accepts it
+
+---
+
 
 we are creating a Golden Ticket from the compromised child domain to compromise the parent domain. In this case, we will leverage the SIDHistory to grant an account (or non-existent account) Enterprise Admin rights by modifying this attribute to contain the SID for the Enterprise Admins group, which will give us full access to the parent domain without actually being part of the group.
 
