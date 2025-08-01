@@ -1,3 +1,4 @@
+#ACL
 in this scenario `m.schoolbus` has WriteGPLink over `DOMAIN CONTROLLERS` so we can abuse it to add our self to be `localadmin group` 
 ![[Pasted image 20250717031230.png]]
 Create a new GPO with built in powershell commands

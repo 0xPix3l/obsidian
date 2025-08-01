@@ -88,3 +88,5 @@ certipy will finaly give you:
 1-  A `.ccache` file that contains a TGT for the impersonated user (e.g., Administrator).
 2- The NTLM hash of that user (extracted from the TGT response).
 ***
+
+[[ESC1]]

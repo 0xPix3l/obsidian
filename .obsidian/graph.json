@@ -1,30 +1,44 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
-  "collapse-color-groups": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "",
+      "query": "tag: #Persistence ",
+      "color": {
+        "a": 1,
+        "rgb": 16384000
+      }
+    },
+    {
+      "query": "tag: #Initial_access",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
+    },
+    {
+      "query": "tag:#post_exploitation  ",
+      "color": {
+        "a": 1,
+        "rgb": 14374912
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0.2,
-  "nodeSizeMultiplier": 1.05127272727273,
-  "lineSizeMultiplier": 1.37709090909091,
+  "textFadeMultiplier": -0.1,
+  "nodeSizeMultiplier": 0.786545454545455,
+  "lineSizeMultiplier": 0.949454545454545,
   "collapse-forces": false,
-  "centerStrength": 0.441113172541744,
-  "repelStrength": 7.11243042671614,
-  "linkStrength": 0.636141001855288,
-  "linkDistance": 476,
-  "scale": 0.8681574081705004,
+  "centerStrength": 0.535807050092764,
+  "repelStrength": 0,
+  "linkStrength": 0.863525046382189,
+  "linkDistance": 40,
+  "scale": 0.5995838000493209,
   "close": true
 }
