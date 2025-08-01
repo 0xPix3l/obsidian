@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/NoPac.md",
-                "mode": "preview",
+                "file": "Windows/Active directory/Enumeration/AD Trusts.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "NoPac"
+              "title": "AD Trusts"
             }
           }
         ],
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nopac",
+                "query": "trust",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,8 +200,11 @@
   },
   "active": "4cf58a53ad487029",
   "lastOpenFiles": [
-    "Windows/Active directory/Tools/PetitPotam.md",
+    "Questions??.md",
+    "Windows/Active directory/Enumeration/AD Trusts.md",
+    "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
     "Windows/Active directory/Attacks/NoPac.md",
+    "Windows/Active directory/Tools/PetitPotam.md",
     "Windows/Active directory/Attacks/PrintNightmare.md",
     "Windows/Active directory/Attacks/Unquoted Service Path.md",
     "Windows/Active directory/Attacks/Douple Hop.md",
@@ -215,7 +218,6 @@
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250731004101.png",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250731003757.png",
     "Windows/Evasion/Windows Defender.md",
-    "Questions??.md",
     "Windows/Active directory/Enumeration/RPC.md",
     "observe.md",
     "Windows/Notes.md",
@@ -230,8 +232,6 @@
     "Windows/Active directory/Attacks/ADCS/ESC6.md",
     "Windows/Active directory/Attacks/ADCS/ESC7.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
-    "Windows/Active directory/Attacks/Kerberoasting via AS-REP Roasting.md",
-    "Windows/Active directory/Attacks/ADCS/ESC3.md",
     "Forensics/Steganography/Audio",
     "Forensics/Untitled",
     "Forensics/Steganography/File",
@@ -246,7 +246,6 @@
     "Windows/Active directory/Attacks/ADCS/attachments",
     "Windows/Active directory/Attacks/Lateral Movment",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250717031230.png",
-    "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250711070751.png",
     "Windows/Active directory/Attacks/overview.canvas"
   ]
 }
