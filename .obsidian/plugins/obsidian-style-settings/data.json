@@ -6,10 +6,18 @@
   "catppuccin-font-styles@@ctp-strikethrough": "var(--ctp-red)",
   "catppuccin-interface-styles@@ctp-bold-folder-title": false,
   "catppuccin-heading-settings@@ctp-h3": "var(--ctp-rosewater)",
-  "encore-settings@@theme-dark": "encore-theme-dark-materialocean",
+  "encore-settings@@theme-dark": "encore-theme-dark-carbon",
   "encore-settings@@theme-light": "encore-theme-light",
-  "encore-settings@@encore-mobile-translucency": false,
+  "encore-settings@@encore-mobile-translucency": true,
   "encore-settings@@encore-disable-grain": true,
   "encore-settings@@colors": "encore-colors-colorful",
-  "encore-settings@@encore-translucency-strength": 0.4
+  "encore-settings@@encore-translucency-strength": 0.65,
+  "encore-settings@@encore-translucency-blur-amount": 15,
+  "encore-settings@@encore-translucency-background": "encore-bg-chromatic",
+  "encore-settings@@encore-disable-logo-on-hr": true,
+  "encore-settings@@encore-fancy-headers": true,
+  "encore-settings@@encore-coloured-tooltip": true,
+  "encore-settings@@encore-highlight-border": true,
+  "encore-settings@@encore-translucency": true,
+  "encore-settings@@blur-amount": "encore-blur-off"
 }
