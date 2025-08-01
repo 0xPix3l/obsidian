@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Windows/Active directory/Enumeration/AD Trusts.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Active directory/Delegation/What is delegation.md",
+                "file": "Windows/Active directory/Enumeration/AD Trusts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of What is delegation"
+              "title": "Outline of AD Trusts"
             }
           },
           {
@@ -184,6 +184,7 @@
   },
   "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
+    "Tags",
     "Windows/Active directory/Attacks/ACL/Overview.md",
     "Windows/Active directory/Enumeration/AD Trusts.md",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
