@@ -76,10 +76,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "acf7da542bdd3000",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5de4d0ca01372c8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 255.51103591918945
+    "width": 285.51103591918945
   },
   "right": {
     "id": "54896c55facaf8a4",
@@ -175,18 +191,18 @@
       "hide-folders:Show hidden folders": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
+      "graph:Open graph view": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "8401bbec20ef7b05",
+  "active": "f5de4d0ca01372c8",
   "lastOpenFiles": [
+    "Windows/Active directory/Enumeration/AD Trusts.md",
     "Tags",
     "Windows/Active directory/Attacks/ACL/Overview.md",
-    "Windows/Active directory/Enumeration/AD Trusts.md",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Active directory/Attacks/ADCS/ESC2.md",
     "Windows/Active directory/Attacks/ADCS/ESC1.md",
@@ -230,7 +246,6 @@
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061858.png",
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061318.png",
     "Windows/Active directory/Attacks/ADCS/attachments",
-    "Windows/Active directory/Attacks/Lateral Movment",
     "Windows/Active directory/Attacks/overview.canvas"
   ]
 }
