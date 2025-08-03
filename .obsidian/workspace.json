@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Tools/Copy from linux.md",
+                "file": "Windows/Active directory/Tools/secretdump.py.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Copy from linux"
+              "title": "secretdump.py"
             }
           }
         ]
@@ -200,8 +200,10 @@
   },
   "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
-    "Windows/Active directory/Tools/secretdump.py.md",
+    "Windows/Active directory/Tools/attachments/Pasted image 20250803230407.png",
+    "Windows/Active directory/Tools/attachments",
     "Windows/Active directory/Tools/Copy from linux.md",
+    "Windows/Active directory/Tools/secretdump.py.md",
     "Windows/Active directory/Tools/scp.md",
     "Windows/Active directory/Tools/Copy from windows.md",
     "Questions??.md",
@@ -225,7 +227,6 @@
     "Windows/Active directory/LOTL.md",
     "Linux/PrivEsc/Race Condition.md",
     "Windows/Active directory/Attacks/Skeleton key.md",
-    "Windows/Active directory/Attacks/SMB relay.md",
     "Tags",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
@@ -246,7 +247,6 @@
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061858.png",
     "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061318.png",
-    "Windows/Active directory/Attacks/ADCS/attachments",
     "Windows/Active directory/Attacks/overview.canvas"
   ]
 }
