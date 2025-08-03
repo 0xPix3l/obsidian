@@ -1,3 +1,4 @@
+#lateral_movement 
 ```powershell
 rpcclient -U Administrator%'P@ssw0rd' 10.10.111.10
 rpcclient -U "" 10.211.11.10 -N
