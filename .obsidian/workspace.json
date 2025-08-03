@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "evil",
+                "query": "restore",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,8 +201,10 @@
   },
   "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
-    "Windows/Active directory/Tools/bloodyAD.md",
+    "Windows/Active directory/Tools/smbclientng.md",
     "Windows/Notes.md",
+    "Windows/Active directory/Tools/RunAsCs.md",
+    "Windows/Active directory/Tools/bloodyAD.md",
     "Windows/Active directory/Attacks/ACL/WriteSPN.md",
     "Windows/Active directory/Attacks/Shadow Credentials.md",
     "Windows/Active directory/Attacks/ACL/GenericWrite.md",
@@ -225,8 +227,6 @@
     "Windows/Active directory/Attacks/Golden ticket.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
     "Windows/Active directory/Attacks/Kerberoasting via AS-REP Roasting.md",
-    "Windows/Active directory/creds exfiltration/DPAPI.md",
-    "Windows/Active directory/Attacks/Silver ticket.md",
     "Tags",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
