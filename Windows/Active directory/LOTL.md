@@ -119,3 +119,6 @@ dsquery * "CN=Users,DC=LOL,DC=LOCAL" # Wildcard
 # search domain controllers
 dsquery * -filter "(userAccountControl:1.2.840.113556.1.4.803:=8192)" -limit 5 -attr sAMAccountName
 ```
+> List of flags of LDAP bits can be [here](https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/useraccountcontrol-manipulate-account-properties#list-of-property-flags)
+
+>  search filter syntax are [here](https://learn.microsoft.com/en-us/windows/win32/adsi/search-filter-syntax)

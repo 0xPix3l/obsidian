@@ -35,3 +35,9 @@ ldapsearch -x -H ldap://10.10.111.10 -b "dc=lol,dc=local" "(objectClass=group)" 
 ```shell
 ldapsearch -x -H ldap://10.10.111.10 -b "dc=lol,dc=local" "(objectClass=computer)" name
 ```
+
+
+### Description Field not empty
+```bash
+(&(objectCategory=user)(description=*))
+```
