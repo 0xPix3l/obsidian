@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Enumeration/LDAP.md",
+                "file": "Windows/Notes.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "LDAP"
+              "title": "Notes"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "timeroast",
+                "query": "runascs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,8 +198,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f5de4d0ca01372c8",
+  "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
+    "Windows/Active directory/Tools/RunAsCs.md",
+    "Windows/Active directory/Attacks/timeroasting.md",
+    "Windows/Active directory/Attacks/attachments/Pasted image 20250805183927.png",
     "Windows/Active directory/Enumeration/LDAP.md",
     "Windows/Active directory/LOTL.md",
     "Windows/Active directory/UAC vs ACL.md",
@@ -214,7 +217,6 @@
     "Windows/Active directory/Tools/SSH.md",
     "Windows/Active directory/Tools/smbclientng.md",
     "Windows/Notes.md",
-    "Windows/Active directory/Tools/RunAsCs.md",
     "Windows/Active directory/Tools/bloodyAD.md",
     "Windows/Active directory/Attacks/ACL/WriteSPN.md",
     "Windows/Active directory/Attacks/Shadow Credentials.md",
@@ -226,8 +228,6 @@
     "Windows/Evasion/AppLocker.md",
     "Windows/Active directory/Attacks/ExtraSIDs Attack.md",
     "Windows/Active directory/Attacks/Cross-Forest Kerberoasting.md",
-    "Windows/Active directory/Attacks/Attacks.md",
-    "Windows/Active directory/Enumeration/AD Trusts.md",
     "Tags",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
@@ -246,7 +246,6 @@
     "Windows/Active directory/Attacks/attachments/Pasted image 20250724094841.png",
     "Windows/Active directory/Attacks/ACL/Untitled.canvas",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
-    "Windows/Active directory/Attacks/ADCS/attachments/Pasted image 20250721061858.png",
     "Windows/Active directory/Attacks/overview.canvas"
   ]
 }

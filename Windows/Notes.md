@@ -46,4 +46,9 @@ nc -nlvp 4444
 -dc-ip should be applied whenever using -k , the full fqdn 
 
 > DC host (-dc-host) not specified and Kerberos authentication is used. This might fail
-> 
+
+---
+shell autocomplete:
+```bash
+rlwrap -cAr nc -lvnp 4444
+```
