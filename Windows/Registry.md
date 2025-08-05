@@ -33,6 +33,18 @@ This contains 7 subkeys:
 - Components
 - BCD.dat (for boot)
 
+
+NOTE:
+`HKCR` (short for **HKEY_CLASSES_ROOT**) is a **merged view** of:
+- `HKLM\Software\Classes`  (machine-wide classes) 
+- `HKCU\Software\Classes`  (user-specific overrides)
+
+so for example:
+
+`HKCR\CLSID\{23170F69-40C1-278A-1000-000100020000}\InprocServer32`
+is the same as:
+`HKLM\Software\Classes\CLSID\{23170F69-40C1-278A-1000-000100020000}\InprocServer32`
+
 ---
 ### HKCC (HKEY_CURRENT_CONFIG)
 contain information that are gathered in the runtime, never get stored on the disk
