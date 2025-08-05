@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "803",
+                "query": "timeroast",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,8 +198,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8401bbec20ef7b05",
+  "active": "f5de4d0ca01372c8",
   "lastOpenFiles": [
+    "Windows/Active directory/Enumeration/LDAP.md",
     "Windows/Active directory/LOTL.md",
     "Windows/Active directory/UAC vs ACL.md",
     "Windows/Active directory/Groups.md",
@@ -227,7 +228,6 @@
     "Windows/Active directory/Attacks/Cross-Forest Kerberoasting.md",
     "Windows/Active directory/Attacks/Attacks.md",
     "Windows/Active directory/Enumeration/AD Trusts.md",
-    "Linux/PrivEsc/Race Condition.md",
     "Tags",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
