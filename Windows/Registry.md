@@ -13,4 +13,6 @@ It is a hierarchical database that stores and configures settings and options.
 ### HKLM (HKEY_LOCAL_MACHINE)
 Most critical registry key of all
 This contains 7 subkeys:
-- 
+- SAM
+- Security
+- SYSTEM (for cached credentials)

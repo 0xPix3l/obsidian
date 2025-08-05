@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "secret",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "acf7da542bdd3000",
@@ -200,8 +201,12 @@
   },
   "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/COM hijacking.md",
+    "Windows/Active directory/Attacks/NoPac.md",
+    "Windows/Active directory/creds exfiltration/LSA Secrets Dump.md",
+    "Windows/Active directory/Attacks/DCSync.md",
+    "Windows/Active directory/Tools/secretdump.py.md",
     "Windows/Registry.md",
+    "Windows/Active directory/Attacks/COM hijacking.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250805191805.png",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250805191707.png",
     "Windows/Active directory/Attacks/DLL Hijacking.md",
@@ -213,7 +218,6 @@
     "Windows/Active directory/LOTL.md",
     "Windows/Active directory/UAC vs ACL.md",
     "Windows/Active directory/Groups.md",
-    "Windows/Active directory/Tools/secretdump.py.md",
     "Windows/Active directory/Tools/attachments/Pasted image 20250803230407.png",
     "Windows/Active directory/Tools/attachments",
     "Windows/Active directory/Tools/Copy from linux.md",
@@ -228,9 +232,6 @@
     "Windows/Active directory/Attacks/ACL/GenericWrite.md",
     "Windows/Active directory/Enumeration/RPC.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
-    "Windows/Evasion/bypass AMSI.md",
-    "Windows/Evasion/Windows Defender.md",
-    "Windows/Evasion/AppLocker.md",
     "Tags",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
