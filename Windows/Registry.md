@@ -24,6 +24,7 @@ Confusing part:
 
 ### HKLM (HKEY_LOCAL_MACHINE)
 Most critical registry key of all
+stored in `C:\Windows\system32\config`
 This contains 7 subkeys:
 - SAM
 - Security
