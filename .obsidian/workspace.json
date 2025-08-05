@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Windows/Active directory/Attacks/COM hijacking.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -200,6 +200,8 @@
   },
   "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/attachments/Pasted image 20250805191805.png",
+    "Windows/Active directory/Attacks/attachments/Pasted image 20250805191707.png",
     "Windows/Active directory/Attacks/DLL Hijacking.md",
     "Windows/Active directory/Attacks/COM hijacking.md",
     "Windows/Notes.md",
@@ -228,7 +230,6 @@
     "Windows/Evasion/bypass AMSI.md",
     "Windows/Evasion/Windows Defender.md",
     "Windows/Evasion/AppLocker.md",
-    "Windows/Active directory/Attacks/ExtraSIDs Attack.md",
     "Tags",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
@@ -246,7 +247,6 @@
     "Forensics",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250724094841.png",
     "Windows/Active directory/Attacks/ACL/Untitled.canvas",
-    "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
     "Windows/Active directory/Attacks/overview.canvas"
   ]
 }
