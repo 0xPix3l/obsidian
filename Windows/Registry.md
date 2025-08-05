@@ -45,8 +45,17 @@ so for example:
 is the same as:
 `HKLM\Software\Classes\CLSID\{23170F69-40C1-278A-1000-000100020000}\InprocServer32`
 
----
+
 ### HKCC (HKEY_CURRENT_CONFIG)
 contain information that are gathered in the runtime, never get stored on the disk
 
----
+
+### HKCR (HKEY_CLASSES_ROOT)
+contains info about registered applications
+
+
+### HKCU (HKEY_CURRENT_USER)
+Stores settings that are specific to the current user
+
+### HKU (HKEY_USERS)
+contains subkeys corresponding to HKEY_CURRENT_USER for each profile
