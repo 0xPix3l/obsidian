@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Notes.md",
-                "mode": "preview",
+                "file": "Windows/Active directory/Attacks/COM hijacking.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "COM hijacking"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "runascs",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,6 +200,9 @@
   },
   "active": "8401bbec20ef7b05",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/DLL Hijacking.md",
+    "Windows/Active directory/Attacks/COM hijacking.md",
+    "Windows/Notes.md",
     "Windows/Active directory/Tools/RunAsCs.md",
     "Windows/Active directory/Attacks/timeroasting.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250805183927.png",
@@ -216,7 +219,6 @@
     "Questions??.md",
     "Windows/Active directory/Tools/SSH.md",
     "Windows/Active directory/Tools/smbclientng.md",
-    "Windows/Notes.md",
     "Windows/Active directory/Tools/bloodyAD.md",
     "Windows/Active directory/Attacks/ACL/WriteSPN.md",
     "Windows/Active directory/Attacks/Shadow Credentials.md",
@@ -227,7 +229,6 @@
     "Windows/Evasion/Windows Defender.md",
     "Windows/Evasion/AppLocker.md",
     "Windows/Active directory/Attacks/ExtraSIDs Attack.md",
-    "Windows/Active directory/Attacks/Cross-Forest Kerberoasting.md",
     "Tags",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
