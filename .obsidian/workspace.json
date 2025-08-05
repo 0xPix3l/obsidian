@@ -37,7 +37,8 @@
               "title": "COM hijacking"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,10 +214,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8401bbec20ef7b05",
+  "active": "980034519c2a22c3",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/COM hijacking.md",
     "Windows/Registry.md",
+    "Windows/Active directory/Attacks/COM hijacking.md",
     "Windows/Active directory/Attacks/NoPac.md",
     "Windows/Active directory/creds exfiltration/LSA Secrets Dump.md",
     "Windows/Active directory/Attacks/DCSync.md",

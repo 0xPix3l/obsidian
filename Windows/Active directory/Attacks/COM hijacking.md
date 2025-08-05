@@ -1,3 +1,4 @@
+
 If we have enough privileges we can COM hijack DLLs
 ```powershell
 reg query HKEY_CLASSES_ROOT\CLSID /f "7-zip" /s
@@ -23,8 +24,6 @@ IdentityReference : RUSTYKEY\Support
 IsInherited       : True
 InheritanceFlags  : ContainerInherit
 PropagationFlags  : None
-
-
-
-
 ```
+
+[ref](https://specterops.io/blog/2025/05/28/revisiting-com-hijacking/)
