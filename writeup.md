@@ -9,3 +9,9 @@ getting access denied (4)
 back to login we see reset password function and putting our target again (5)
 
 back to stealing emails (6)
+
+logged into the dashboard (7)
+
+more usernames (8)
+
+
