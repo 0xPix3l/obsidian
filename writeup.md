@@ -16,3 +16,6 @@ more usernames (8)
 
 
 tried `'` just out of curiosity if there is a SQL injection and KABOOM into my face (9) 
+
+
+Tried this `''; SELECT username, password FROM "Admins";` got (10)
