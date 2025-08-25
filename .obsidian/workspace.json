@@ -227,6 +227,8 @@
   },
   "active": "1125d5ffc7b925d1",
   "lastOpenFiles": [
+    "Linux/attachments/Pasted image 20250826024416.png",
+    "Linux/attachments",
     "Linux/Ligolo.md",
     "Windows/Active directory/Attacks/COM hijacking.md",
     "Windows/Active directory/tunneling/Chisel.md",
@@ -258,7 +260,6 @@
     "Windows/Active directory/Tools/Copy from windows.md",
     "Questions??.md",
     "Windows/Active directory/Tools/SSH.md",
-    "Windows/Active directory/Tools/smbclientng.md",
     "Tags",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
@@ -272,7 +273,6 @@
     "Forensics/Untitled",
     "Forensics/Steganography/File",
     "Forensics/Steganography/Photo",
-    "Forensics/Steganography",
     "Windows/Active directory/Attacks/ACL/Untitled.canvas",
     "Windows/Active directory/Attacks/overview.canvas"
   ]
