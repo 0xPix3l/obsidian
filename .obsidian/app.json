@@ -3,5 +3,6 @@
   "livePreview": true,
   "showUnsupportedFiles": false,
   "useMarkdownLinks": false,
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "readableLineLength": true
 }
