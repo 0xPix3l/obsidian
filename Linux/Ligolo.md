@@ -4,7 +4,7 @@ sudo ip tuntap add user root mode tun ligolo
 
 sudo ip link set ligolo up
 
-sudo ~/tools/ligolo/proxy -selfcert
+	sudo ~/tools/ligolo/proxy -selfcert
 ```
 
 on the victim:
