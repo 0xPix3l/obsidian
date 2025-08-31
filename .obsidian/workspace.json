@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Windows/Active directory/Delegation/What is delegation.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -203,10 +203,12 @@
   },
   "active": "39998905a6eed96c",
   "lastOpenFiles": [
-    "Windows/Active directory/Delegation/attachments/Pasted image 20250901011802.png",
-    "Windows/Active directory/Delegation/attachments/Pasted image 20250901011706.png",
+    "Windows/Active directory/Delegation/attachments/Pasted image 20250901013614.png",
+    "Windows/Active directory/Delegation/attachments/Pasted image 20250901013206.png",
     "Windows/Active directory/Delegation/Unconstrained Delegation.md",
     "Windows/Active directory/Delegation/What is delegation.md",
+    "Windows/Active directory/Delegation/attachments/Pasted image 20250901011802.png",
+    "Windows/Active directory/Delegation/attachments/Pasted image 20250901011706.png",
     "Windows/Active directory/Attacks/Attacks.md",
     "Windows/Active directory/Attacks/COM hijacking.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
@@ -241,8 +243,6 @@
     "Tags",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Active directory/Enumeration/attachments/Pasted image 20250801034105.png",
-    "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250731010059.png",
-    "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250731004101.png",
     "Windows/Evasion/Windows Defender",
     "Windows/Evasion",
     "Forensics/Steganography/Audio",
