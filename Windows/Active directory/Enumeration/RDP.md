@@ -19,7 +19,7 @@ xfreerdp /u:<username> /p:<password> /v:<host> +clipboard
 
 command for low latency:
 ```bash
-xfreerdp /u:Helen /p:'RedRiot88' /d:inlanefreight.local /v:10.129.229.244 /dynamic-resolution /drive:.,linux /bpp:8 /compression -themes -wallpaper /clipboard /audio-mode:0 /auto-reconnect -glyph-cache
+xfreerdp /u:Helen /p:'RedRiot88' /d:inlanefreight.local /v:10.129.229.244 /dynamic-resolution /drive:.,linux /bpp:8 /compression -themes -wallpaper /clipboard /audio-mode:0 /auto-reconnect
 ```
 /bpp:8 : Reduces the color depth to 8 bits per pixel, decreasing the amount of data
 transmitted.
