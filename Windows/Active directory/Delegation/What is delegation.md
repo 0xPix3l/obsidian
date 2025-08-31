@@ -41,4 +41,23 @@ We can add with the following command and the attribute will be updated
 
 ### `S4U2Proxy` & `S4U2Self`
 `S4U2Proxy` ( Service for User to Proxy) and `S4U2Self` ( Service for User to Self) . they are two Active Directory extensions that allow delegation.
+#### `S4U2Self`
+Allows a service to get a service ticket to itself on behalf of a user without the user entering credentials. This is mainly used in Kerberos constrained delegation scenarios.
+
+How it works:
+- A service (e.g., web01) receives a request from a user (alice).
+- The service asks the KDC via S4U2Self: “Give me a TGS ticket for alice to myself (web01)?”
+- The KDC issues a TGS ticket for the user to the service.
+- The ticket is encrypted with the service’s key, so only the service can decrypt it.
+- The service now knows the user’s identity in Kerberos terms without having the user’s password.
+
+Use case:
+- Web services that need to act on behalf of a user but don’t have their password.
+- Often the first step in constrained delegation.
+
 #### `S4U2Proxy`
+Allows a service to **act on behalf of a user to a different service** (the “backend” service). This is the actual delegation step, but it only works if the **service is allowed to delegate to the target service** (controlled by AD **delegation settings**).
+
+---
+
+
