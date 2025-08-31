@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Enumeration/RDP.md",
+                "file": "Windows/Active directory/Attacks/Cross-Forest Kerberoasting.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "RDP"
+              "title": "Cross-Forest Kerberoasting"
             }
           }
         ],
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xfre",
+                "query": "kerberoast",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -220,6 +220,7 @@
   },
   "active": "39998905a6eed96c",
   "lastOpenFiles": [
+    "Windows/Active directory/Enumeration/RDP.md",
     "Windows/Active directory/Attacks/ExtraSIDs Attack.md",
     "Windows/Active directory/Attacks/Douple Hop.md",
     "FPing Active Hosts.md",
@@ -245,7 +246,6 @@
     "Windows/Notes.md",
     "Windows/Active directory/Tools/bloodyAD.md",
     "Windows/Active directory/Tools/Enumerating services.md",
-    "Windows/Active directory/Attacks/Unquoted Service Path.md",
     "Linux/attachments/Pasted image 20250826024416.png",
     "Linux/attachments",
     "Windows/Active directory/tunneling",
