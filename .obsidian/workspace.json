@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Delegation/Unconstrained Delegation.md",
-                "mode": "preview",
+                "file": "Windows/Active directory/Delegation/Constrained delegation.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Unconstrained Delegation"
+              "title": "Constrained delegation"
             }
           }
         ],
@@ -219,12 +219,13 @@
   },
   "active": "93f0d848c7b8e7b0",
   "lastOpenFiles": [
+    "Windows/Active directory/Delegation/attachments/Pasted image 20250901064938.png",
+    "Windows/Active directory/Delegation/Unconstrained Delegation.md",
+    "Windows/Active directory/Delegation/explaination/connecting pices.md",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250901043111.png",
     "Windows/Active directory/Delegation/Constrained delegation.md",
     "Windows/Active directory/Delegation/explaination",
     "Windows/Active directory/Tools/Rubeus.md",
-    "Windows/Active directory/Delegation/explaination/connecting pices.md",
-    "Windows/Active directory/Delegation/Unconstrained Delegation.md",
     "Windows/Active directory/Delegation/Unconstrained delegation.md",
     "Windows/Active directory/Delegation/explaination/What is delegation.md",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250901013614.png",
@@ -259,7 +260,6 @@
     "Windows/Active directory/Tools/attachments/Pasted image 20250803230407.png",
     "Windows/Active directory/Tools/attachments",
     "Tags",
-    "Windows/Active directory/Enumeration/attachments/Pasted image 20250801040333.png",
     "Windows/Evasion/Windows Defender",
     "Windows/Evasion",
     "Forensics/Steganography/Audio",
