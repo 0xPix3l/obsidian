@@ -52,3 +52,12 @@ shell autocomplete:
 ```bash
 rlwrap -cAr nc -lvnp 4444
 ```
+
+---
+### Ticktes for SPNs and its uses
+
+| SPN                   | Protocol / Service                                                | Common tool / usage                                                                           |
+| --------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `HTTP/dc01.lol.local` | HTTP service (IIS, WinRM over HTTPS)                              | WinRM, PowerShell Remoting (`Enter-PSSession`)                                                |
+| `HOST/dc01.lol.local` | Generic host service (all host services, for Kerberos delegation) | Used in delegation scenarios; also picked up by S4U2Proxy or generic Kerberos tools (`winrs`) |
+| `CIFS/dc01.lol.local` | SMB / file shares                                                 | PsExec, SMB-based lateral movement, `net use \\dc01\C$`                                       |
