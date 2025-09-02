@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Tools/Adalanche.md",
+                "file": "Windows/Active directory/Attacks/Logonscript.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Adalanche"
+              "title": "Logonscript"
             }
           },
           {
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "evil-wi",
+                "query": "script",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -91,7 +91,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "acf7da542bdd3000",
@@ -218,8 +219,8 @@
   },
   "active": "93f0d848c7b8e7b0",
   "lastOpenFiles": [
-    "Windows/Active directory/Tools/pywerview.md",
     "Windows/Active directory/Tools/Adalanche.md",
+    "Windows/Active directory/Tools/pywerview.md",
     "Windows/Active directory/Tools/Untitled",
     "Windows/Active directory/Attacks/Logonscript.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250902204013.png",
