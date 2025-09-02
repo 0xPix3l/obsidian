@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/Shadow Credentials.md",
-                "mode": "preview",
+                "file": "Windows/Active directory/Attacks/Logonscript.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Shadow Credentials"
+              "title": "Logonscript"
             }
           }
         ]
@@ -76,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "acf7da542bdd3000",
@@ -204,10 +203,11 @@
   },
   "active": "93f0d848c7b8e7b0",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/Shadow Credentials.md",
+    "Windows/Active directory/Attacks/Logonscript.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250902192859.png",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250902192857.png",
     "Windows/Active directory/Attacks/COM hijacking.md",
-    "Windows/Active directory/Attacks/Shadow Credentials.md",
     "Windows/Notes.md",
     "Windows/Active directory/Attacks/ADCS/AD CS.md",
     "Windows/Active directory/Attacks/ADCS/ESC2.md",
@@ -242,7 +242,6 @@
     "Linux/attachments/Pasted image 20250826024416.png",
     "Linux/attachments",
     "Windows/Active directory/tunneling",
-    "Windows/Active directory/Attacks/attachments/Pasted image 20250805191805.png",
     "Windows/Active directory/Tools/attachments",
     "Tags",
     "Windows/Evasion/Windows Defender",
