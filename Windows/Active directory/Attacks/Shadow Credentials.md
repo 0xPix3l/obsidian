@@ -17,6 +17,7 @@ Using PKINIT, they authenticate as that user (even a Domain Admin) **without kno
 1. User requests a TGT with their certificate (AS-REQ with PA-PK-AS-REQ). (AFTER INJECTING THE `msDS-KeyCredentialLink` )
 2. KDC Looks at the target account’s `msDS-KeyCredentialLink` and finds the public key you injected and uses it to **verify your signature** (not decrypt anything with a password key).
 3. If valid, DC issues a TGT **without needing the password**. (proof you own the private key)
+![[Pasted image 20250902192859.png]]
 ---
 # Exploitation
 
