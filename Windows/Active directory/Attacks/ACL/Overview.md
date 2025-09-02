@@ -12,7 +12,7 @@ Every object has an `ACL`, but can have multiple `ACEs` because multiple securit
 
 
 There are two types of ACLs:
-1. Discretionary Access Control List ( `DACL` ): defines which security principals are granted or denied access to an object. `DACLs` are made up of `ACEs` that either allow or deny access. **If a DACL does not exist for an object, all who attempt to access the object are granted full rights. If a DACL exists, but does not have any ACE entries specifying specific security settings, the system will deny access to all users, groups, or processes attempting to access it.**
+1. Discretionary Access Control List ( `DACL` ): **(WHO HAS WHAT ACCESS)** defines which security principals are granted or denied access to an object. `DACLs` are made up of `ACEs` that either allow or deny access. **If a DACL does not exist for an object, all who attempt to access the object are granted full rights. If a DACL exists, but does not have any ACE entries specifying specific security settings, the system will deny access to all users, groups, or processes attempting to access it.**
 2. System Access Control Lists ( `SACL` ) - allow administrators to log access attempts
 made to secured objects. --auditing tab--
 
