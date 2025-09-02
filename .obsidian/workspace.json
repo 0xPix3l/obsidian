@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/Logonscript.md",
+                "file": "Windows/SPN jacking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Logonscript"
+              "title": "SPN jacking"
             }
           },
           {
@@ -91,8 +91,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "acf7da542bdd3000",
@@ -219,10 +218,13 @@
   },
   "active": "93f0d848c7b8e7b0",
   "lastOpenFiles": [
+    "Windows/attachments/Pasted image 20250903015913.png",
+    "Windows/attachments",
+    "Windows/Active directory/Attacks/Logonscript.md",
+    "Windows/SPN jacking.md",
     "Windows/Active directory/Tools/Adalanche.md",
     "Windows/Active directory/Tools/pywerview.md",
     "Windows/Active directory/Tools/Untitled",
-    "Windows/Active directory/Attacks/Logonscript.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250902204013.png",
     "Ideas for CTF.md",
     "Windows/Active directory/Attacks/Shadow Credentials.md",
@@ -255,8 +257,6 @@
     "Windows/Active directory/Enumeration/ADmodule/GPO & OU & ACL.md",
     "Windows/Active directory/Enumeration/ADmodule/Powershell.md",
     "Windows/Active directory/Tools/mimikatz.md",
-    "Windows/PSSession.md",
-    "Linux/Ligolo.md",
     "Linux/attachments",
     "Windows/Active directory/tunneling",
     "Windows/Active directory/Tools/attachments",
@@ -264,7 +264,6 @@
     "Windows/Evasion/Windows Defender",
     "Windows/Evasion",
     "Forensics/Steganography/Audio",
-    "Forensics/Untitled",
     "Windows/Active directory/Attacks/ACL/Untitled.canvas",
     "Windows/Active directory/Attacks/overview.canvas"
   ]
