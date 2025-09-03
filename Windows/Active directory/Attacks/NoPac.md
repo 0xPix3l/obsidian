@@ -1,4 +1,5 @@
 #lateral_movement 
+attack flow: https://www.secureworks.com/blog/nopac-a-tale-of-two-vulnerabilities-that-could-end-in-ransomware
 all is here: https://www.thehacker.recipes/ad/movement/kerberos/samaccountname-spoofing
 
 and https://github.com/Ridter/noPac
