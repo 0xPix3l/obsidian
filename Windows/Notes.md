@@ -61,3 +61,26 @@ rlwrap -cAr nc -lvnp 4444
 | `HTTP/dc01.lol.local` | HTTP service (IIS, WinRM over HTTPS)                              | WinRM, PowerShell Remoting (`Enter-PSSession`)                                                |
 | `HOST/dc01.lol.local` | Generic host service (all host services, for Kerberos delegation) | Used in delegation scenarios; also picked up by S4U2Proxy or generic Kerberos tools (`winrs`) |
 | `CIFS/dc01.lol.local` | SMB / file shares                                                 | PsExec, SMB-based lateral movement, `net use \\dc01\C$`                                       |
+
+---
+
+cool way to get info out of `CHALLENGE_MESSAGE` in `smb` challenge-response:
+```bash
+└─$ impacket-DumpNTLMInfo 10.10.111.10
+Impacket v0.13.0.dev0 - Copyright Fortra, LLC and its affiliated companies
+
+[*] Defaulting to SMB protocol.
+[*] Using target: 10.10.111.10, IP: 10.10.111.10, Port: 445, Protocol: SMB
+[+] SMBv1 Enabled   : False
+[+] Prefered Dialect: SMB 3.0
+[+] Server Security : SIGNING_ENABLED | SIGNING_REQUIRED
+[+] Max Read Size   : 8.0 MB (8388608 bytes)
+[+] Max Write Size  : 8.0 MB (8388608 bytes)
+[+] Current Time    : 2025-09-03 20:34:55.075979+00:00
+[+] Name            : DC01
+[+] Domain          : LOL
+[+] DNS Tree Name   : lol.local
+[+] DNS Domain Name : lol.local
+[+] DNS Host Name   : DC01.lol.local
+[+] OS              : 
+```
