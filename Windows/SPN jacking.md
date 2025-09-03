@@ -13,6 +13,11 @@ SPN Jacking allowing us to access more that `SQL\DBSRV`. We can access `CIFS\FIL
 ### Scenario
 
 ![[Pasted image 20250903043051.png]]
-In a case like this we have `NotAdmin` is admin to `ServerA` and have `WriteSPN` on `ServerC (the target)` so what we can do is we can remove `SQL/DeletedAccount` (the ghost SPN) from `ServerA` and configuring it into the target machine.  For example, if we want to compromise `FILESRV` and we have `WriteSPN` or similar rights, we can add the SPN `SQL/DBSRV` to `FILESRV` . After that, if we request a TGS for `SQL/DBSRV` , it will be encrypted for `FILESRV` , allowing us to impersonate any user into the target machine
+The first scenario is the simplest one. ServerA is configured for Constrained Delegation to a SPN previously associated with a computer or service account that no longer exists. It could be a standard SPN, such as `cifs/hostname`, associated with a deleted computer/service account or a renamed computed account or the account itself could no longer exist.
 
+In this scenario, the attacker can add the affected SPN to `ServerC` and then run the full S4U attack using `ServerA`’s account to obtain a service ticket for a privileged user to `ServerC`.
 
+The service name of that ticket would not be valid for accessing `ServerC` because the hostname wouldn’t match. However, the important thing is that the ticket is encrypted for `ServiceC`, and the service name is not in the encrypted part of the ticket, so the attacker can change it to a valid one.
+
+the attack works like this:
+![[Pasted image 20250903045521.png]]

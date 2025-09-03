@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Windows/SPN jacking.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -112,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.01103591918945
+    "width": 276.51103591918945
   },
   "right": {
     "id": "54896c55facaf8a4",
@@ -218,6 +218,7 @@
   },
   "active": "93f0d848c7b8e7b0",
   "lastOpenFiles": [
+    "Windows/attachments/Pasted image 20250903045521.png",
     "Windows/attachments/Pasted image 20250903043051.png",
     "Windows/attachments/Pasted image 20250903021754.png",
     "Windows/attachments/Pasted image 20250903015913.png",
@@ -251,7 +252,6 @@
     "Windows/Active directory/Delegation/Unconstrained delegation.md",
     "Windows/Active directory/Delegation/explaination/What is delegation.md",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250901013614.png",
-    "Windows/Active directory/Delegation/attachments/Pasted image 20250901013206.png",
     "Windows/Active directory/Attacks/Attacks.md",
     "Windows/Active directory/Attacks/AS-REP Roasting.md",
     "Windows/Active directory/Enumeration/ADmodule/GPO & OU & ACL.md",
