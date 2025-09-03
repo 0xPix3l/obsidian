@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Windows/SPN jacking.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -218,6 +218,8 @@
   },
   "active": "93f0d848c7b8e7b0",
   "lastOpenFiles": [
+    "Windows/attachments/Pasted image 20250903052412.png",
+    "Windows/attachments/Pasted image 20250903052325.png",
     "Windows/attachments/Pasted image 20250903050620.png",
     "Windows/attachments/Pasted image 20250903045521.png",
     "Windows/attachments/Pasted image 20250903043051.png",
@@ -245,9 +247,7 @@
     "Linux/Notes.md",
     "Windows/Active directory/Delegation/Constrained delegation.md",
     "Windows/Active directory/Delegation/attachments/Pasted image 20250901070714.png",
-    "Windows/Active directory/Delegation/attachments/Pasted image 20250901064938.png",
     "Windows/Active directory/Delegation/explaination/connecting pices.md",
-    "Windows/Active directory/Delegation/attachments/Pasted image 20250901043111.png",
     "Windows/Active directory/Delegation/explaination",
     "Windows/Active directory/Tools/Rubeus.md",
     "Windows/Active directory/Delegation/Unconstrained delegation.md",

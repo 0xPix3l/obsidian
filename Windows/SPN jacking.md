@@ -32,3 +32,9 @@ the whole attack is like this:
 ---
 
 ## #### Live SPN-jacking
+![[Pasted image 20250903052325.png]]
+
+The attacker can circumvent that barrier by temporarily removing the target SPN from `ServerB` and only then adding it to `ServerC`. The attacker can then run the full S4U attack using `ServerA`’s account to obtain a service ticket for a privileged user to `ServerC`.
+
+![[Pasted image 20250903052412.png]]
+> ‼️BUT I CAN ONLY RESTORE THE SPNs AFTER GETTING THE TICKET!!!!
