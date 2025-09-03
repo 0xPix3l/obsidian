@@ -10,6 +10,9 @@ This is normal Constrained delegation:
 SPN Jacking allowing us to access more that `SQL\DBSRV`. We can access `CIFS\FILESRV` or `HOST\EXCHSRV`.
 
 ---
+## Ghost SPN-jacking
+
+
 ### Scenario
 
 ![[Pasted image 20250903043051.png]]
@@ -21,3 +24,11 @@ The service name of that ticket would not be valid for accessing `ServerC` becau
 
 the attack works like this:
 ![[Pasted image 20250903045521.png]]
+
+the whole attack is like this:
+![[Pasted image 20250903050620.png]]
+
+
+---
+
+## #### Live SPN-jacking
