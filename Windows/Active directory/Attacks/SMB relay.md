@@ -20,7 +20,7 @@ How does it work?
 ```bash
 # in this scenario we are relaying form DC01$ to WS01$ that has smb sigining disable.
 
-sudo ntlmrelayx.py -t 10.10.111.12  -smb2support 2>/dev/null
+sudo ntlmrelayx.py -t 10.10.111.11  -smb2support 2>/dev/null
 
 -t -> target to be relayed to. # WS01 in this case
 ```
@@ -36,5 +36,4 @@ then we need to wait for someone to access a share that is not valid or trigger 
 - `\\fafa`  in explorer
 - `START \\asda` in cmd
 
-> [!NOTE] NOTE!
-> *the output hashes from `ntmlrelayx` are **NTLM challenge-response** hashes that are not suitable for relaying, it only meant to be cracked.*
+
