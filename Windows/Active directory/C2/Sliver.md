@@ -14,3 +14,9 @@ setting up a listener:
 ```bash
 mtls
 ```
+
+to use the beacon:
+```bash
+use <ID OF THE BEACON>
+
+```
