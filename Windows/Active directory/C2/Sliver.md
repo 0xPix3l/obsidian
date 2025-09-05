@@ -12,7 +12,7 @@ profiles generate mtls
 
 setting up a listener:
 ```bash
-mtls
+mtls -L 192.168.56.1 -l 4444
 ```
 
 to use the beacon:
