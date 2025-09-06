@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/C2/Sliver.md",
+                "file": "Questions??.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sliver"
+              "title": "Questions??"
             }
           }
         ],
@@ -219,9 +219,16 @@
   },
   "active": "9368926355990bc7",
   "lastOpenFiles": [
-    "Windows/Notes.md",
+    "Mermid looks cool.md",
+    "Ideas for CTF.md",
+    "FPing Active Hosts.md",
     "Windows/Active directory/C2/Sliver.md",
+    "DarkCorp Writeup.md",
     "Windows/Evasion/Windows Defender.md",
+    "Windows/Evasion/bypass AMSI.md",
+    "Windows/Evasion/AppLocker.md",
+    "Windows/Active directory/UAC vs ACL.md",
+    "Windows/Notes.md",
     "Windows/Active directory/Attacks/ExtraSIDs Attack.md",
     "Windows/Active directory/C2",
     "Windows/Active directory/Untitled.md",
@@ -244,7 +251,6 @@
     "Windows/Active directory/Tools/pywerview.md",
     "Windows/Active directory/Tools/Untitled",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250902204013.png",
-    "Ideas for CTF.md",
     "Windows/Active directory/Attacks/Shadow Credentials.md",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250902192859.png",
     "Windows/Active directory/Attacks/attachments/Pasted image 20250902192857.png",
@@ -252,13 +258,7 @@
     "Windows/Active directory/Attacks/ADCS/AD CS.md",
     "Windows/Active directory/Attacks/ADCS/ESC2.md",
     "Windows/Active directory/Attacks/ADCS/ESC9.md",
-    "Windows/Active directory/Delegation/Unconstrained Delegation.md",
-    "Windows/Active directory/Attacks/ACL/Overview.md",
-    "Windows/Active directory/Enumeration/PowerView/ACL.md",
-    "Windows/Active directory/Delegation/Constrained delegation.md",
-    "Windows/Active directory/Delegation/explaination/connecting pices.md",
     "Windows/Active directory/Delegation/explaination",
-    "Windows/Active directory/Tools/Rubeus.md",
     "Linux/attachments",
     "Windows/Active directory/tunneling",
     "Windows/Active directory/Tools/attachments",
