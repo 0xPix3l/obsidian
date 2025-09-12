@@ -8,3 +8,6 @@ So how to detect if actually timeroasting attack will success?
 - `servicePrincipalName` attributes for computers (we did this using LDAPsearch)
 - requested TGS (like normal kerberoasting attack but for computers)
 - cracked it offline using `hashcat` module `31300`
+
+
+This process is designed to prevent a client from synchronizing with a malicious time server (by responding with a Message Authentication Code (MAC) in the NTP packet. This MAC is a cryptographic digest derived from the password hash of the computer account that sent the request.)
