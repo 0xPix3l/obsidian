@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/VLAN hopping.md",
+                "file": "Network/MAC Flooding.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "VLAN hopping"
+              "title": "MAC Flooding"
             }
           }
         ],
@@ -250,6 +250,7 @@
   "active": "dc0e529153cc4f97",
   "lastOpenFiles": [
     "Network/VLAN hopping.md",
+    "Network/MAC Flooding.md",
     "Network",
     "Windows/Active directory/Attacks/timeroasting.md",
     "Windows/Active directory/Attacks/ACL/Overview.md",
@@ -276,7 +277,6 @@
     "Windows/Active directory/Attacks/NoPac.md",
     "Windows/Active directory/Attacks/LLMNR & NBT-NS Posioning.md",
     "Windows/Active directory/Attacks/Kerberoasting via AS-REP Roasting.md",
-    "Windows/Active directory/Attacks/Golden ticket.md",
     "Windows/Active directory/C2",
     "Windows/attachments/Pasted image 20250903052412.png",
     "Windows/attachments/Pasted image 20250903052325.png",
