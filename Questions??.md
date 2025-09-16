@@ -13,7 +13,6 @@ the rest of CAPE
 windows videos
 sec542
 mahratech wifi
-maharatech network 
 
 1st module in ppt
 
