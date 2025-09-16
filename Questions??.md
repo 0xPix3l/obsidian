@@ -4,11 +4,20 @@ trusts?
 azure?
 Certificates?
 
+---
 
+## to do now
 
-
-sec560
-sec542
-mahratech wifi
+the rest of CAPE
 
 windows videos
+sec542
+mahratech wifi
+maharatech network 
+
+1st module in ppt
+
+
+---
+## to do later
+sec560
