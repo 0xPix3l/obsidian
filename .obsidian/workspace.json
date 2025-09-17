@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions??.md",
+                "file": "Windows/Active directory/Enumeration/MSSQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Questions??"
+              "title": "MSSQL"
             }
           },
           {
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "diam",
+                "query": "MSSQL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -91,7 +91,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "acf7da542bdd3000",
@@ -218,8 +219,9 @@
   },
   "active": "dc0e529153cc4f97",
   "lastOpenFiles": [
-    "Studying now.md",
     "Questions??.md",
+    "Windows/Active directory/Enumeration/Untitled.md",
+    "Studying now.md",
     "Windows/SPN jacking.md",
     "Windows/OneLiner.md",
     "Network/MAC Flooding.md",
@@ -245,7 +247,6 @@
     "Windows/Active directory/Attacks/Silver ticket.md",
     "Windows/Active directory/Attacks/Shadow Credentials.md",
     "Windows/Active directory/Attacks/PrintNightmare.md",
-    "Windows/Active directory/Attacks/NTLM relay.md",
     "Windows/Active directory/C2",
     "Windows/attachments/Pasted image 20250903052412.png",
     "Windows/attachments/Pasted image 20250903052325.png",
