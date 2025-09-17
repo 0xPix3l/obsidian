@@ -59,3 +59,20 @@ with responder to capture NTLM hash.
 ---
 
 ## Command Execution
+we can do this:
+By using the built-in `xp_cmdshell` extended stored procedure.
+By creating a malicious MSSQL Server Agent Job.
+By creating and executing an OLE Automation stored procedure.
+
+> An extended stored procedure (ESP) is a SQL Server function implemented as a C/C++ dynamic-link library (DLL) that extends SQL Server's inherent capabilities by executing external code from within the SQL Server address space.
+
+Two of the following techniques require advanced server configuration options to be enabled, which are disabled by default. To set an MSSQL Server configuration option, we use the `sp_configure` stored procedure. By default, advanced options are hidden, but a login with the sysadmin role may show them with the following T-SQL query. Note the RECONFIGURE statement, which actually updates the server configuration.
+```powershell
+EXEC sp_configure 'show advanced options', 1;
+RECONFIGURE;
+```
+
+Once enabled, we can use `xp_cmdshell` like any other stored procedure, and the output of the command will be returned to us in a table where each row is a new line.
+```powershell
+EXEC xp_cmdshell 'ipconfig';
+```
