@@ -27,3 +27,13 @@ SELECT name FROM sys.server_permissions JOIN sys.server_principals ON grantor_pr
 # after that we can impersonate by:
 EXECUTE AS LOGIN = 'sa';
 ```
+
+
+### UNC Path Injection
+technique we will discuss is one which allows us to capture the NetNTLMv2 hash of whichever user the MSSQL Server service is running as. By default, the service runs as NT SERVICE\mssqlserver , but many database admins modify the service to run as a domain user so that it may interact with other servers, services, and resources in the domain.
+
+In order to capture said hash, we need to make use of certain undocumented extended stored procedures . There are a number of these ( a, b, c) in MSSQL Server including: As an example, we can use xp_fileexist to check if the hosts file exists with the following T-SQL query:
+
+xp_fileexist : Checks whether a certain file exists
+xp_dirtree : Returns a directory tree based on a provided directory
+xp_subdirs : Returns a list of sub-directories of a provided director
