@@ -37,8 +37,7 @@
               "title": "Studying now"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,11 +216,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "43acf6ab072f1011",
+  "active": "dc0e529153cc4f97",
   "lastOpenFiles": [
+    "Studying now.md",
     "Questions??.md",
     "Windows/SPN jacking.md",
-    "Studying now.md",
     "Windows/OneLiner.md",
     "Network/MAC Flooding.md",
     "Network/VLAN hopping.md",
