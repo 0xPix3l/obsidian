@@ -1,2 +1,2 @@
-- xor
+- xor -> only static bypass
 - aes encryption
