@@ -8,13 +8,18 @@ Certificates?
 
 ## to do now
 
-the rest of CAPE
-pwncolleage
+t~~he rest of CAPE~~
+JS
 windows videos
-sec542
 mahratech wifi
 
-1st module in ppt
+
+pwncolleage
+
+sec542
+
+
+1st module in ppt (for shellcode)
 
 
 ---
