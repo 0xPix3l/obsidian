@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Windows/Active directory/Attacks/Potatoes/What is it.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -204,7 +204,6 @@
   "active": "3f683ba13b19ea33",
   "lastOpenFiles": [
     "Windows/Active directory/Attacks/Potatoes/SeImpersonatePrivilege.md",
-    "Windows/Active directory/Attacks/Potatoes/What is it.md",
     "Windows/Active directory/Attacks/Potatoes/What is it.md",
     "Windows/Evasion/AppLocker.md",
     "Windows/Evasion/bypass AMSI.md",
