@@ -37,3 +37,5 @@ Then, the first thing that you have to do is to **find a valid transformation**,
 
 > Think of it (valid transformation) as a **secret handshake** with very specific rules. For two people to successfully complete the handshake, they must both agree on every single step in the same order. If one person expects a fist bump and the other offers a high-five, the handshake fails.
 
+the last line is important, return to the blog to understand it but here we have `1 returned handshake; 0 returned notify` so we already found the right transformation.
+
