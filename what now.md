@@ -3,16 +3,16 @@
 ## to do now
 
 t~~he rest of CAPE~~
-JS
 windows videos
+JS
 mahratech wifi
+read from this, https://angelica.gitbook.io/hacktricks
+
 
 
 pwncolleage
 
 sec542
-
-
 1st module in ppt (for shellcode)
 
 
