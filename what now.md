@@ -1,10 +1,4 @@
 
-delegations?
-trusts?
-azure?
-Certificates?
-
----
 
 ## to do now
 

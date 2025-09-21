@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/Template Literals.md",
+                "file": "what now.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Template Literals"
+              "title": "what now"
             }
           }
         ],
@@ -219,12 +219,19 @@
   },
   "active": "63af688816b9cae5",
   "lastOpenFiles": [
-    "JS/prompt().md",
-    "JS/Template Literals.md",
-    "Questions??.md",
-    "JS",
-    "Studying now.md",
+    "Linux/Tips.md",
+    "Linux/IKE (IPsec)/IKE (port 500).md",
     "Windows/Active directory/Attacks/Potatoes/SeImpersonatePrivilege.md",
+    "Studying now.md",
+    "Linux/IKE (IPsec)/Enumeration.md",
+    "Linux/IKE (IPsec)",
+    "Linux/ssh tunnelling.md",
+    "Linux/scp linux.md",
+    "Linux/rtsp.md",
+    "JS/Template Literals.md",
+    "JS/prompt().md",
+    "what now.md",
+    "JS",
     "Windows/Active directory/Attacks/Potatoes/What is it.md",
     "Windows/Evasion/AppLocker.md",
     "Windows/Evasion/bypass AMSI.md",
@@ -243,12 +250,6 @@
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
     "Windows/Active directory/Attacks/ACL/GenericWrite.md",
     "Windows/Active directory/Attacks/Kerberoasting.md",
-    "Windows/Active directory/Attacks/Logonscript.md",
-    "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
-    "Windows/Active directory/Delegation/Constrained delegation.md",
-    "Windows/Active directory/Attacks/ADCS/ESC1.md",
-    "Windows/Active directory/Attacks/ADCS/AD CS.md",
-    "Windows/Notes.md",
     "Windows/Active directory/C2",
     "Windows/attachments/Pasted image 20250903052412.png",
     "Windows/attachments/Pasted image 20250903052325.png",
@@ -264,7 +265,6 @@
     "Windows/Active directory/Delegation/explaination",
     "Linux/attachments",
     "Windows/Active directory/tunneling",
-    "Windows/Active directory/Tools/attachments",
     "Windows/Active directory/Attacks/ACL/Untitled.canvas",
     "Windows/Active directory/Attacks/overview.canvas"
   ]
