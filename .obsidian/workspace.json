@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/IKE (IPsec)/Enumeration.md",
+                "file": "Linux/IKE (IPsec)/exploitation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Enumeration"
+              "title": "exploitation"
             }
           },
           {
@@ -216,14 +216,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f683ba13b19ea33",
+  "active": "54635fcc82945e98",
   "lastOpenFiles": [
     "Linux/IKE (IPsec)/IKE (port 500).md",
     "Windows/Active directory/Attacks/Potatoes/SeImpersonatePrivilege.md",
     "what now.md",
     "Linux/Tips.md",
     "Studying now.md",
-    "Linux/IKE (IPsec)/Enumeration.md",
+    "Linux/IKE (IPsec)/exploitation.md",
     "Linux/IKE (IPsec)",
     "Linux/ssh tunnelling.md",
     "Linux/scp linux.md",
