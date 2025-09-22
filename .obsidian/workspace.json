@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DarkCorp Writeup.md",
+                "file": "Windows/Active directory/Attacks/Unquoted Service Path.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DarkCorp Writeup"
+              "title": "Unquoted Service Path"
             }
           },
           {
@@ -37,8 +37,7 @@
               "title": "what now"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -71,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cmd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -92,7 +91,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "acf7da542bdd3000",
@@ -217,16 +217,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "63af688816b9cae5",
+  "active": "3f683ba13b19ea33",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/Potatoes/SeImpersonatePrivilege.md",
+    "Windows/Active directory/Tools/RunAsCs.md",
+    "Windows/Active directory/LOTL.md",
+    "Windows/Active directory/Attacks/creds exfiltration/DPAPI.md",
+    "Linux/IKE (IPsec)/exploitation.md",
     "DarkCorp Writeup.md",
+    "what now.md",
     "Ideas for CTF.md",
     "FPing Active Hosts.md",
     "Mermid looks cool.md",
-    "what now.md",
-    "Linux/IKE (IPsec)/exploitation.md",
     "Linux/IKE (IPsec)/IKE (port 500).md",
-    "Windows/Active directory/Attacks/Potatoes/SeImpersonatePrivilege.md",
     "Linux/Tips.md",
     "Studying now.md",
     "Linux/IKE (IPsec)",
@@ -245,10 +248,7 @@
     "Windows/Active directory/Enumeration/Untitled.md",
     "Windows/SPN jacking.md",
     "Windows/OneLiner.md",
-    "Network/MAC Flooding.md",
-    "Network/VLAN hopping.md",
     "Network",
-    "Windows/Active directory/Attacks/timeroasting.md",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
     "Windows/Active directory/C2",
     "Windows/attachments/Pasted image 20250903052412.png",
