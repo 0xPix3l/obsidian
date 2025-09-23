@@ -37,7 +37,8 @@
               "title": "what now"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,10 +217,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f683ba13b19ea33",
+  "active": "63af688816b9cae5",
   "lastOpenFiles": [
-    "Windows/Active directory/Attacks/Unquoted Service Path.md",
     "JS/Arrow funciton.md",
+    "Windows/Active directory/Attacks/Unquoted Service Path.md",
     "what now.md",
     "Windows/Active directory/Attacks/Potatoes/SeImpersonatePrivilege.md",
     "Windows/Active directory/Tools/RunAsCs.md",
