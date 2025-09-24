@@ -6,7 +6,7 @@ t~~he rest of CAPE~~
 windows videos
 JS
 mahratech wifi
-network rooms (NOTES)
+Snort (THM)
 read from this, https://angelica.gitbook.io/hacktricks
 
 
