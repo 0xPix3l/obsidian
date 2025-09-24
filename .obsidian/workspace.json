@@ -217,8 +217,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "63af688816b9cae5",
+  "active": "54635fcc82945e98",
   "lastOpenFiles": [
+    "Forensics/Snort",
     "JS/Arrow funciton.md",
     "Windows/Active directory/Attacks/Unquoted Service Path.md",
     "what now.md",
@@ -247,7 +248,6 @@
     "Windows/Evasion/Windows Defender.md",
     "Windows/Active directory/Enumeration/MSSQL.md",
     "Windows/Active directory/Attacks/Potatoes",
-    "Windows/Active directory/Enumeration/Untitled.md",
     "Network",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
     "Windows/Active directory/C2",
