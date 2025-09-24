@@ -3,7 +3,8 @@
 ## to do now
 
 t~~he rest of CAPE~~
-windows videos
+~~windows videos~~
+
 JS
 mahratech wifi
 Snort (THM)
