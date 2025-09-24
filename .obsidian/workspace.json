@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Forensics/Snort/snort.md",
+                "file": "Forensics/Snort/ IDSIPS Mode.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "snort"
+              "title": "IDSIPS Mode"
             }
           },
           {
@@ -218,8 +218,11 @@
   },
   "active": "3f683ba13b19ea33",
   "lastOpenFiles": [
-    "JS/Arrow funciton.md",
+    "Forensics/Snort/Logger.md",
+    "Forensics/Snort/ IDSIPS Mode.md",
     "Forensics/Snort/snort.md",
+    "Forensics/Snort/Sniffing.md",
+    "JS/Arrow funciton.md",
     "what now.md",
     "Forensics/Snort",
     "Windows/Active directory/Attacks/Unquoted Service Path.md",
@@ -244,9 +247,6 @@
     "JS",
     "Windows/Active directory/Attacks/Potatoes/What is it.md",
     "Windows/Evasion/AppLocker.md",
-    "Windows/Evasion/bypass AMSI.md",
-    "Windows/Evasion/Windows Defender.md",
-    "Windows/Active directory/Enumeration/MSSQL.md",
     "Windows/Active directory/Attacks/Potatoes",
     "Network",
     "Windows/Active directory/Attacks/ACL/attachments/Pasted image 20250722064032.png",
