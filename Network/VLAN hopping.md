@@ -6,7 +6,9 @@ pretend to be another switch to take advantage of the trunk connection
 
 ### Double tagging frame
 VLANs uses tags to go from one switch to another, if we add another tag it is possible that we connect to the second VLAN
+> responses from this attack doesn't have a way to communicate back
 
+---
 
 
 > The **native VLAN** is a special VLAN that is used to carry all untagged traffic on a trunk port.

@@ -37,3 +37,9 @@ RealTimeProtectionEnabled       : True
 RealTimeScanDirection           : 0
 
 ```
+
+---
+Check for antivirus name:
+```powershell
+wmic.exe /node:localhost /namespace:\\root\SecurityCenter2 path AntiVirusProduct Get DisplayName | findstr /V /B /C:displayName || echo No Antivirus installed
+```

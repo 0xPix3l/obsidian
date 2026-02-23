@@ -5,6 +5,13 @@
 
 ```cmd
 wmic service get name,pathname,displayname,startmode | findstr /i auto | findstr /i /v "C:\Windows\\" | findstr /i /v """
+
+
+for powershell:
+wmic service get name,pathname,displayname,startmode | findstr /i auto | findstr /i /v "C:\Windows\\" | findstr /i /v '""'
+
+or
+Get-WmiObject Win32_Service | Where-Object { $_.StartMode -eq "Auto" -and $_.PathName -notlike "C:\Windows\*" } | Select-Object Name, DisplayName, PathName
 ```
 
 ### 2 - `privesc.ps1`

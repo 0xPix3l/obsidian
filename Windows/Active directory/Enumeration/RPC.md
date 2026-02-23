@@ -33,3 +33,7 @@ rpcclient $> queryuser 0x457 # query a certain user
 ```
 
 
+---
+```bash
+rpcinfo -p # asks RPC to list all the ports
+```

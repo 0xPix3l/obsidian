@@ -55,6 +55,7 @@ its basically the first part of any SID object.
 ```powershell
 
 Get-ADDomain | Select-Object -ExpandProperty DomainSID
+whoami /user
 
 nxc:
 nxc ldap lol.local -u sqlsvc -p test -k --get-sid
@@ -67,5 +68,7 @@ impacket-GetADUsers domain/user:password@<DC_IP> -all
 
 rpcclient:
 rpcclient $> lookupdomain north.sevenkingdoms.local
+
+
 ```
 
