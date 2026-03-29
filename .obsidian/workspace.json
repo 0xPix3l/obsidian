@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Evasion/Windows Defender.md",
+                "file": "Linux/ssh tunnelling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Windows Defender"
+              "title": "ssh tunnelling"
             }
           }
         ],
@@ -101,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wmi",
+                "query": "reverse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -251,6 +251,10 @@
   },
   "active": "ccf2ac3587bbdec9",
   "lastOpenFiles": [
+    "Windows/Active directory/tunneling/Chisel.md",
+    "Linux/ssh tunnelling.md",
+    "Windows/Active directory/Tools/SSH.md",
+    "Windows/Evasion/Windows Defender.md",
     "Windows/Active directory/Attacks/Golden ticket.md",
     "Windows/Notes.md",
     "Windows/Active directory/Enumeration/RDP.md",
@@ -268,7 +272,6 @@
     "SecNex/Agenda.canvas",
     "Network/VLAN hopping.md",
     "what now.md",
-    "Windows/Evasion/Windows Defender.md",
     "SecNex/Untitled.canvas",
     "SecNex.md",
     "SecNex",
@@ -279,9 +282,6 @@
     "Windows/Active directory/Attacks/ACL/Overview.md",
     "Windows/Active directory/Attacks/ADCS/AD CS.md",
     "Windows/Active directory/Attacks/ADCS/ESC6.md",
-    "Windows/Active directory/Attacks/ADCS/ESC16.md",
-    "Windows/Active directory/Enumeration/NFS.md",
-    "Windows/Active directory/tunneling/Chisel.md",
     "Windows/Active directory/attachments/Pasted image 20251011183037.png",
     "Windows/Active directory/attachments/Pasted image 20251011183014.png",
     "Windows/Active directory/attachments/Pasted image 20251011160623.png",
