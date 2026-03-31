@@ -44,4 +44,15 @@ name graphically)
 
 
 
-![[Pasted image 20250722064032.png]]
+![[Pasted image 20250722064032.png|703]]
+
+## All Privileges That Allow Writing Delegation Attributes
+
+| Privilege           | Can Modify Delegation? | Notes                                           |
+| ------------------- | ---------------------- | ----------------------------------------------- |
+| **GenericAll**      | ✅ Yes                  | Full control, includes everything below         |
+| **GenericWrite**    | ✅ Yes                  | Write to any non-protected attribute            |
+| **WriteProperty**   | ✅ Yes                  | Write to specific properties                    |
+| **WriteDACL**       | ✅ Yes                  | Modify ACL → grant yourself GenericWrite        |
+| **WriteOwner**      | ✅ Yes                  | Take ownership → grant yourself GenericWrite    |
+| **Owns the object** | ✅ Yes                  | Owner can modify DACL → grant yourself anything |

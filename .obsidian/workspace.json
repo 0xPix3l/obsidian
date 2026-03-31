@@ -58,29 +58,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/SPN jacking.md",
+                "file": "Windows/Active directory/Attacks/ACL/Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "SPN jacking"
-            }
-          },
-          {
-            "id": "83426c2abdd44512",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
+              "title": "Overview"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ghost",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -134,8 +122,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "acf7da542bdd3000",
@@ -261,8 +248,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "83426c2abdd44512",
+  "active": "ccf2ac3587bbdec9",
   "lastOpenFiles": [
+    "Windows/Active directory/Attacks/ACL/GenericWrite.md",
+    "Windows/Active directory/Attacks/ACL/WriteGPLink.md",
+    "Windows/Active directory/Attacks/ACL/WriteOwner.md",
+    "Windows/Active directory/Attacks/ACL/WriteSPN.md",
+    "Windows/SPN jacking.md",
     "Linux/ssh tunnelling.md",
     "Windows/Active directory/tunneling/Chisel.md",
     "Windows/Active directory/Tools/SSH.md",
@@ -270,7 +262,6 @@
     "Windows/Active directory/Attacks/Golden ticket.md",
     "Windows/Notes.md",
     "Windows/Active directory/Enumeration/RDP.md",
-    "Windows/Active directory/Attacks/ACL/GenericWrite.md",
     "Cracking/Tips.md",
     "web/Enum.md",
     "Cracking",
@@ -290,10 +281,6 @@
     "Ideas for CTF.md",
     "Windows/tips (win).md",
     "Linux/Tips.md",
-    "Windows/Active directory/Tools/bloodyAD.md",
-    "Windows/Active directory/Attacks/ACL/Overview.md",
-    "Windows/Active directory/Attacks/ADCS/AD CS.md",
-    "Windows/Active directory/Attacks/ADCS/ESC6.md",
     "Windows/Active directory/attachments/Pasted image 20251011183037.png",
     "Windows/Active directory/attachments/Pasted image 20251011183014.png",
     "Windows/Active directory/attachments/Pasted image 20251011160623.png",
