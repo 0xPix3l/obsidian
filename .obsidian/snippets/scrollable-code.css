@@ -1,0 +1,5 @@
+.markdown-preview-view pre,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-codeblock {
+  max-height: 300px;
+  overflow-y: auto;
+}

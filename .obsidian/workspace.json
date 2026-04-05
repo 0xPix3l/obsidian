@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory/Attacks/ADCS/AD CS.md",
+                "file": "Windows/Active directory/Attacks/ADCS/ESC1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AD CS"
+              "title": "ESC1"
             }
           }
         ]
@@ -204,6 +204,9 @@
   },
   "active": "72d0d74252e7072c",
   "lastOpenFiles": [
+    "Cracking/Tips.md",
+    "Windows/Active directory/Attacks/ADCS/ESC1.md",
+    "Windows/Active directory/Attacks/ADCS/AD CS.md",
     "what now.md",
     "Windows/Active directory/Attacks/Golden ticket.md",
     "Windows/SPN jacking.md",
@@ -218,7 +221,6 @@
     "Windows/Evasion/Windows Defender.md",
     "Windows/Notes.md",
     "Windows/Active directory/Enumeration/RDP.md",
-    "Cracking/Tips.md",
     "web/Enum.md",
     "Cracking",
     "Windows/Active directory/Attacks/DLL Hijacking.md",
@@ -233,8 +235,6 @@
     "SecNex/Untitled.canvas",
     "SecNex.md",
     "SecNex",
-    "Ideas for CTF.md",
-    "Windows/tips (win).md",
     "Windows/Active directory/attachments/Pasted image 20251011183037.png",
     "Windows/Active directory/attachments/Pasted image 20251011183014.png",
     "Windows/Active directory/attachments/Pasted image 20251011160623.png",

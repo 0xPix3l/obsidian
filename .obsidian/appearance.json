@@ -3,5 +3,9 @@
   "baseFontSize": 20,
   "theme": "obsidian",
   "cssTheme": "",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "custom-width",
+    "scrollable-code",
+    "scrollable-code-horizontal"
+  ]
 }

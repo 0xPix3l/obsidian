@@ -1,0 +1,5 @@
+.markdown-preview-view pre code,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-codeblock {
+  overflow-x: auto;
+  white-space: pre;
+}

