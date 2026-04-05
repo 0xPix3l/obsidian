@@ -4,5 +4,7 @@
   "showUnsupportedFiles": false,
   "useMarkdownLinks": false,
   "attachmentFolderPath": "./attachments",
-  "readableLineLength": false
+  "readableLineLength": false,
+  "showLineNumber": false,
+  "showInlineTitle": true
 }
