@@ -5,7 +5,7 @@
   "cssTheme": "",
   "enabledCssSnippets": [
     "custom-width",
-    "scrollable-code",
-    "scrollable-code-horizontal"
+    "scrollable-code-horizontal",
+    "test"
   ]
 }

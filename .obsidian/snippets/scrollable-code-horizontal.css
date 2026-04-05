@@ -1,5 +1,6 @@
-.markdown-preview-view pre code,
-.markdown-source-view.mod-cm6 .cm-content .HyperMD-codeblock {
-  overflow-x: auto;
+.markdown-rendered :not(.print) code,
+body :not(.print) code {
+  word-break: normal;
+  word-wrap: break-word;
   white-space: pre;
 }
