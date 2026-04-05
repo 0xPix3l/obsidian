@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Windows/Active directory/Attacks/ADCS/AD CS.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -202,7 +202,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "54635fcc82945e98",
+  "active": "72d0d74252e7072c",
   "lastOpenFiles": [
     "what now.md",
     "Windows/Active directory/Attacks/Golden ticket.md",
