@@ -76,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "acf7da542bdd3000",
@@ -203,7 +202,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "72d0d74252e7072c",
+  "active": "54635fcc82945e98",
   "lastOpenFiles": [
     "Windows/Active directory/Attacks/ADCS/ESC4.md",
     "Windows/Active directory/Attacks/ADCS/ESC3.md",
